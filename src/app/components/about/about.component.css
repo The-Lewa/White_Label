@@ -1,0 +1,263 @@
+.ban_abt .abt_txt {
+    position: absolute;
+    margin-top: 7vw;
+    left: 15vw;
+}
+
+.ban_abt .abt_txt h4 {
+    text-align: left;
+    font: normal normal 900 1.2vw/30px Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.ban_abt .abt_txt h3 {
+    text-align: left;
+    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.ban_abt .abt_txt p {
+    text-align: left;
+    font: normal normal normal 1vw/1.6vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 36%;
+}
+
+.map_north {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.pic_map {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt_map {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.pic_map img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.map_north .txt_map h5 {
+    text-align: left;
+    font: normal normal 600 1.25vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.map_north .txt_map h2 {
+    text-align: left;
+    font: normal normal 900 2.7vw/3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+    opacity: 1;
+    transform: scaleX(1.1);
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #383838;
+}
+
+.map_north .txt_map p {
+    text-align: left;
+    font: normal normal normal 1vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 60%;
+    margin-bottom: 1.5vw;
+}
+
+.map_north .txt_map button:hover {
+    background: #D60725 0% 0% no-repeat padding-box;
+}
+
+.abt .abt_txt {
+    position: absolute;
+    margin-top: 4.5vw;
+    left: 54vw;
+}
+
+.abt_txt h4 {
+    text-align: left;
+    font: normal normal 900 2.9vw/4vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.abt_txt h4 span {
+    color: #D60725;
+}
+
+.abt_txt h3 {
+    text-align: left;
+    font: normal normal 900 1vw/1.8vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    width: 57%;
+}
+
+.abt_txt h3 span {
+    text-align: left;
+    font: normal normal 600 1vw/1.8vw SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.col_ca {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tx_ca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tx_ca .gallery {
+    width: 245px;
+}
+
+.tx_wht {
+    margin-left: 20vw;
+    width: 93%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.car_cl {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.tx_wht h2 {
+    text-align: left;
+    font: normal normal 900 3.1vw/3.3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.tx_wht span {
+    color: #D60725;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: -75px;
+}
+
+.gallery-cell {
+    background: none;
+    border: none;
+    height: 400px;
+}
+
+.card {
+    margin-top: 6vw;
+}
+
+.card .card-body h4 {
+    text-align: center;
+    font: normal normal bold 1.3vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    margin-top: 1vw;
+}
+
+.card .card-body h3 {
+    text-align: center;
+    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card .card-body h5 {
+    text-align: center;
+    font: normal normal normal 0.9vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card .card-body p {
+    text-align: center;
+    font: normal normal normal 1vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card .card-body hr {
+    width: 30%;
+    margin: 2vw auto 1vw auto;
+    border: 1px solid #D60725;
+    color: #D60725;
+    background-color: #D60725;
+}
+
+.ban_lov button {
+    position: absolute;
+    margin-top: 4.4vw;
+    left: 61%;
+}
+
+.ban_lov .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_lov .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}
+
+.btn_bred {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #D60725;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 900 1vw/30px Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    padding: 5px 20px;
+}
+
+.btn_fle {
+    display: flex;
+    flex-direction: row;
+}

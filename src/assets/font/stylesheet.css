@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-BlackItalic.woff') format('woff'), url('HeadingProWideTrial-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Black.woff') format('woff'), url('HeadingProWideTrial-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-BoldItalic.woff') format('woff'), url('HeadingProWideTrial-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Bold.woff') format('woff'), url('HeadingProWideTrial-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-BookItalic.woff') format('woff'), url('HeadingProWideTrial-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Book.woff') format('woff'), url('HeadingProWideTrial-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-ExtraBoldIt.woff') format('woff'), url('HeadingProWideTrial-ExtraBoldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-ExtraLight.woff') format('woff'), url('HeadingProWideTrial-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-ExtraBold.woff') format('woff'), url('HeadingProWideTrial-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-ExtraLightI.woff') format('woff'), url('HeadingProWideTrial-ExtraLightI.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Heavy.woff') format('woff'), url('HeadingProWideTrial-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-HeavyItalic.woff') format('woff'), url('HeadingProWideTrial-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-LightItalic.woff') format('woff'), url('HeadingProWideTrial-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Italic.woff') format('woff'), url('HeadingProWideTrial-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Light.woff') format('woff'), url('HeadingProWideTrial-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Regular.woff') format('woff'), url('HeadingProWideTrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-ThinItalic.woff') format('woff'), url('HeadingProWideTrial-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heading Pro Ultra Wide';
+    src: url('HeadingProWideTrial-Thin.woff') format('woff'), url('HeadingProWideTrial-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Black.woff') format('woff'), url('SFUIDisplay-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Bold.woff') format('woff'), url('SFUIDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Heavy.woff') format('woff'), url('SFUIDisplay-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Semibold.woff') format('woff'), url('SFUIDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Light.woff') format('woff'), url('SFUIDisplay-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Medium.woff') format('woff'), url('SFUIDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Ultralight.woff') format('woff'), url('SFUIDisplay-Ultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('SFUIDisplay-Thin.woff') format('woff'), url('SFUIDisplay-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
