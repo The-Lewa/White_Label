@@ -141,8 +141,8 @@ nav ul li div ul li a:hover {
 
 .checkbtn {
     font-size: 30px;
-    color: rgba(0, 207, 255, 1);
-    float: right;
+    color: #D60725;
+    float: left;
     line-height: 40px;
     cursor: pointer;
     display: none;
@@ -212,7 +212,6 @@ nav ul li div ul li a:hover {
     }
     .header ul li a {
         font-size: 17px;
-        color: #00cfff;
     }
     .header a:hover,
     a.active {
