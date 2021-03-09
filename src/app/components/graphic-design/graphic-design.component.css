@@ -1,0 +1,472 @@
+/* Menu */
+
+.menu-color {
+    margin-top: 1%;
+    width: 100%;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    z-index: 3;
+}
+
+.wrapper {
+    max-height: 120px;
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    vertical-align: text-bottom;
+    min-width: 110px;
+    height: 110px;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    align-items: center;
+    display: table;
+}
+
+.wrapper .item a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 1vw/24px SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.wrapper .item a:hover {
+    text-decoration: none;
+}
+
+.wrapper .item a:hover img {
+    transform: scale(1.2);
+}
+
+.wrapper .item p:active {
+    text-decoration: none;
+}
+
+.wrapper .item a img {
+    width: 50px;
+    height: 50px;
+    fill: #ffffff;
+}
+
+
+/* Ban Social*/
+
+.ban_abt {
+    margin-top: 5vw;
+}
+
+.ban_abt .abt_txt {
+    position: absolute;
+    margin-top: 12vw;
+    left: 20vw;
+}
+
+.ban_abt .abt_txt h3 {
+    text-align: left;
+    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.ban_abt .abt_txt p {
+    text-align: left;
+    font: normal normal 600 1.2vw/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+
+/* Class button */
+
+.btn_bred {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #D60725;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 900 1vw/30px Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    padding: 5px 20px;
+}
+
+.btn_bred:hover {
+    background: #D60725 0% 0% no-repeat padding-box;
+    border: 2px solid #D60725;
+}
+
+.btn_bred:hover .wht_sha {
+    display: grid;
+}
+
+.btn_bred:hover .redsha {
+    display: none;
+}
+
+.hear_ba .btn_bred {
+    margin-left: 20vw;
+}
+
+.btn_fle {
+    display: flex;
+    flex-direction: row;
+}
+
+.txt_fle {
+    margin-right: 15px;
+}
+
+.wht_sha {
+    display: none;
+}
+
+
+/* Service 4 */
+
+.co_sefo {
+    background: #383838 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.sefo_sec {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sefo_sec .fram_sefo,
+.sefo_sec .txt_sefo {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.sefo_sec .fram_sefo div {
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 19vw;
+}
+
+.sefo_sec .txt_sefo h2 {
+    text-align: left;
+    font: normal normal 900 2vw/4vw Heading Pro Ultra Wide;
+    margin-left: 4vw;
+    transform: scaleY(0.9);
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo h5 {
+    text-align: left;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
+    width: 45%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo p {
+    text-align: left;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
+    width: 48%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo h6 {
+    text-align: left;
+    font: normal normal 600 1.1vw/2.2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    margin-left: 4vw;
+}
+
+.sefo_sec .txt_sefo button {
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+
+/* cards */
+
+.o_exp {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.o_exp h2 {
+    margin-top: 5vw;
+    text-align: center;
+    font: normal normal 900 3vw/4vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.o_exp p {
+    text-align: center;
+    font: normal normal normal 1vw/1.5vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: -75px;
+}
+
+.card_fle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 3vw;
+}
+
+.card_fle div {
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+
+.card_fle .card .card-body h3 {
+    margin-top: 2vw;
+    text-align: center;
+    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.card_fle .card .card-body h5 {
+    text-align: center;
+    font: normal normal normal 0.9vw/1.2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    margin-top: 2vw;
+}
+
+
+/* Lorem */
+
+.se_lor {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.lorem_sec {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.lorem_sec .fram_sefo,
+.lorem_sec .txt_sefo {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.lorem_sec .fram_sefo div {
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 19vw;
+}
+
+.lorem_sec .txt_sefo h5 {
+    text-align: left;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
+    width: 45%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.lorem_sec .txt_sefo p {
+    text-align: left;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
+    width: 48%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.lorem_sec .txt_sefo button {
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+
+/* Carousel card */
+
+.col_ca_of {
+    background: #383838 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tx_ca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tx_ca .gallery {
+    width: 245px;
+}
+
+.tx_wht {
+    margin-left: 20vw;
+    width: 93%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.car_cl {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.tx_wht h2 {
+    text-align: left;
+    font: normal normal 900 3.1vw/3.3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.tx_wht span {
+    color: #D60725;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: -75px;
+}
+
+.gallery-cell {
+    background: none;
+    border: none;
+    height: 400px;
+}
+
+.card {
+    margin-top: 6vw;
+}
+
+.card .card-body h4 {
+    text-align: center;
+    font: normal normal bold 1.3vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    margin-top: 1vw;
+}
+
+.card .card-body h3 {
+    text-align: center;
+    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card .card-body h5 {
+    text-align: center;
+    font: normal normal normal 0.9vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card .card-body p {
+    text-align: center;
+    font: normal normal normal 1vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card .card-body hr {
+    width: 30%;
+    margin: 2vw auto 1vw auto;
+    border: 1px solid #D60725;
+    color: #D60725;
+    background-color: #D60725;
+}
+
+
+/* Cintillo */
+
+.ban_lov button {
+    position: absolute;
+    margin-top: 4.4vw;
+    left: 61%;
+}
+
+.ban_lov .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_lov .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}

@@ -1,0 +1,551 @@
+/* Menu */
+
+.menu-color {
+    margin-top: 1%;
+    width: 100%;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    z-index: 3;
+}
+
+.wrapper {
+    max-height: 120px;
+    border: 1px solid #ddd;
+    width: 80%;
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    vertical-align: text-bottom;
+    min-width: 110px;
+    height: 110px;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    align-items: center;
+    display: table;
+}
+
+.wrapper .item a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 1vw/24px SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.wrapper .item a:hover {
+    text-decoration: none;
+}
+
+.wrapper .item a:hover img {
+    transform: scale(1.2);
+}
+
+.wrapper .item p:active {
+    text-decoration: none;
+}
+
+.wrapper .item a img {
+    width: 50px;
+    height: 50px;
+    fill: #ffffff;
+}
+
+
+/* Ban Social*/
+
+.ban_abt {
+    margin-top: 5vw;
+}
+
+.ban_abt .abt_txt {
+    position: absolute;
+    margin-top: 12vw;
+    left: 20vw;
+}
+
+.ban_abt .abt_txt h3 {
+    text-align: left;
+    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.ban_abt .abt_txt p {
+    text-align: left;
+    font: normal normal 600 1.2vw/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+
+/* Class button */
+
+.btn_bred {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #D60725;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 900 1vw/30px Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    padding: 5px 20px;
+}
+
+.btn_bred:hover {
+    background: #D60725 0% 0% no-repeat padding-box;
+    border: 2px solid #D60725;
+}
+
+.btn_bred:hover .wht_sha {
+    display: grid;
+}
+
+.btn_bred:hover .redsha {
+    display: none;
+}
+
+.hear_ba .btn_bred {
+    margin-left: 20vw;
+}
+
+.btn_fle {
+    display: flex;
+    flex-direction: row;
+}
+
+.txt_fle {
+    margin-right: 15px;
+}
+
+.wht_sha {
+    display: none;
+}
+
+
+/* Heart cero*/
+
+.heart_pic .carousel-text {
+    position: absolute;
+    left: 15vw;
+}
+
+.txt_heart_pic {
+    position: absolute;
+    left: 15vw;
+    margin-top: 5%;
+}
+
+.ul_heart_pic {
+    position: absolute;
+    left: 50vw;
+    margin-top: 4%;
+}
+
+.ul_heart_pic .display-text {
+    text-align: left;
+    font: normal normal 600 1vw/1.7vw SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 44%;
+}
+
+.ul_heart_pic .page-title {
+    text-align: left;
+    font: normal normal 900 1.8vw/2.2vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.ul_heart_pic span,
+.txt_heart_pic .page-title span {
+    color: #D60725;
+}
+
+.ul_heart_pic ul {
+    list-style-type: square;
+}
+
+.ul_heart_pic ul li span {
+    text-align: left;
+    font: normal normal 600 1vw/1.6vw SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ul_heart_pic ul li {
+    color: #D60725;
+    line-height: 1.2vw;
+}
+
+.ul_heart_pic button {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    color: #383838;
+    margin-left: 1vw;
+}
+
+.ul_heart_pic button:hover {
+    background-color: #D60725;
+    color: #FFFFFF;
+}
+
+
+/* Cards*/
+
+.o_exp {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.o_exp h2 {
+    margin-top: 5vw;
+    text-align: center;
+    font: normal normal 900 1.18vw/1.8vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.o_exp p {
+    text-align: center;
+    font: normal normal normal 1vw/1.5vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.o_exp p span {
+    color: #D60725;
+}
+
+.o_exp .gro_wh {
+    width: 140px;
+    height: 150px;
+    border-radius: 85px;
+    margin-top: -75px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.o_exp .card .gro_wh img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: auto;
+}
+
+.card_fle {
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_fle div {
+    margin-left: 0.6%;
+    margin-right: 0.6%;
+}
+
+.card_fle .card .card-body h4 {
+    text-align: center;
+    font: normal normal normal 1vw/25px SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card_fle .card .card-body h3 {
+    text-align: center;
+    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card_fle .card .card-body h5 {
+    text-align: center;
+    font: normal normal normal 0.9vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card_fle .card .card-body p {
+    text-align: center;
+    font: normal normal normal 1vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card_fle .card .card-body hr {
+    width: 30%;
+    margin: 2vw auto 1vw auto;
+    border: 1px solid #D60725;
+    color: #D60725;
+    background-color: #D60725;
+}
+
+.icons_fle {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons_fle div {
+    padding: 0 5vw;
+    justify-content: center;
+    display: inline-block;
+}
+
+.icons_fle div h3,
+.icons_fle div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.icons_fle div h3 {
+    text-align: center;
+    font: normal normal bold 1.2vw/24px SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    margin: 8px;
+}
+
+
+/* Team*/
+
+.team_txt .carousel-text {
+    position: absolute;
+    left: 15vw;
+}
+
+.txt_team_lef {
+    position: absolute;
+    left: 15vw;
+    margin-top: 5%;
+}
+
+.ul_team {
+    position: absolute;
+    left: 50vw;
+    margin-top: 4%;
+}
+
+.ul_team .display-text {
+    text-align: left;
+    font: normal normal 600 1vw/1.7vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 65%;
+}
+
+.txt_team_lef .page-title {
+    text-align: left;
+    font: normal normal 900 2.8vw/3.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+}
+
+.txt_team_lef h4 {
+    text-align: left;
+    font: normal normal 900 1.2vw/1.7vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.ul_team span,
+.txt_team_lef .page-title span {
+    color: #D60725;
+}
+
+.ul_team ul {
+    list-style-type: square;
+}
+
+.ul_team ul li span {
+    text-align: left;
+    font: normal normal 600 1.2vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.ul_team ul li {
+    color: #D60725;
+    line-height: 1.2vw;
+}
+
+.ul_team button {
+    background: #383838 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+.ul_team button:hover {
+    background-color: #D60725;
+    color: #FFFFFF;
+}
+
+.pic_gosht img {
+    visibility: hidden;
+}
+
+.pic_gosht {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+/* cintillo*/
+
+.ban_lov button {
+    position: absolute;
+    margin-top: 4.4vw;
+    right: 13%;
+}
+
+.ban_lov .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_lov .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}
+
+
+/* Service 4 */
+
+.co_sefo {
+    background: #383838 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.sefo_sec {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sefo_sec .fram_sefo,
+.sefo_sec .txt_sefo {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.sefo_sec .fram_sefo div {
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 19vw;
+}
+
+.sefo_sec .txt_sefo h2 {
+    text-align: left;
+    font: normal normal 900 2vw/4vw Heading Pro Ultra Wide;
+    margin-left: 4vw;
+    transform: scaleY(0.9);
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo h5 {
+    text-align: left;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
+    width: 45%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo p {
+    text-align: left;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
+    width: 48%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo h6 {
+    text-align: left;
+    font: normal normal 600 1.1vw/2.2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    margin-left: 4vw;
+}
+
+.sefo_sec .txt_sefo button {
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+
+/* cintillo #2*/
+
+.ban_glo button {
+    position: absolute;
+    margin-top: 4.4vw;
+    right: 21%;
+}
+
+.ban_glo .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_glo .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}

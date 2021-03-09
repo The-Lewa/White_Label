@@ -279,7 +279,13 @@
 
 /* Service 3 */
 
-.lor_sec {
+.co_sert {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 5vw;
+}
+
+.co_sert .sert_sec {
     margin-top: 5vw;
     display: flex;
     flex-direction: row;
@@ -287,14 +293,169 @@
     justify-content: center;
 }
 
-.lor_sec .fram_lor,
-.lor_sec .txt_lor {
+.sert_sec .fram_sert,
+.sert_sec .txt_sert {
     width: 100%;
     justify-content: center;
     display: inline-block;
 }
 
-.lor_sec .fram_lor div {
+.sert_sec .fram_sert div {
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    text-align: center;
+}
+
+.sert_sec .txt_sert h2 {
+    text-align: left;
+    font: normal normal 900 2vw/4vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-left: 20vw;
+    transform: scaleY(0.9);
+}
+
+.sert_sec .txt_sert h5 {
+    text-align: left;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 45%;
+    margin-left: 20vw;
+}
+
+.sert_sec .txt_sert p {
+    text-align: left;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 48%;
+    margin-left: 20vw;
+}
+
+.sert_sec .txt_sert h6 {
+    text-align: left;
+    font: normal normal 600 1.1vw/2.2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    margin-left: 20vw;
+}
+
+.sert_sec .txt_sert button {
+    margin-top: 1vw;
+    margin-left: 20vw;
+}
+
+
+/* Service 4 */
+
+.co_sefo {
+    background: #383838 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.sefo_sec {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sefo_sec .fram_sefo,
+.sefo_sec .txt_sefo {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.sefo_sec .fram_sefo div {
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 19vw;
+}
+
+.sefo_sec .txt_sefo h2 {
+    text-align: left;
+    font: normal normal 900 2vw/4vw Heading Pro Ultra Wide;
+    margin-left: 4vw;
+    transform: scaleY(0.9);
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo h5 {
+    text-align: left;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
+    width: 45%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo p {
+    text-align: left;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
+    width: 48%;
+    margin-left: 4vw;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.sefo_sec .txt_sefo h6 {
+    text-align: left;
+    font: normal normal 600 1.1vw/2.2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    margin-left: 4vw;
+}
+
+.sefo_sec .txt_sefo button {
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+
+/* Service 5 */
+
+.sefive_sec {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sefive_sec .fram_sefive,
+.sefive_sec .txt_sefive {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.sefive_sec .fram_sefive div {
     width: 380px;
     height: 380px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -306,9 +467,89 @@
     text-align: center;
 }
 
-.lor_sec .txt_lor h2 {
+.sefive_sec .txt_sefive h2 {
     text-align: left;
-    font: normal normal 900 3vw/4vw Heading Pro Ultra Wide;
+    font: normal normal 900 2vw/4vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-left: 20vw;
+    transform: scaleY(0.9);
+}
+
+.sefive_sec .txt_sefive h5 {
+    text-align: left;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 45%;
+    margin-left: 20vw;
+}
+
+.sefive_sec .txt_sefive p {
+    text-align: left;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    width: 48%;
+    margin-left: 20vw;
+}
+
+.sefive_sec .txt_sefive h6 {
+    text-align: left;
+    font: normal normal 600 1.1vw/2.2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+    margin-left: 20vw;
+}
+
+.sefive_sec .txt_sefive button {
+    margin-top: 1vw;
+    margin-left: 20vw;
+}
+
+
+/* Service 6 */
+
+.co_six {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.six_sec {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.six_sec .fram_six,
+.six_sec .txt_six {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.six_sec .fram_six div {
+    width: 370px;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: block;
+    margin-right: auto;
+    text-align: center;
+    margin-left: 19vw;
+}
+
+.six_sec .txt_six h2 {
+    text-align: left;
+    font: normal normal 900 2vw/4vw Heading Pro Ultra Wide;
     letter-spacing: 0px;
     color: #383838;
     text-transform: uppercase;
@@ -317,27 +558,27 @@
     transform: scaleY(0.9);
 }
 
-.lor_sec .txt_lor h5 {
+.six_sec .txt_six h5 {
     text-align: left;
-    font: normal normal bold 1.28vw/1.8vw SF UI Display;
+    font: normal normal bold 1.28vw/1.5vw SF UI Display;
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    width: 51%;
+    width: 45%;
     margin-left: 4vw;
 }
 
-.lor_sec .txt_lor p {
+.six_sec .txt_six p {
     text-align: left;
-    font: normal normal normal 1.1vw/1.53vw SF UI Display;
+    font: normal normal normal 1vw/1.53vw SF UI Display;
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    width: 60%;
+    width: 48%;
     margin-left: 4vw;
 }
 
-.lor_sec .txt_lor h6 {
+.six_sec .txt_six h6 {
     text-align: left;
     font: normal normal 600 1.1vw/2.2vw SF UI Display;
     letter-spacing: 0px;
@@ -346,7 +587,23 @@
     margin-left: 4vw;
 }
 
-.lor_sec .txt_lor button {
+.six_sec .txt_six button {
     margin-top: 1vw;
     margin-left: 4vw;
+}
+
+.ban_lov button {
+    position: absolute;
+    margin-top: 4.4vw;
+    left: 61%;
+}
+
+.ban_lov .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_lov .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
 }
