@@ -1,18 +1,19 @@
 /* Menu */
 
 .menu-color {
-    margin-top: 1%;
+    margin-top: 10px;
     width: 100%;
     background: #D60725 0% 0% no-repeat padding-box;
     opacity: 1;
     position: fixed;
     z-index: 3;
+    margin-bottom: 10vw;
 }
 
 .wrapper {
     max-height: 120px;
     border: 1px solid #ddd;
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow-x: auto;
     overflow-y: hidden;
@@ -30,11 +31,11 @@
 
 .wrapper .item {
     vertical-align: text-bottom;
-    min-width: 110px;
+    min-width: 110v;
     height: 110px;
     text-align: center;
     margin: auto;
-    width: 25%;
+    width: 10%;
     align-items: center;
     display: table;
 }
@@ -72,7 +73,7 @@
 /* First Banner */
 
 .abt {
-    margin-top: 9vw;
+    margin-top: 2.5vw;
     overflow: hidden;
 }
 
@@ -160,24 +161,45 @@
     margin-left: 20vw;
 }
 
+.hear_ba .btn_bred {
+    margin-left: 0;
+}
+
 
 /* Class button */
 
+
 .btn_bred {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 2px solid #D60725;
+    border: 0.15vw solid #D60725;
     opacity: 1;
     text-align: left;
-    font: normal normal 900 1vw/30px Heading Pro Ultra Wide;
+    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    padding: 5px 20px;
+    padding: 0.3vw 1.5vw;
 }
 
+.txt_fle {
+    margin-right: 1.12vw;
+}
+
+.btn_fle {
+    display: flex;
+    flex-direction: row;
+}
+
+.wht_sha {
+    display: none;
+}
+
+.wht_sha img{
+    width: 1.9vw;
+    height: 1.9vw;
+}
 .btn_bred:hover {
     background: #D60725 0% 0% no-repeat padding-box;
-    border: 2px solid #D60725;
 }
 
 .btn_bred:hover .wht_sha {
@@ -188,23 +210,11 @@
     display: none;
 }
 
-.hear_ba .btn_bred {
-    margin-left: 20vw;
-}
 
-.btn_fle {
-    display: flex;
-    flex-direction: row;
+.redsha img{
+    width: 1.9vw;
+    height: 1.9vw;
 }
-
-.txt_fle {
-    margin-right: 15px;
-}
-
-.wht_sha {
-    display: none;
-}
-
 
 /* Section Computer */
 
@@ -301,8 +311,8 @@
 }
 
 .sert_sec .fram_sert div {
-    width: 370px;
-    height: 370px;
+    width: 27.81vw;
+    height: 27.81vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -381,8 +391,8 @@
 }
 
 .sefo_sec .fram_sefo div {
-    width: 370px;
-    height: 370px;
+    width: 27.81vw;
+    height: 27.81vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -456,8 +466,8 @@
 }
 
 .sefive_sec .fram_sefive div {
-    width: 380px;
-    height: 380px;
+    width: 27.81vw;
+    height: 27.81vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -536,8 +546,8 @@
 }
 
 .six_sec .fram_six div {
-    width: 370px;
-    height: 370px;
+    width: 27.81vw;
+    height: 27.81vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
@@ -607,3 +617,111 @@
     color: #D60725;
     background: #FFFFFF;
 }
+
+
+
+@media only screen and (max-width: 1300px){
+    .abt{
+        margin-top: 66.5px;
+    }
+
+.menu-color {
+    margin-top: 13px;
+    
+}
+
+.wrapper .item {
+   min-width: 100px;
+    width: 15%;
+   }
+   #primer {
+    margin-left: 15vw;
+}
+}
+
+@media only screen and (max-width: 650px){
+    /*wrapper*/
+        
+    .wrapper {
+        width: 100%;
+    }
+
+    #primer {
+        margin-left: 250px;
+    }
+
+.abt {
+    margin-top: 71px;
+
+}
+
+.col_ba .hear_ba {
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+        justify-content: center;
+    
+}
+
+.pic_her img {
+  margin-left: 23vw;
+}
+
+.pic_her {
+    margin: auto;
+ }
+ 
+.txt_her {
+    text-align: center;
+    
+}
+
+.hear_ba .txt_her h5,
+.hear_ba .txt_her h2,
+.hear_ba .txt_her p,
+.hear_ba .txt_her h6  {
+    text-align: center;
+    margin-left: 0;
+    margin: auto;
+}
+
+.hear_ba .txt_her h5 {
+    font: normal normal 900 2.9vw/3.8vw Heading Pro Ultra Wide;
+}
+
+.hear_ba .txt_her h2 {
+    margin-top: 1vw;
+    font: normal normal bold 2vw/2.4vw SF UI Display;
+    margin-bottom: 1vw;
+    
+}
+
+.hear_ba .txt_her p {
+    font: normal normal 600 1.9vw/2.9vw SF UI Display;
+}
+
+.hear_ba .txt_her h6 {
+    
+    font: normal normal 600 2vw/30px SF UI Display;
+    
+}
+
+}
+@media only screen and (max-width: 450px){
+    /*wrapper*/
+ 
+    #primer {
+        margin-left: 350px;
+    }
+    
+    }
+
+    @media only screen and (max-width: 350px){
+        /*wrapper*/
+     
+        #primer {
+            margin-left: 400px;
+        }
+        
+        }
+    

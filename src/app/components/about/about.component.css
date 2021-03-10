@@ -1,3 +1,9 @@
+/* Banner */
+
+.ban_abt {
+    margin-top: 0.5vw;
+}
+
 .ban_abt .abt_txt {
     position: absolute;
     margin-top: 7vw;
@@ -29,13 +35,14 @@
     opacity: 1;
     width: 36%;
 }
-
+/* Mapa */
 .map_north {
     margin-top: 5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 5%;
+    margin-bottom: 7vw;
 }
 
 .pic_map {
@@ -93,7 +100,7 @@
 .map_north .txt_map button:hover {
     background: #D60725 0% 0% no-repeat padding-box;
 }
-
+/*Second Banner*/
 .abt .abt_txt {
     position: absolute;
     margin-top: 4.5vw;
@@ -113,6 +120,7 @@
 }
 
 .abt_txt h3 {
+    margin-top: 1vw;
     text-align: left;
     font: normal normal 900 1vw/1.8vw Heading Pro Ultra Wide;
     letter-spacing: 0px;
@@ -128,7 +136,7 @@
     color: #FFFFFF;
     opacity: 1;
 }
-
+/*Carousel Cards*/
 .col_ca {
     background: #F0F0F0 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -139,6 +147,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5vw;
 }
 
 .tx_ca .gallery {
@@ -152,10 +161,12 @@
     display: inline-block;
 }
 
-.car_cl {
-    width: 100%;
+.car_cl,
+#abt_car_cards {
+    width: 37%;
     justify-content: center;
     display: inline-block;
+    margin-right: 23%;
 }
 
 .tx_wht h2 {
@@ -171,11 +182,11 @@
 }
 
 .card img {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
     margin: auto;
-    margin-top: -75px;
+    margin-top: -5vw;
 }
 
 .gallery-cell {
@@ -186,6 +197,8 @@
 
 .card {
     margin-top: 6vw;
+    width: 18vw;
+    height: 22vw;
 }
 
 .card .card-body h4 {
@@ -224,11 +237,31 @@
 .card .card-body hr {
     width: 30%;
     margin: 2vw auto 1vw auto;
-    border: 1px solid #D60725;
     color: #D60725;
     background-color: #D60725;
+    opacity: 1;
 }
 
+.carousel-control-next-icon {
+    content: url(./../../../assets/iconosWeb/WLNIconos/left-arrow.svg);
+    float: left;
+    background: none;
+    width: 2.25vw;
+    height: 2.25vw;
+    transform: rotate(180deg);
+    margin-right: -10vw;
+}
+
+.carousel-control-prev-icon {
+    content: url(./../../../assets/iconosWeb/WLNIconos/left-arrow.svg);
+    float: left;
+    background: none;
+    width: 2.25vw;
+    height: 2.25vw;
+    margin-left: -10vw;
+    
+}
+/*Cintillo*/
 .ban_lov button {
     position: absolute;
     margin-top: 4.4vw;
@@ -244,20 +277,214 @@
     color: #D60725;
     background: #FFFFFF;
 }
+/* Class button */
 
 .btn_bred {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 2px solid #D60725;
+    border: 0.15vw solid #D60725;
     opacity: 1;
     text-align: left;
-    font: normal normal 900 1vw/30px Heading Pro Ultra Wide;
+    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    padding: 5px 20px;
+    padding: .3vw 1.5vw;
+}
+
+.btn_bred:hover {
+    background: #D60725 0% 0% no-repeat padding-box;
+    
+}
+
+.btn_bred:hover .wht_sha {
+    display: grid;
+}
+
+.btn_bred:hover .redsha {
+    display: none;
+}
+
+.hear_ba .btn_bred {
+    margin-left: 20vw;
 }
 
 .btn_fle {
     display: flex;
     flex-direction: row;
+}
+
+.txt_fle {
+    margin-right: 1.12vw;
+}
+
+.wht_sha {
+    display: none;
+}
+
+
+.redsha img{
+    width: 1.9vw;
+    height: 1.9vw;
+}
+
+.wht_sha img{
+    width: 1.9vw;
+    height: 1.9vw;
+}
+@media only screen and (max-width: 700px){
+    /* Banner */
+    .ban_abt .abt_txt h3 {
+        margin-top: -1.7vw;
+    }
+
+    .ban_abt .abt_txt p {
+        margin-top: -1vw;
+    }
+
+    .ban_abt {
+        margin-top: 2.5vw;
+    }
+
+    .ban_abt .abt_txt {
+        margin-top: 5vw;
+        
+    }
+    /* Carousel*/
+    .card .card-body h4 {
+        font-size: 1.1vw;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+        /*Banner*/
+        .di_ov{
+            margin-top: 3vw;
+           overflow-x: visible;
+        }
+    .ban_abt .abt_txt h4 {
+    margin-bottom: -2vw;
+    }
+
+    .ban_abt {
+        margin-top: 3.5vw;
+    }
+
+    .ban_abt .abt_txt {
+        margin-top: 4vw;
+        
+    }
+    /*Maps*/
+
+    .map_north {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .txt_map {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .map_north .txt_map h5,
+    .map_north .txt_map h2,
+    .map_north .txt_map p {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        padding: 2vw 0;
+        transform: scale(1.4);
+    }
+    .map_north .txt_map p {
+        margin-bottom: -1vw;
+    }
+
+    .txt_map {
+        margin-top: 5vw;
+    }
+
+    /* Carousel*/
+    .card .card-body h4 {
+        font-size: 1vw;
+    }
+
+    .card .card-body h5 {
+       margin-top: -1vw;
+       margin-bottom: -1vw;
+    }
+
+    .tx_ca {
+        flex-direction: column;
+    }
+
+    .tx_wht h2 {
+       text-align: center;
+    }
+
+    .tx_wht {
+        margin-left: 0vw;
+        width: 100%;
+        
+    }
+
+    .car_cl,
+    #abt_car_cards {
+        width: 24%;
+        justify-content: center;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .card {
+        margin-top: 6vw;
+        width: 23vw;
+        height: 26vw;
+    }
+
+    .card .card-body h4 {
+        text-align: center;
+        font: normal normal bold 1.4vw/2vw SF UI Display;
+        letter-spacing: 0px;
+        color: #383838;
+        opacity: 1;
+        margin-top: 1vw;
+        width: 100%;
+        background-color: tomato;
+    }
+
+    .card .card-body h3 {
+        text-align: center;
+        font: normal normal 900 1.3vw/1.5vw Heading Pro Ultra Wide;
+        letter-spacing: 0px;
+        color: #D60725;
+        opacity: 1;
+    }
+
+    .card .card-body h5 {
+        text-align: center;
+        font: normal normal normal 1.1vw/0.4vw SF UI Display;
+        letter-spacing: 0px;
+        color: #383838;
+        opacity: 1;
+    }
+
+    .card .card-body p {
+        text-align: center;
+        font: normal normal normal 1.2vw/0.4vw SF UI Display;
+        letter-spacing: 0px;
+        color: #D60725;
+        opacity: 1;
+    }
+
+    .hide_abt{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
 }

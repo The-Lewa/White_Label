@@ -30,7 +30,7 @@
     color: #D60725;
     opacity: 1;
 }
-
+/*Boton*/
 .btn_bred {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.15vw solid #D60725;
@@ -40,7 +40,7 @@
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    padding: 0.37vw 1.5vw;
+    padding: 0.3vw 1.5vw;
 }
 
 .txt_fle {
@@ -62,7 +62,6 @@
 }
 .btn_bred:hover {
     background: #D60725 0% 0% no-repeat padding-box;
-    border: 2px solid #D60725;
 }
 
 .btn_bred:hover .wht_sha {
