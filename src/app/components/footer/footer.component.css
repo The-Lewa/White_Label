@@ -1,34 +1,70 @@
-.img-lab{
-    margin-top: 5vw;
+.img-lab {
+    margin-top: 1vw;
     align-items: center;
 }
-.img-lab img{
+
+.img-lab img {
     display: block;
     margin: auto;
     margin-bottom: 3vw;
-}
-.img-lab h3{
-    text-align: center;
-font: normal normal normal 20px/30px SF UI Display;
-letter-spacing: 0px;
-color: #383838;
-opacity: 1;
+    width: 100px;
+    height: 100px;
 }
 
-.gray_fo{
+.img-lab h3 {
+    text-align: center;
+    font: normal normal normal 20px/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.gray_fo {
     background: #383838 0% 0% no-repeat padding-box;
-opacity: 1;
+    opacity: 1;
+    margin-bottom: -8px;
 }
 
-.img-lab h4{
+.img-lab h4 {
     text-align: center;
-font: normal normal normal 20px/30px SF UI Display;
-letter-spacing: 0px;
-opacity: 1;
-padding: 2.5vw 0;
-color: #FFFFFF;
+    font: normal normal normal 20px/30px SF UI Display;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding: 2.5vw 0;
+    color: #FFFFFF;
 }
-.img-lab h4 span{
+
+.img-lab h4 span {
     color: #D60725;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .img-lab {
+        margin-top: 0;
+    }
+    .img-lab h3 {
+        font: normal normal normal 15px/25px SF UI Display;
+    }
+    .img-lab h4 {
+        font: normal normal normal 15px/25px SF UI Display;
+    }
+    .img-lab img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .img-lab h3 {
+        font: normal normal normal 10px/20px SF UI Display;
+    }
+    .img-lab h4 {
+        font: normal normal normal 10px/20px SF UI Display;
+    }
+    .img-lab img {
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
 }

@@ -35,7 +35,10 @@
     opacity: 1;
     width: 36%;
 }
+
+
 /* Mapa */
+
 .map_north {
     margin-top: 5vw;
     display: flex;
@@ -100,7 +103,10 @@
 .map_north .txt_map button:hover {
     background: #D60725 0% 0% no-repeat padding-box;
 }
+
+
 /*Second Banner*/
+
 .abt .abt_txt {
     position: absolute;
     margin-top: 4.5vw;
@@ -136,7 +142,10 @@
     color: #FFFFFF;
     opacity: 1;
 }
+
+
 /*Carousel Cards*/
+
 .col_ca {
     background: #F0F0F0 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -259,9 +268,11 @@
     width: 2.25vw;
     height: 2.25vw;
     margin-left: -10vw;
-    
 }
+
+
 /*Cintillo*/
+
 .ban_lov button {
     position: absolute;
     margin-top: 4.4vw;
@@ -277,6 +288,8 @@
     color: #D60725;
     background: #FFFFFF;
 }
+
+
 /* Class button */
 
 .btn_bred {
@@ -293,7 +306,6 @@
 
 .btn_bred:hover {
     background: #D60725 0% 0% no-repeat padding-box;
-    
 }
 
 .btn_bred:hover .wht_sha {
@@ -321,61 +333,48 @@
     display: none;
 }
 
-
-.redsha img{
+.redsha img {
     width: 1.9vw;
     height: 1.9vw;
 }
 
-.wht_sha img{
+.wht_sha img {
     width: 1.9vw;
     height: 1.9vw;
 }
-@media only screen and (max-width: 700px){
+
+@media only screen and (max-width: 700px) {
+    .ban_abt {
+        margin-top: 18px;
+    }
     /* Banner */
     .ban_abt .abt_txt h3 {
         margin-top: -1.7vw;
     }
-
     .ban_abt .abt_txt p {
         margin-top: -1vw;
     }
-
-    .ban_abt {
-        margin-top: 2.5vw;
-    }
-
     .ban_abt .abt_txt {
         margin-top: 5vw;
-        
     }
     /* Carousel*/
     .card .card-body h4 {
         font-size: 1.1vw;
     }
-
 }
 
-@media only screen and (max-width: 500px){
-        /*Banner*/
-        .di_ov{
-            margin-top: 3vw;
-           overflow-x: visible;
-        }
+@media only screen and (max-width: 500px) {
+    /*Banner*/
+    .di_ov {
+        overflow-x: visible;
+    }
     .ban_abt .abt_txt h4 {
-    margin-bottom: -2vw;
+        margin-bottom: -2vw;
     }
-
-    .ban_abt {
-        margin-top: 3.5vw;
-    }
-
     .ban_abt .abt_txt {
         margin-top: 4vw;
-        
     }
     /*Maps*/
-
     .map_north {
         flex-direction: column;
         align-items: center;
@@ -383,7 +382,6 @@
         justify-content: center;
         overflow: hidden;
     }
-
     .txt_map {
         width: 100%;
         align-items: center;
@@ -391,7 +389,6 @@
         overflow: hidden;
         text-align: center;
     }
-
     .map_north .txt_map h5,
     .map_north .txt_map h2,
     .map_north .txt_map p {
@@ -404,35 +401,27 @@
     .map_north .txt_map p {
         margin-bottom: -1vw;
     }
-
     .txt_map {
         margin-top: 5vw;
     }
-
     /* Carousel*/
     .card .card-body h4 {
         font-size: 1vw;
     }
-
     .card .card-body h5 {
-       margin-top: -1vw;
-       margin-bottom: -1vw;
+        margin-top: -1vw;
+        margin-bottom: -1vw;
     }
-
     .tx_ca {
         flex-direction: column;
     }
-
     .tx_wht h2 {
-       text-align: center;
+        text-align: center;
     }
-
     .tx_wht {
         margin-left: 0vw;
         width: 100%;
-        
     }
-
     .car_cl,
     #abt_car_cards {
         width: 24%;
@@ -440,13 +429,11 @@
         display: inline-block;
         margin: auto;
     }
-
     .card {
         margin-top: 6vw;
         width: 23vw;
         height: 26vw;
     }
-
     .card .card-body h4 {
         text-align: center;
         font: normal normal bold 1.4vw/2vw SF UI Display;
@@ -455,9 +442,7 @@
         opacity: 1;
         margin-top: 1vw;
         width: 100%;
-        background-color: tomato;
     }
-
     .card .card-body h3 {
         text-align: center;
         font: normal normal 900 1.3vw/1.5vw Heading Pro Ultra Wide;
@@ -465,7 +450,6 @@
         color: #D60725;
         opacity: 1;
     }
-
     .card .card-body h5 {
         text-align: center;
         font: normal normal normal 1.1vw/0.4vw SF UI Display;
@@ -473,7 +457,6 @@
         color: #383838;
         opacity: 1;
     }
-
     .card .card-body p {
         text-align: center;
         font: normal normal normal 1.2vw/0.4vw SF UI Display;
@@ -481,10 +464,8 @@
         color: #D60725;
         opacity: 1;
     }
-
-    .hide_abt{
+    .hide_abt {
         overflow-x: hidden;
         width: 100%;
     }
-
 }
