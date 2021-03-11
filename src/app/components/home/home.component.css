@@ -399,12 +399,16 @@
     justify-content: center;
 }
 
-.icons_fle div {
+.on-ro div {
     padding: 0 2vw;
     justify-content: center;
     display: inline-block;
 }
-
+ .tw-ro div{
+    padding: 0 3.5vw;
+    justify-content: center;
+    display: inline-block;
+}
 .icons_fle div h3,
 .icons_fle div img {
     display: block;
@@ -436,7 +440,6 @@
     margin-bottom: 2vw;
 }
 
-
 /* About us*/
 
 .abt .abt_txt {
@@ -460,7 +463,7 @@
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    width: 25vw;
+    width: 25%;
 }
 
 .abt_txt p {
@@ -853,21 +856,15 @@
         margin-top: 1vw;
         margin-bottom: -3vw;
     }
-    .abt_txt p {
-        margin-top: -1vw;
-        margin-bottom: 1vw;
-    }
-    .abt_txt h5 {
-        margin-top: -1vw;
-        margin-bottom: -2vw;
-    }
     /* hands */
     .hands_pic img {
         transform: scale(1.2);
         z-index: 4;
+        vertical-align:inherit;
     }
     .txt_hand_pic,
-    .ul_hand_pic {
+    .ul_hand_pic,
+    .abt_txt {
         z-index: 1;
     }
     .hands_pic {
@@ -876,6 +873,37 @@
     .ul_hand_pic {
         left: 55vw;
     }
+
+    .ul_hand_pic .display-text {
+        width: 85%;
+    }
+    /*about us*/
+    
+.abt .abt_txt {
+    
+    margin-top: 6vw;
+    left: 17vw;
+}
+    .abt img{
+        transform: scale(1.2);
+        z-index: 4;
+       
+    } 
+    .abt{
+       overflow: hidden;
+       margin-bottom: 2%;
+    }
+    .abt_txt p {
+     
+    }
+    .abt_txt h5 {
+       
+    }
+
+.abt_txt h4 {
+   
+    width: 45%;
+}
     /*cards*/
     .card_fle .card .card-body h3 {
         margin-bottom: 3px;

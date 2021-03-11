@@ -1,0 +1,115 @@
+/* Menu */
+
+.menu-color {
+    width: 100%;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    margin-top: 113px;
+}
+
+.wrapper {
+    max-height: 120px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    vertical-align: text-bottom;
+    min-width: 110v;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    align-items: center;
+    display: table;
+}
+
+.wrapper .win-notac a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 1vw/24px SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.wrapper .win-ac a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 1vw/24px SF UI Display;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #D60725;
+}
+
+.wrapper .item a:hover {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #D60725;
+}
+
+.wrapper .item a:hover img {
+    transform: scale(1.2);
+}
+
+.wrapper .item p:active {
+    text-decoration: none;
+}
+
+.wrapper .item a img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.win-ac .icon-rd{
+    display: inline-block;
+}
+
+
+.win-ac .icon-wh{
+    display: none;
+}
+
+
+.icon-rd{
+    display: none;
+}
+
+.win-ac{
+   
+    background-color: #FFFFFF;
+    
+}
+
+.win-ac a{
+    text-decoration: none;
+   
+    color: #D60725;
+}
+.wrapper .item a:hover .icon-rd {
+    display: inline-block;
+}
+.wrapper .item a:hover .icon-wh {
+    display: none;
+}

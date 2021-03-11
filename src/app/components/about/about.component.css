@@ -365,14 +365,27 @@
 
 @media only screen and (max-width: 500px) {
     /*Banner*/
-    .di_ov {
-        overflow-x: visible;
+    .di_ov, 
+    .hide_abt{
+        margin-top: 5px;
+        overflow: hidden;
+    }
+    .di_ov .ban_abt img,
+    .hide_abt .abt img{
+        transform: scale(1.2);
     }
     .ban_abt .abt_txt h4 {
         margin-bottom: -2vw;
     }
+
+    .ban_abt .abt_txt p {
+        font-size: 10x;
+        width: 50%;
+    }
+
     .ban_abt .abt_txt {
         margin-top: 4vw;
+        z-index: 1;
     }
     /*Maps*/
     .map_north {
@@ -464,8 +477,11 @@
         color: #D60725;
         opacity: 1;
     }
-    .hide_abt {
-        overflow-x: hidden;
-        width: 100%;
+    /*IMG SEAL*/
+    .abt{
+        padding: 4% 0 ;
+    }
+    .abt_txt{
+        z-index: 1;
     }
 }
