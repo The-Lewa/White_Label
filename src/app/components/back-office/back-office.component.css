@@ -82,37 +82,35 @@
     margin-bottom: 10px;
 }
 
-.win-ac .icon-rd{
+.win-ac .icon-rd {
     display: inline-block;
 }
 
-
-.win-ac .icon-wh{
+.win-ac .icon-wh {
     display: none;
 }
 
-
-.icon-rd{
+.icon-rd {
     display: none;
 }
 
-.win-ac{
-   
+.win-ac {
     background-color: #FFFFFF;
-    
 }
 
-.win-ac a{
+.win-ac a {
     text-decoration: none;
-   
     color: #D60725;
 }
+
 .wrapper .item a:hover .icon-rd {
     display: inline-block;
 }
+
 .wrapper .item a:hover .icon-wh {
     display: none;
 }
+
 
 /* Ban Social*/
 
@@ -357,8 +355,8 @@
 }
 
 .lorem_sec .fram_sefo div {
-    width: 370px;
-    height: 370px;
+    width: 27.81vw;
+    height: 27.81vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
