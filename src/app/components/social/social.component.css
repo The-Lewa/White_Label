@@ -82,42 +82,41 @@
     margin-bottom: 10px;
 }
 
-.win-ac .icon-rd{
+.win-ac .icon-rd {
     display: inline-block;
 }
 
-
-.win-ac .icon-wh{
+.win-ac .icon-wh {
     display: none;
 }
 
-
-.icon-rd{
+.icon-rd {
     display: none;
 }
 
-.win-ac{
-   
+.win-ac {
     background-color: #FFFFFF;
-    
 }
 
-.win-ac a{
+.win-ac a {
     text-decoration: none;
-   
     color: #D60725;
 }
+
 .wrapper .item a:hover .icon-rd {
     display: inline-block;
 }
+
 .wrapper .item a:hover .icon-wh {
     display: none;
 }
+
+
 /* Ban Social*/
 
 .ban_abt {
-   top: 0;
-   margin-top: 40px;
+    top: 0;
+    margin-top: 40px;
 }
 
 .ban_abt .abt_txt {
@@ -265,6 +264,7 @@
     color: #FFFFFF;
 }
 
+
 /* Cards*/
 
 .o_exp {
@@ -291,10 +291,10 @@
 }
 
 .o_exp .gro_wh {
-    width: 140px;
-    height: 150px;
-    border-radius: 85px;
-    margin-top: -75px;
+    width: 10.52vw;
+    height: 11.27vw;
+    border-radius: 6.39vw;
+    margin-top: -5.6vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-left: auto;
@@ -360,6 +360,11 @@
     border: 1px solid #D60725;
     color: #D60725;
     background-color: #D60725;
+}
+
+.card_fle .card {
+    width: 14.28vw;
+    height: 12.78vw;
 }
 
 
@@ -482,37 +487,29 @@
     background: #FFFFFF;
 }
 
-
 @media only screen and (max-width: 500px) {
-   /*BAnner 1*/
-.ban_abt .abt_txt p {
-    margin-top: -8px;
-    margin-bottom: -8px;
+    /*BAnner 1*/
+    .ban_abt .abt_txt p {
+        margin-top: -8px;
+        margin-bottom: -8px;
+    }
+    .ban_abt .abt_txt {
+        margin-top: 8vw;
+        left: 13vw;
+    }
+    /*Heart*/
+    .heart_pic img {
+        transform: scale(1.2);
+    }
+    .heart_pic {
+        overflow: hidden;
+    }
+    .heart_pic .ul_heart_pic {
+        z-index: 1;
+    }
+    .ul_heart_pic ul {
+        padding-left: 2vw;
+        margin-bottom: -1vw;
+        margin-top: -1.5vw;
+    }
 }
-
-.ban_abt .abt_txt {
-    
-    margin-top: 8vw;
-    left: 13vw;
-}
-/*Heart*/
-.heart_pic img{
-    transform: scale(1.2);
-}
-
-.heart_pic {
-    overflow: hidden;
-}
-
-.heart_pic .ul_heart_pic {
-   z-index: 1;
-}
-
-.ul_heart_pic ul {
-    padding-left: 2vw;
-    margin-bottom: -1vw;
-    margin-top: -1.5vw;
-}
-
-}
-
