@@ -7,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+  }
 
  
   ngOnInit(): void {
     this.topFunction();
+    
     }
   
   
