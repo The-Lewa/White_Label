@@ -11,6 +11,12 @@ import { CargarScriptsService } from "./../../cargar-scripts.service";
 })
 export class NavbarComponent implements OnInit, AfterViewInit {
 
+  isCollapse = false;   // guardamos el valor
+    toggleState() { // manejador del evento
+        let foo = this.isCollapse;
+        this.isCollapse = foo === false ? true : false; 
+    }
+
   @ViewChild('linkHome', { read: ElementRef }) linkHome: ElementRef;
   @ViewChild('menu-bars', { read: ElementRef }) menuBars: ElementRef;
   constructor(private _CargaScripts: CargarScriptsService) {
@@ -22,6 +28,8 @@ export class NavbarComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
   }
+
+  
 
   ngAfterViewInit(): void {
     fromEvent<any>(this.linkHome.nativeElement, 'click').subscribe(() => {

@@ -27,11 +27,16 @@
     text-align: center;
     font: normal normal 900 13px/22px Heading Pro Ultra Wide;
     letter-spacing: 0px;
-    color: #8E8E8E;
+   
     text-transform: uppercase;
     opacity: 1;
 }
-
+.not-act{
+    color: #8E8E8E;
+}
+.win-ac{
+    color: #D60725;
+}
 .head a h2 {
     text-decoration: none;
     text-align: center;
@@ -212,7 +217,7 @@ nav ul li div ul li a:hover {
         height: 26rem;
         background: white;
         top: 90px;
-        left: -100%;
+        
         text-align: center;
         transition: all 0.5s;
     }
@@ -227,7 +232,10 @@ nav ul li div ul li a:hover {
         background: none;
         color: black;
     }
-    #check:checked~ul {
+    .cerrar{
+        left: -100%;
+    }
+    .open {
         left: 0;
     }
     .margen-hr {
