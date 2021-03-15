@@ -851,11 +851,35 @@
     .ban1 .display-text {
         margin-bottom: -1.3vw;
     }
+    /* Text home */
+
+    .text1 h6 {
+        font-size: 9px;
+    }
+
+    .text1 h2 {
+        font-size: 17px;
+        
+    }
+
+    .text1 h5 {
+        font-size: 6px;
+    }
+
+    .text1 h3 {
+        font-size: 8.5px;
+        line-height: 14px;
+    }
     /* linea iconos */
     .gray_icon .our_from {
         margin-top: 1vw;
         margin-bottom: -3vw;
     }
+
+    .our_from {
+        font-size: 8px;
+    }
+
     /* hands */
     .hands_pic img {
         transform: scale(1.2);
@@ -876,6 +900,16 @@
 
     .ul_hand_pic .display-text {
         width: 85%;
+    }
+    /*iconos*/
+        
+    .gray_icon .txt_fin {
+        font-size: 11.5px;
+        line-height: 14px;
+    }
+
+    .gray_icon p {
+        font-size: 10px;
     }
     /*about us*/
     
