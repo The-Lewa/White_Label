@@ -1,0 +1,121 @@
+.form-contact h1 {
+    text-align: left;
+    font: normal normal 900 50px/60px Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+}
+
+.form-contact h1 span {
+    color: #D60725;
+}
+
+.form-contact h5 {
+    text-align: left;
+    font: normal normal normal 20px/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.form-contact {
+    width: 750px;
+    opacity: 1;
+    margin: auto;
+}
+
+.form-contact form {
+    margin-top: 3vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.form-contact label {
+    text-align: left;
+    font: normal normal 600 18px/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.form-contact input {
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    opacity: 1;
+}
+
+.form-contact .data-left {
+    margin-top: -255px;
+    margin-left: 30px;
+}
+
+.form-contact .small-data {
+    margin-bottom: 15px;
+}
+
+.name-left {
+    margin-left: 30px;
+}
+
+.mesage input {
+    border: 1px solid #8E8E8E;
+    height: 150px;
+    margin-right: 30px;
+}
+
+.mesage {
+    margin-right: 55px;
+}
+
+.col-cap .g-recaptcha {
+    margin-left: 15px;
+}
+
+.ver-mov {
+    display: none;
+}
+
+@media only screen and (max-width: 770px) {
+    .form-contact .data-left {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .form-contact {
+        width: 80%;
+        opacity: 1;
+        margin: auto;
+    }
+    .mesage input {
+        width: 80vw;
+    }
+    .name-left {
+        margin-left: 0;
+    }
+    .form-contact>input {
+        width: 80%;
+    }
+    .form-contact h1 {
+        margin-top: 5vw;
+        text-align: center;
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .form-contact h5 {
+        text-align: center;
+        font-size: 15px;
+    }
+    .ver-mov .g-recaptcha {
+        margin-left: -100%;
+        width: 100px;
+    }
+    .ver-mov button {
+        margin: auto;
+        margin-left: -30px;
+    }
+    .ver-mov {
+        display: grid;
+    }
+    .ver-desk {
+        display: none;
+    }
+}

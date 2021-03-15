@@ -365,24 +365,22 @@
 
 @media only screen and (max-width: 500px) {
     /*Banner*/
-    .di_ov, 
-    .hide_abt{
+    .di_ov,
+    .hide_abt {
         margin-top: 5px;
         overflow: hidden;
     }
     .di_ov .ban_abt img,
-    .hide_abt .abt img{
+    .hide_abt .abt img {
         transform: scale(1.2);
     }
     .ban_abt .abt_txt h4 {
         margin-bottom: -2vw;
     }
-
     .ban_abt .abt_txt p {
         font-size: 10x;
         width: 50%;
     }
-
     .ban_abt .abt_txt {
         margin-top: 4vw;
         z-index: 1;
@@ -446,42 +444,14 @@
         margin-top: 6vw;
         width: 23vw;
         height: 26vw;
-    }
-    .card .card-body h4 {
-        text-align: center;
-        font: normal normal bold 1.4vw/2vw SF UI Display;
-        letter-spacing: 0px;
-        color: #383838;
-        opacity: 1;
-        margin-top: 1vw;
-        width: 100%;
-    }
-    .card .card-body h3 {
-        text-align: center;
-        font: normal normal 900 1.3vw/1.5vw Heading Pro Ultra Wide;
-        letter-spacing: 0px;
-        color: #D60725;
-        opacity: 1;
-    }
-    .card .card-body h5 {
-        text-align: center;
-        font: normal normal normal 1.1vw/0.4vw SF UI Display;
-        letter-spacing: 0px;
-        color: #383838;
-        opacity: 1;
-    }
-    .card .card-body p {
-        text-align: center;
-        font: normal normal normal 1.2vw/0.4vw SF UI Display;
-        letter-spacing: 0px;
-        color: #D60725;
-        opacity: 1;
+        margin-left: auto;
+        margin-right: auto;
     }
     /*IMG SEAL*/
-    .abt{
-        padding: 4% 0 ;
+    .abt {
+        padding: 4% 0;
     }
-    .abt_txt{
+    .abt_txt {
         z-index: 1;
     }
 }

@@ -83,8 +83,8 @@
     letter-spacing: -0.5px;
 }
 
-.head ul li a:hover .margen-hr {
-    background: #00cfff;
+.head ul li a:hover {
+    color: #D60725;
 }
 
 nav>ul>li:hover div {

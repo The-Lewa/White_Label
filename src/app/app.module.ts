@@ -19,6 +19,7 @@ import { PhotoVideoComponent } from './components/photo-video/photo-video.compon
 import { WebsiteComponent } from './components/website/website.component';
 import { WcagComponent } from './components/wcag/wcag.component';
 import { InsightsComponent } from './components/insights/insights.component';
+import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { InsightsComponent } from './components/insights/insights.component';
     PhotoVideoComponent,
     WebsiteComponent,
     WcagComponent,
-    InsightsComponent
+    InsightsComponent,
+    MenuWrapperComponent
   ],
   imports: [
     BrowserModule,

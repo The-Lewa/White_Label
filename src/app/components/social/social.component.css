@@ -1,122 +1,8 @@
-/* Menu */
-
-.menu-color {
-    width: 100%;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    margin-top: 113px;
-}
-
-.wrapper {
-    max-height: 120px;
-    border: 1px solid #ddd;
-    width: 90%;
-    margin: auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
-
-.wrapper::-webkit-scrollbar {
-    width: 0;
-}
-
-.wrapper .item {
-    vertical-align: text-bottom;
-    min-width: 110px;
-    height: 120px;
-    text-align: center;
-    margin: auto;
-    width: 10%;
-    align-items: center;
-    display: table;
-}
-
-.wrapper .win-notac a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.wrapper .win-ac a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
-    letter-spacing: 0px;
-    opacity: 1;
-    color: #D60725;
-}
-
-.wrapper .item a:hover {
-    text-decoration: none;
-    background-color: #FFFFFF;
-    color: #D60725;
-}
-
-.wrapper .item a:hover img {
-    transform: scale(1.2);
-}
-
-.wrapper .item p:active {
-    text-decoration: none;
-}
-
-.wrapper .item a img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.win-ac .icon-rd {
-    display: inline-block;
-}
-
-.win-ac .icon-wh {
-    display: none;
-}
-
-.icon-rd {
-    display: none;
-}
-
-.win-ac {
-    background-color: #FFFFFF;
-}
-
-.win-ac a {
-    text-decoration: none;
-    color: #D60725;
-}
-
-.wrapper .item a:hover .icon-rd {
-    display: inline-block;
-}
-
-.wrapper .item a:hover .icon-wh {
-    display: none;
-}
-
-
 /* Ban Social*/
 
 .ban_abt {
     top: 0;
-    margin-top: 40px;
+    margin-top: 130px;
 }
 
 .ban_abt .abt_txt {
@@ -196,17 +82,6 @@
 
 /* Heart cero*/
 
-.heart_pic .carousel-text {
-    position: absolute;
-    left: 15vw;
-}
-
-.txt_heart_pic {
-    position: absolute;
-    left: 15vw;
-    margin-top: 5%;
-}
-
 .ul_heart_pic {
     position: absolute;
     left: 50vw;
@@ -219,7 +94,6 @@
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    width: 44%;
 }
 
 .ul_heart_pic .page-title {
@@ -366,9 +240,11 @@
     width: 14.28vw;
     height: 12.78vw;
 }
-#carouselmob{
+
+#carouselmob {
     display: none;
 }
+
 
 /* cintillo*/
 
@@ -414,7 +290,6 @@
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
-    width: 65%;
 }
 
 .txt_team_lef .page-title {
@@ -458,8 +333,8 @@
 }
 
 .ul_team button {
-    background: #383838 0% 0% no-repeat padding-box;
-    color: #FFFFFF;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #383838;
 }
 
 .ul_team button:hover {
@@ -497,15 +372,16 @@
         border-radius: 70px;
         margin-top: -6vw;
     }
-
     .card_fle .card {
         width: 160px;
         height: 180px;
     }
-
-
     .card_fle .card .card-body h4 {
         font-size: 13px;
+    }
+    .ul_team ul {
+        margin-bottom: -1vw;
+        padding-left: 2vw;
     }
 }
 
@@ -517,32 +393,36 @@
     #primer {
         margin-left: 250px;
     }
-
     .wrapper .win-notac a,
     .wrapper .win-ac a {
         font-size: 12px;
     }
-
-    #carouselmob{
+    #carouselmob {
         display: grid;
     }
-
-    #carouseldesk{
+    #carouseldesk {
         display: none;
     }
-
     #carouselmob .card_fle .card .card-body h4 {
-       line-height: 15px;
+        line-height: 15px;
+    }
+    .ul_heart_pic ul {
+        padding-left: 2vw;
+        margin-bottom: -0.5vw;
+        margin-top: -7px;
+    }
+    .ul_team ul {
+        margin-bottom: -20px;
     }
 }
 
 @media only screen and (max-width: 520px) {
     /*wrapper*/
-   
     #primer {
         margin-left: 450px;
     }
 }
+
 @media only screen and (max-width: 500px) {
     /*BAnner 1*/
     .ban_abt .abt_txt p {
@@ -574,24 +454,52 @@
         margin-bottom: -2vw;
         margin-top: -16px;
     }
-        
     .ul_heart_pic .display-text {
-    margin-top: -1vw;
+        margin-top: -1vw;
         font: normal normal 600 1vw/1.7vw SF UI Display;
-        width: 58%;
     }
     /*Cards*/
-
     .o_exp h2 {
         font-size: 13px;
         line-height: 20px;
-        }
+    }
+    .o_exp .gro_wh {
+        margin-top: -15vw;
+    }
+    #carouselmob {
+        margin-top: 15px;
+        height: 300px;
+    }
+    #carouselmob .card {
+        margin-top: 20px;
+    }
     /*team txt*/
-
     .ul_team ul {
         padding-left: 2vw;
         margin-bottom: -1vw;
         margin-top: -1vw;
     }
+    .ul_team .display-text {
+        font-size: 1.7vw;
+        line-height: 2.2vw;
+    }
+    .txt_team_lef h4 {
+        font-size: 1.6vw;
+        line-height: 2.2vw;
+    }
+    .ul_team ul li span {
+        font-size: 1.7vw;
+        line-height: 2.2vw;
+    }
+    .ul_team ul {
+        margin-top: -2vw;
+        margin-bottom: -6vw;
+    }
+}
 
+@media only screen and (max-width: 500px) {
+    .ul_team ul {
+        margin-top: -2vw;
+        margin-bottom: -8vw;
+    }
 }

@@ -1,115 +1,471 @@
-/* Menu */
+/* Banner */
 
-.menu-color {
-    width: 100%;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: fixed;
-    z-index: 3;
+.ban_abt {
     top: 0;
-    margin-top: 113px;
+    margin-top: 108px;
 }
 
-.wrapper {
-    max-height: 120px;
-    border: 1px solid #ddd;
-    width: 90%;
-    margin: auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background: #D60725 0% 0% no-repeat padding-box;
+.ban_abt .abt_txt {
+    position: absolute;
+    margin-top: 9vw;
+    left: 15vw;
+}
+
+.ban_abt .abt_txt h3 {
+    text-align: left;
+    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
     opacity: 1;
-    border: none;
+    text-transform: uppercase;
 }
 
-.wrapper::-webkit-scrollbar {
-    width: 0;
+.img_abt {
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
-.wrapper .item {
-    vertical-align: text-bottom;
-    min-width: 110v;
-    height: 120px;
-    text-align: center;
-    margin: auto;
-    width: 10%;
-    align-items: center;
-    display: table;
+.img_abt img {
+    visibility: hidden;
 }
 
-.wrapper .win-notac a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
+
+/* Class button */
+
+.btn_bred {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.15vw solid #D60725;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    padding: 0.3vw 1.5vw;
+}
+
+.txt_fle {
+    margin-right: 1.12vw;
+}
+
+.btn_fle {
+    display: flex;
+    flex-direction: row;
+}
+
+.wht_sha {
+    display: none;
+}
+
+.wht_sha img {
+    width: 1.9vw;
+    height: 1.9vw;
+}
+
+.btn_bred:hover {
+    background: #D60725 0% 0% no-repeat padding-box;
+}
+
+.btn_bred:hover .wht_sha {
+    display: grid;
+}
+
+.btn_bred:hover .redsha {
+    display: none;
+}
+
+.redsha img {
+    width: 1.9vw;
+    height: 1.9vw;
+}
+
+
+/* Heart cero*/
+
+.ul_heart_pic {
+    position: absolute;
+    left: 50vw;
+    margin-top: 4%;
+}
+
+.ul_heart_pic .display-text {
+    text-align: left;
+    font: normal normal 600 1vw/1.7vw SF UI Display;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 
-.wrapper .win-ac a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
+.ul_heart_pic .page-title {
+    text-align: left;
+    font: normal normal 900 1.8vw/2.2vw Heading Pro Ultra Wide;
     letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.ul_heart_pic span,
+.txt_heart_pic .page-title span {
+    color: #D60725;
+}
+
+.ul_heart_pic ul {
+    list-style-type: square;
+}
+
+.ul_heart_pic ul li span {
+    text-align: left;
+    font: normal normal 600 1vw/1.6vw SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
     opacity: 1;
+}
+
+.ul_heart_pic ul li {
     color: #D60725;
+    line-height: 1.2vw;
+    font-size: 1.2vw;
 }
 
-.wrapper .item a:hover {
-    text-decoration: none;
-    background-color: #FFFFFF;
+.ul_heart_pic button {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    color: #383838;
+    margin-left: 1vw;
+}
+
+.ul_heart_pic button:hover {
+    background-color: #D60725;
+    color: #FFFFFF;
+}
+
+
+/* Cards*/
+
+.o_exp {
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.o_exp h2 {
+    margin-top: 5vw;
+    text-align: center;
+    font: normal normal 900 1.18vw/1.8vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
     color: #D60725;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
-.wrapper .item a:hover img {
-    transform: scale(1.2);
+.o_exp p {
+    text-align: center;
+    font: normal normal normal 1vw/1.5vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
 }
 
-.wrapper .item p:active {
-    text-decoration: none;
+.o_exp .gro_wh {
+    width: 10.52vw;
+    height: 11.27vw;
+    border-radius: 6.39vw;
+    margin-top: -5.6vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
 }
 
-.wrapper .item a img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
+.o_exp .card .gro_wh img {
+    width: 55px;
+    height: 55px;
+    display: block;
+    margin: auto;
 }
 
-.win-ac .icon-rd{
-    display: inline-block;
+.card_fle {
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.card_fle div {
+    margin-left: 0.6%;
+    margin-right: 0.6%;
+}
 
-.win-ac .icon-wh{
+.card_fle .card .card-body h4 {
+    text-align: center;
+    font: normal normal normal 1vw/1.5vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card_fle .card .card-body h3 {
+    text-align: center;
+    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card_fle .card .card-body h5 {
+    text-align: center;
+    font: normal normal normal 0.9vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card_fle .card .card-body p {
+    text-align: center;
+    font: normal normal normal 1vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card_fle .card .card-body hr {
+    width: 30%;
+    margin: 2vw auto 1vw auto;
+    border: 1px solid #D60725;
+    color: #D60725;
+    background-color: #D60725;
+}
+
+.card_fle .card {
+    width: 14.28vw;
+    height: 12.78vw;
+}
+
+#carouselmob {
     display: none;
 }
 
 
-.icon-rd{
-    display: none;
+/* cintillo*/
+
+.ban_lov button {
+    position: absolute;
+    margin-top: 4.4vw;
+    right: 13%;
 }
 
-.win-ac{
-   
-    background-color: #FFFFFF;
-    
+.ban_lov .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
 }
 
-.win-ac a{
-    text-decoration: none;
-   
+.ban_lov .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}
+
+
+/* Team*/
+
+.team_txt .carousel-text {
+    position: absolute;
+    left: 15vw;
+}
+
+.txt_team_lef {
+    position: absolute;
+    left: 15vw;
+    margin-top: 5%;
+}
+
+.ul_team {
+    position: absolute;
+    left: 50vw;
+    margin-top: 4%;
+}
+
+.ul_team .display-text {
+    text-align: left;
+    font: normal normal 600 1vw/1.7vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.txt_team_lef .page-title {
+    text-align: left;
+    font: normal normal 900 2.8vw/3.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    text-transform: uppercase;
+}
+
+.txt_team_lef h4 {
+    text-align: left;
+    font: normal normal 900 1.2vw/1.7vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.ul_team span,
+.txt_team_lef .page-title span {
     color: #D60725;
 }
-.wrapper .item a:hover .icon-rd {
-    display: inline-block;
+
+.ul_team ul {
+    list-style-type: square;
 }
-.wrapper .item a:hover .icon-wh {
-    display: none;
+
+.ul_team ul li span {
+    text-align: left;
+    font: normal normal 600 1.2vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.ul_team ul li {
+    color: #D60725;
+    line-height: 1.2vw;
+    font-size: 1.2vw;
+}
+
+.ul_team button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #383838;
+}
+
+.ul_team button:hover {
+    background-color: #D60725;
+    color: #FFFFFF;
+}
+
+.pic_gosht {
+    visibility: hidden;
+}
+
+
+/* cintillo #2*/
+
+.ban_glo button {
+    position: absolute;
+    margin-top: 4.4vw;
+    right: 21%;
+}
+
+.ban_glo .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_glo .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}
+
+@media only screen and (max-width: 1000px) {
+    .o_exp .gro_wh {
+        width: 100px;
+        height: 110px;
+        border-radius: 70px;
+        margin-top: -6vw;
+    }
+    .card_fle .card {
+        width: 160px;
+        height: 180px;
+    }
+    .card_fle .card .card-body h4 {
+        font-size: 13px;
+    }
+    .ul_team ul {
+        margin-bottom: -1vw;
+        padding-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #carouselmob {
+        display: grid;
+    }
+    #carouseldesk {
+        display: none;
+    }
+    #carouselmob .card_fle .card .card-body h4 {
+        line-height: 15px;
+    }
+    .ul_heart_pic ul {
+        padding-left: 2vw;
+        margin-bottom: -0.5vw;
+        margin-top: -7px;
+    }
+    .ul_team ul {
+        margin-bottom: -20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    /*Heart*/
+    .heart_pic>img,
+    .team_txt>img {
+        transform: scale(1.2);
+        padding: 4vw 0;
+    }
+    .heart_pic,
+    .team_txt {
+        overflow: hidden;
+    }
+    .heart_pic .ul_heart_pic {
+        z-index: 1;
+        transform: scale(1.2);
+        margin-top: 7%;
+        left: 55vw;
+    }
+    .ul_heart_pic ul {
+        padding-left: 2vw;
+        margin-bottom: -2vw;
+        margin-top: -16px;
+    }
+    .ul_heart_pic .display-text {
+        margin-top: -1vw;
+        font: normal normal 600 1vw/1.7vw SF UI Display;
+    }
+    /*Cards*/
+    .o_exp h2 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .o_exp .gro_wh {
+        margin-top: -15vw;
+    }
+    #carouselmob {
+        margin-top: 15px;
+        height: 300px;
+    }
+    #carouselmob .card {
+        margin-top: 20px;
+    }
+    /*team txt*/
+    .ul_team ul {
+        padding-left: 2vw;
+        margin-bottom: -1vw;
+        margin-top: -1vw;
+    }
+    .ul_team .display-text {
+        font-size: 1.7vw;
+        line-height: 2.2vw;
+    }
+    .txt_team_lef h4 {
+        font-size: 1.6vw;
+        line-height: 2.2vw;
+    }
+    .ul_team ul li span {
+        font-size: 1.7vw;
+        line-height: 2.2vw;
+    }
+    .ul_team ul {
+        margin-top: -2vw;
+        margin-bottom: -6vw;
+    }
 }

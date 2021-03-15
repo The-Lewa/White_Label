@@ -1,92 +1,8 @@
-/* Menu */
-
-.menu-color {
-    width: 100%;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    margin-top: 113px;
-}
-
-.wrapper {
-    max-height: 120px;
-    border: 1px solid #ddd;
-    width: 90%;
-    margin: auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
-
-.wrapper::-webkit-scrollbar {
-    width: 0;
-}
-
-.wrapper .item {
-    vertical-align: text-bottom;
-    min-width: 110v;
-    height: 120px;
-    text-align: center;
-    margin: auto;
-    width: 10%;
-    align-items: center;
-    display: table;
-}
-
-.wrapper .item a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.wrapper .item a:hover {
-    text-decoration: none;
-    background-color: #FFFFFF;
-    color: #D60725;
-}
-
-.wrapper .item a:hover img {
-    transform: scale(1.2);
-}
-
-.wrapper .item p:active {
-    text-decoration: none;
-}
-
-.wrapper .item a img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-
-.icon-rd{
-    display: none;
-}
-
-
-.wrapper .item a:hover .icon-rd {
-    display: inline-block;
-}
-.wrapper .item a:hover .icon-wh {
-    display: none;
-}
 /* First Banner */
 
 .abt {
-    margin-top: 2.5vw;
+    top: 0;
+    margin-top: 130px;
     overflow: hidden;
 }
 
@@ -174,7 +90,7 @@
     margin-left: 20vw;
 }
 
-.hear_ba button{
+.hear_ba button {
     margin-left: 20vw;
 }
 
@@ -346,6 +262,10 @@
     transform: scaleY(0.9);
 }
 
+.sert_sec .txt_sert h2 span {
+    font-family: Fira Sans;
+}
+
 .sert_sec .txt_sert h5 {
     text-align: left;
     font: normal normal bold 1.28vw/1.5vw SF UI Display;
@@ -426,6 +346,10 @@
     opacity: 1;
 }
 
+.sefo_sec .txt_sefo h2 span {
+    font-family: Fira Sans;
+}
+
 .sefo_sec .txt_sefo h5 {
     text-align: left;
     font: normal normal bold 1.28vw/1.5vw SF UI Display;
@@ -499,6 +423,10 @@
     opacity: 1;
     margin-left: 20vw;
     transform: scaleY(0.9);
+}
+
+.sefive_sec .txt_sefive h2 span {
+    font-family: Fira Sans;
 }
 
 .sefive_sec .txt_sefive h5 {
@@ -581,6 +509,10 @@
     transform: scaleY(0.9);
 }
 
+.six_sec .txt_six h2 span {
+    font-family: Fira Sans;
+}
+
 .six_sec .txt_six h5 {
     text-align: left;
     font: normal normal bold 1.28vw/1.5vw SF UI Display;
@@ -632,12 +564,6 @@
 }
 
 @media only screen and (max-width: 1300px) {
-    .abt {
-        margin-top: 66.5px;
-    }
-    .menu-color {
-      
-    }
     .wrapper .item {
         min-width: 100px;
         width: 15%;
@@ -654,9 +580,6 @@
     }
     #primer {
         margin-left: 250px;
-    }
-    .abt {
-        margin-top: 71px;
     }
     .col_ba .hear_ba {
         align-items: center;
@@ -696,12 +619,10 @@
     .hear_ba .txt_her h6 {
         font: normal normal 600 2vw/30px SF UI Display;
     }
-
     .col_ba .pic_her {
-    margin-bottom: -15%;
+        margin-bottom: -15%;
     }
-
-    .hear_ba button{
+    .hear_ba button {
         margin-left: 0;
     }
 }
@@ -729,7 +650,8 @@
     cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: #3e8e41;
 }
 
@@ -744,7 +666,7 @@
     background-color: #f9f9f9;
     min-width: 160px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-content a {
@@ -754,6 +676,10 @@
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
-.show {display:block;}
+.show {
+    display: block;
+}
