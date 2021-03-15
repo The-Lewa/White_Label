@@ -37,6 +37,12 @@
 .img-lab h4 span {
     color: #D60725;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.img-lab h4 a {
+    text-decoration: none;
+    color: #D60725;
 }
 
 @media only screen and (max-width: 700px) {
