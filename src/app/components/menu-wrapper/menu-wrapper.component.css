@@ -67,6 +67,10 @@
     transform: scale(1.2);
 }
 
+.wrapper .item a:hover {
+    cursor: pointer;
+}
+
 .wrapper .item p:active {
     text-decoration: none;
 }

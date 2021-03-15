@@ -442,6 +442,9 @@
     opacity: 1;
 }
 
+.sefo_sec .txt_sefo h2 span{
+    font-family: Fira Sans;
+}
 .sefo_sec .txt_sefo h5 {
     text-align: left;
     font: normal normal bold 1.28vw/1.5vw SF UI Display;

@@ -1,14 +1,128 @@
+/* Menu */
+
+.menu-color {
+    width: 100%;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    margin-top: 113px;
+}
+
+.wrapper {
+    max-height: 120px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: #D60725 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper .item {
+    vertical-align: text-bottom;
+    min-width: 110px;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    align-items: center;
+    display: table;
+}
+
+.wrapper .win-notac a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 1vw/24px SF UI Display;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.wrapper .win-ac a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 1vw/24px SF UI Display;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #D60725;
+}
+
+.wrapper .item a:hover {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #D60725;
+}
+
+.wrapper .item a:hover img {
+    transform: scale(1.2);
+}
+
+.wrapper .item p:active {
+    text-decoration: none;
+}
+
+.wrapper .item a img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.win-ac .icon-rd {
+    display: inline-block;
+}
+
+.win-ac .icon-wh {
+    display: none;
+}
+
+.icon-rd {
+    display: none;
+}
+
+.win-ac {
+    background-color: #FFFFFF;
+}
+
+.win-ac a {
+    text-decoration: none;
+    color: #D60725;
+}
+
+.wrapper .item a:hover .icon-rd {
+    display: inline-block;
+}
+
+.wrapper .item a:hover .icon-wh {
+    display: none;
+}
+
+
 /* Ban Social*/
 
 .ban_abt {
     top: 0;
-    margin-top: 130px;
+    margin-top: 40px;
 }
 
 .ban_abt .abt_txt {
     position: absolute;
-    margin-top: 14vw;
-    left: 18vw;
+    margin-top: 12vw;
+    left: 20vw;
 }
 
 .ban_abt .abt_txt h3 {
@@ -61,23 +175,6 @@
     height: 1.9vw;
 }
 
-.btn_bred:hover {
-    background: #D60725 0% 0% no-repeat padding-box;
-}
-
-.btn_bred:hover .wht_sha {
-    display: grid;
-}
-
-.btn_bred:hover .redsha {
-    display: none;
-}
-
-.redsha img {
-    width: 1.9vw;
-    height: 1.9vw;
-}
-
 
 /* Service 4 */
 
@@ -122,10 +219,6 @@
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
-}
-
-.sefo_sec .txt_sefo h2 span {
-    font-family: Fira Sans;
 }
 
 .sefo_sec .txt_sefo h5 {
@@ -225,6 +318,7 @@
 }
 
 
+
 /* Lorem */
 
 .se_lor {
@@ -277,6 +371,115 @@
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
+}
+
+.lorem_sec .txt_sefo button {
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+
+
+/* Carousel card */
+
+.col_ca_of {
+    background: #383838 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.tx_ca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tx_ca .gallery {
+    width: 245px;
+}
+
+.tx_wht {
+    margin-left: 20vw;
+    width: 93%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.car_cl {
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+}
+
+.tx_wht h2 {
+    text-align: left;
+    font: normal normal 900 3.1vw/3.3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.tx_wht span {
+    color: #D60725;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: auto;
+    margin-top: -75px;
+}
+
+.gallery-cell {
+    background: none;
+    border: none;
+    height: 400px;
+}
+
+.card {
+    margin-top: 6vw;
+}
+
+.card .card-body h4 {
+    text-align: center;
+    font: normal normal bold 1.3vw/2vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    margin-top: 1vw;
+}
+
+.card .card-body h3 {
+    text-align: center;
+    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card .card-body h5 {
+    text-align: center;
+    font: normal normal normal 0.9vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.card .card-body p {
+    text-align: center;
+    font: normal normal normal 1vw/0.4vw SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.card .card-body hr {
+    width: 30%;
+    margin: 2vw auto 1vw auto;
+    border: 1px solid #D60725;
+    color: #D60725;
+    background-color: #D60725;
 }
 
 
@@ -345,7 +548,7 @@
     color: #D60725;
 }
 
-#abt_car_cards .card img {
+.card img {
     width: 10vw;
     height: 10vw;
     border-radius: 5vw;
@@ -359,13 +562,13 @@
     height: 400px;
 }
 
-#abt_car_cards .card {
+.card {
     margin-top: 6vw;
     width: 18vw;
     height: 22vw;
 }
 
-#abt_car_cards .card .card-body h4 {
+.card .card-body h4 {
     text-align: center;
     font: normal normal bold 1.3vw/2vw SF UI Display;
     letter-spacing: 0px;
@@ -374,7 +577,7 @@
     margin-top: 1vw;
 }
 
-#abt_car_cards .card .card-body h3 {
+.card .card-body h3 {
     text-align: center;
     font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
     letter-spacing: 0px;
@@ -382,7 +585,7 @@
     opacity: 1;
 }
 
-#abt_car_cards .card .card-body h5 {
+.card .card-body h5 {
     text-align: center;
     font: normal normal normal 0.9vw/0.4vw SF UI Display;
     letter-spacing: 0px;
@@ -390,16 +593,15 @@
     opacity: 1;
 }
 
-#abt_car_cards .card .card-body p {
+.card .card-body p {
     text-align: center;
     font: normal normal normal 1vw/0.4vw SF UI Display;
     letter-spacing: 0px;
     color: #D60725;
     opacity: 1;
-    background-color: blueviolet;
 }
 
-#abt_car_cards .card .card-body hr {
+.card .card-body hr {
     width: 30%;
     margin: 2vw auto 1vw auto;
     color: #D60725;
@@ -407,20 +609,25 @@
     opacity: 1;
 }
 
-#abt_car_cards .card {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .carousel-control-next-icon {
-    float: right;
+    content: url(./../../../assets/iconosWeb/WLNIconos/left-arrow.svg);
+    float: left;
+    background: none;
+    width: 2.25vw;
+    height: 2.25vw;
+    transform: rotate(180deg);
     margin-right: -10vw;
 }
 
 .carousel-control-prev-icon {
+    content: url(./../../../assets/iconosWeb/WLNIconos/left-arrow.svg);
     float: left;
+    background: none;
+    width: 2.25vw;
+    height: 2.25vw;
     margin-left: -10vw;
 }
+
 
 @media only screen and (max-width: 1000px) {
     .o_exp .gro_wh {
@@ -429,12 +636,19 @@
         border-radius: 70px;
         margin-top: -6vw;
     }
-    .o_exp .card_fle .card {
-        width: 140px;
-        height: 90px;
+
+    .card_fle .card {
+        width: 160px;
+        height: 180px;
     }
-    .o_exp .card_fle .card .card-body h4 {
+
+
+    .card_fle .card .card-body h4 {
         font-size: 13px;
+    }
+
+    .ban_abt{
+        margin-top: 75px;
     }
 }
 
@@ -446,76 +660,32 @@
     #primer {
         margin-left: 250px;
     }
+
     .wrapper .win-notac a,
     .wrapper .win-ac a {
         font-size: 12px;
     }
-    #carouselmob {
+
+    #carouselmob{
         display: grid;
     }
-    #carouseldesk {
+
+    #carouseldesk{
         display: none;
     }
+
     #carouselmob .card_fle .card .card-body h4 {
-        line-height: 15px;
-    }
-    /* Carousel*/
-    .col_ca .card .card-body h4 {
-        font-size: 1.1vw;
-    }
-    /*Service lorem*/
-    .sefo_sec {
-        flex-direction: column;
-    }
-    .sefo_sec .fram_sefo div {
-        margin: auto;
-    }
-    .sefo_sec .txt_sefo {
-        text-align: center;
-    }
-    .sefo_sec .txt_sefo h2 {
-        font-size: 2.5vw;
-        text-align: center;
-        margin-top: 1vw;
-        margin-left: 0;
-    }
-    .sefo_sec .txt_sefo h5 {
-        font-size: 1.8vw;
-        text-align: center;
-        margin-left: 0;
-        width: 45%;
-        margin: auto;
-        line-height: 1.9vw;
-    }
-    .sefo_sec .txt_sefo p {
-        text-align: center;
-        font-size: 1.5vw;
-        width: 48%;
-        margin-left: 0;
-        margin: auto;
-        line-height: 1.9vw;
-        padding: 2vw 0;
-    }
-    .sefo_sec .txt_sefo h6 {
-        text-align: center;
-        font-size: 1.5vw;
-        width: 48%;
-        margin-left: 0;
-        margin: auto;
-        line-height: 1.9vw;
-    }
-    .sefo_sec .txt_sefo button {
-        margin-left: 0;
+       line-height: 15px;
     }
 }
 
 @media only screen and (max-width: 520px) {
     /*wrapper*/
+   
     #primer {
         margin-left: 450px;
     }
 }
-
 @media only screen and (max-width: 500px) {
     /*BAnner 1*/
     .ban_abt .abt_txt p {
@@ -547,120 +717,24 @@
         margin-bottom: -2vw;
         margin-top: -16px;
     }
+        
     .ul_heart_pic .display-text {
-        margin-top: -1vw;
+    margin-top: -1vw;
         font: normal normal 600 1vw/1.7vw SF UI Display;
         width: 58%;
     }
     /*Cards*/
+
     .o_exp h2 {
         font-size: 13px;
         line-height: 20px;
-    }
-    .card_fle {
-        align-items: center;
-        flex-direction: column;
-    }
-    .o_exp .card_fle .card {
-        margin-bottom: 10px;
-        width: 220px;
-        height: 170px;
-    }
-    .card_fle .card .card-body h3 {
-        margin-top: 10px;
-        font-size: 12px;
-        line-height: 15px;
-    }
-    .card_fle .card .card-body h5 {
-        font-size: 10px;
-        line-height: 13px;
-        margin-top: 0;
-    }
-    /*Lorem ipsum*/
-    .lorem_sec {
-        flex-direction: column;
-        align-items: center;
-    }
-    .lorem_sec .fram_sefo div {
-        margin-left: 0;
-        margin: auto;
-        margin-bottom: 30px;
-        width: 150px;
-        height: 150px;
-    }
-    .lorem_sec .txt_sefo h5 {
-        text-align: center;
-        font-size: 15px;
-        margin: auto;
-        line-height: 25px;
-    }
-    .lorem_sec .txt_sefo p {
-        text-align: center;
-        font-size: 14px;
-        margin: auto;
-        line-height: 25px;
-        width: 65%;
-    }
+        }
     /*team txt*/
+
     .ul_team ul {
         padding-left: 2vw;
         margin-bottom: -1vw;
         margin-top: -1vw;
     }
-    /* Carousel*/
-    #abt_car_cards .card .card-body h4 {
-        font-size: 1vw;
-    }
-    #abt_car_cards .card .card-body h5 {
-        margin-top: -1vw;
-        margin-bottom: -1vw;
-    }
-    .tx_ca {
-        flex-direction: column;
-    }
-    .tx_wht h2 {
-        text-align: center;
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .tx_wht {
-        margin-left: 0vw;
-        width: 100%;
-    }
-    #abt_car_cards .card img {
-        width: 14vw;
-        height: 14vw;
-        border-radius: 7vw;
-        margin-top: -6vw;
-    }
-    .car_cl,
-    #abt_car_cards {
-        width: 150px;
-        justify-content: center;
-        display: inline-block;
-        margin: auto;
-    }
-    #abt_car_cards .card {
-        margin-top: 6vw;
-        width: 130px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #abt_car_cards .card .card-body h4 {
-        font-size: 10px;
-        width: 100%;
-        line-height: 13px;
-    }
-    #abt_car_cards .card .card-body {
-        width: 100%;
-    }
-    #abt_car_cards .card .card-body h3 {
-        font-size: 8px;
-        line-height: 11px;
-    }
-    #abt_car_cards .card .card-body h5 {
-        font-size: 8px;
-        line-height: 11px;
-    }
+
 }
