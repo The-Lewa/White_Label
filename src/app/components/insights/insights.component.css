@@ -56,7 +56,7 @@
 
 .o_exp .card {
     width: 18.04vw;
-    height: 18.78vw;
+    height: 27vw;
 }
 
 .card_fle {
@@ -253,11 +253,16 @@
         background-color: aqua;
     }
     .o_exp .card_fle .card {
-        width: 140px;
-        height: 90px;
+        width: 170px;
+        height: 310px;
     }
-    .o_exp .card_fle .card .card-body h4 {
+    .o_exp .card_fle .card .card-body h3 {
         font-size: 13px;
+        line-height: 16px;
+    }
+    .o_exp .card_fle .card .card-body h5 {
+        font-size: 12px;
+        line-height: 15px;
     }
 }
 
@@ -321,8 +326,8 @@
     }
     .o_exp .card_fle .card {
         margin-bottom: 10px;
-        width: 220px;
-        height: 170px;
+        
+       
     }
     .card_fle .card .card-body h3 {
         margin-top: 10px;
