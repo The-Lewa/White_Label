@@ -9,11 +9,11 @@
                  <i><img  id="menu-bars" src="assets/menus.svg" width="40px" height="40px" alt="..."></i>
             </label>
             <ul class="rojos cerrar" [ngClass]="{ 'open': isCollapse }"> 
-                <li><a class="not-act" (click)="toggleState()" routerLink="/inicio">Home</a></li>
-                <li><a class="not-act" (click)="toggleState()" routerLink="/about">About</a></li>
-                <li><a class="not-act" (click)="toggleState()" routerLink="/services">Services</a></li>
-                <li><a class="not-act" (click)="toggleState()" routerLink="/insights">Insights</a></li>
-                <li><a class="win-ac" (click)="toggleState()" routerLink="/contact">contact</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/inicio" routerLinkActive="win-ac">Home</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/about" routerLinkActive="win-ac">About</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/services" routerLinkActive="win-ac">Solutions</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/insights" routerLinkActive="win-ac">Insights</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/contact" routerLinkActive="win-ac">contact</a></li>
                 <li><button type="button">Start a project</button></li>
             </ul>
         </nav>

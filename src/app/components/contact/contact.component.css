@@ -1,6 +1,5 @@
 .form-contact {
   width: 37%;
-
   margin: auto;
 }
 .form-contact h1 {
@@ -9,6 +8,7 @@
   letter-spacing: 0px;
   color: #383838;
   text-transform: uppercase;
+  margin-top: 2vw;
 }
 
 .form-contact h1 span {
@@ -40,6 +40,7 @@
   letter-spacing: 0px;
   color: #d60725;
   opacity: 1;
+  padding-top: 10px;
 }
 .rwcaont input,
 .form-contact input {
@@ -336,7 +337,6 @@
 }
 
 @media only screen and (max-width: 450px) {
-
   .rw-map .txt-map h5 {
     margin-left: 0px;
     font-size: 9.5px;
@@ -370,8 +370,8 @@
     margin-left: 30%;
   }
 
-.rw-map .txt-map img {
-  margin-left: -5px;
-  margin-right: 5px;
-}
+  .rw-map .txt-map img {
+    margin-left: -5px;
+    margin-right: 5px;
+  }
 }

@@ -21,6 +21,8 @@ import { WcagComponent } from './components/wcag/wcag.component';
 import { InsightsComponent } from './components/insights/insights.component';
 import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.component';
 import { InsightReadComponent } from './components/insight-read/insight-read.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgxCaptchaModule } from 'ngx-captcha';
 
 @NgModule({
   declarations: [
@@ -46,7 +48,9 @@ import { InsightReadComponent } from './components/insight-read/insight-read.com
   imports: [
     BrowserModule,
     AppRoutingModule,
-    routing
+    routing,
+    ReactiveFormsModule,
+    NgxCaptchaModule
   ],
   providers: [
     CargarScriptsService

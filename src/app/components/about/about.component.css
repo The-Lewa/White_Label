@@ -88,6 +88,7 @@
     margin-bottom: 2vw;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #383838;
+    padding: 3px;
 }
 
 .map_north .txt_map p {

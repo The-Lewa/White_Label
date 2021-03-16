@@ -80,6 +80,12 @@
     border-radius: 0;
 }
 
+.head ul li button:hover {
+    background: #383838 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+
+}
+
 .head ul li a,
 .head ul li button {
     display: block;

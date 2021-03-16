@@ -1,5 +1,5 @@
 <br>
-
+<br>
 <div class="form-contact ">
     <h1>
         Contact us <br> <span>today!</span>
@@ -8,18 +8,18 @@
     <h5>Fill the form and our sales team will contact you shortly</h5>
 </div>
 <div class="rwcaont">
-    
+
     <div class="clm-left">
         <div class="in-left">
             <label for="inputName" class="form-label">Name</label>
             <input type="text" class="form-control" id="inputName">
         </div>
         <div class="in-left">
-            <label for="inputLastName" class="form-label">LastName</label>
+            <label for="inputLastName" class="form-label">Last name</label>
             <input type="text" class="form-control" id="inputLastName">
         </div>
         <div class="in-left">
-            <label for="inputTel" class="form-label">Phone Number</label>
+            <label for="inputTel" class="form-label">Phone number</label>
             <input type="tel" class="form-control" id="inputTel">
         </div>
         <div class="in-left">
@@ -40,48 +40,56 @@
                 <input type="text" class="form-control" id="inputZip">
             </div>
 
-    </div>
+        </div>
     </div>
     <div class="clm-right">
         <div class=" mesage">
-                <label for="inputName" class="form-label">Message</label>
-                <textarea class="form-control" aria-label="With textarea"></textarea>
-            </div>
-            <br>
-            <div class="g-recaptcha" data-sitekey="6Lcizn8aAAAAAH9Ruia60tVYK1FMONzcPvkMsyis"></div>
-            <br>
-            <button type="submit" class="btnsend">Send</button>
+            <label for="inputName" class="form-label">Message</label>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <br>
+        <form >
+            <ngx-recaptcha2 #captchaElem [siteKey]="siteKey">
+            </ngx-recaptcha2>
+        </form>
+        <br>
+        <button type="submit" class="btnsend">Send</button>
 
     </div>
 </div>
 <br><br>
 <div class="real-map">
-<div class="rw-map">
-    <div class="txt-map">
-        <h1>
-            White-label <br> <span>Nearshore</span> 
-        </h1>
-        <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/social media - wln.svg" width="30px" height="30px" alt="..."></i> &nbsp;+502 4249-5407</h5>
-        <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/mail - wln.svg" width="30px" height="30px" alt="..."></i> &nbsp;sales@whitelabelnearshore.com</h5>
-        <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/alfiler.svg" width="30px" height="30px" alt="..."></i> &nbsp;14 avenue 14-93 zone 10, Guatemala City, Guatemala, CA 0101</h5>
-        <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/reloj-de-pared.svg" width="30px" height="30px" alt="..."></i> &nbsp;Mon - Fri 8 am to 6 pm EST</h5>
+    <div class="rw-map">
+        <div class="txt-map">
+            <h1>
+                White-label <br> <span>Nearshore</span>
+            </h1>
+            <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/social media - wln.svg" width="30px" height="30px"
+                        alt="..."></i> &nbsp;+502 4249-5407</h5>
+            <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/mail - wln.svg" width="30px" height="30px"
+                        alt="..."></i> &nbsp;sales@whitelabelnearshore.com</h5>
+            <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/alfiler.svg" width="30px" height="30px" alt="..."></i>
+                &nbsp;14 avenue 14-93 zone 10, Guatemala City, Guatemala, CA 0101</h5>
+            <h5><i><img src="assets/iconosWeb/WLNIconos/red_icon/reloj-de-pared.svg" width="30px" height="30px"
+                        alt="..."></i> &nbsp;Mon - Fri 8 am to 6 pm EST</h5>
+        </div>
+        <div class="img-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.449597322892!2d-90.50583760982853!3d14.594088408881756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3be71662501%3A0x18161d37a53447d1!2sHuman%20Brands!5e0!3m2!1ses-419!2sgt!4v1615833246122!5m2!1ses-419!2sgt"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
-    <div class="img-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.449597322892!2d-90.50583760982853!3d14.594088408881756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3be71662501%3A0x18161d37a53447d1!2sHuman%20Brands!5e0!3m2!1ses-419!2sgt!4v1615833246122!5m2!1ses-419!2sgt" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-</div>
 </div>
 
 <div class="banspace">
     <button type="button" class="btn_bred" routerLink="/servicios">
         <div class="btn_fle">
             <div class="txt_fle">Learn more</div>
-            <div class="wht_sha"><img src="assets/iconosWeb/WLNIconos/flecha-correcta.svg" width="30px"
-                    height="30px" alt="..."></div>
+            <div class="wht_sha"><img src="assets/iconosWeb/WLNIconos/flecha-correcta.svg" width="30px" height="30px"
+                    alt="..."></div>
             <div class="redsha"><img src="assets/iconosWeb/WLNIconos/flecha-correcta-white.svg" width="30px"
                     height="30px" alt="..."></div>
         </div>
     </button>
     <img src="assets/imagenesWeb/Banners/banner_1.png" width="100%" alt="">
 </div>
-

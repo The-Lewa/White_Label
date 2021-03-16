@@ -17,6 +17,8 @@
     letter-spacing: 0px;
     color: #383838;
     opacity: 1;
+    text-transform: uppercase;
+    padding: 2px;
 }
 
 .ban_abt .abt_txt p {
@@ -48,6 +50,7 @@
     color: #FFFFFF;
     opacity: 1;
     width: 65%;
+    padding: 2px;
 }
 
 .ul_hand_pic h3 {
