@@ -32,35 +32,8 @@ export class NavbarComponent implements OnInit, AfterViewInit {
   
 
   ngAfterViewInit(): void {
-    fromEvent<any>(this.linkHome.nativeElement, 'click').subscribe(() => {
-      //this.myFunction();
-    });
   }
 
-  myFunction() {
-    if (window.innerWidth <= 991) {
-      let shand = document.getElementsByClassName('rojos') as HTMLCollectionOf<HTMLElement>;
-
-  if (shand.length != 0) {
-    if (shand[0].style.left = "10px"){
-      shand[0].style.left = "-100%";
-    }   
-  }
-
-    }
-  }
-
-  secondFunction() {
-    if (window.innerWidth <= 991) {
-      let shand = document.getElementsByClassName('rojos') as HTMLCollectionOf<HTMLElement>;
-
-  if (shand.length != 0) {
-    if (shand[0].style.left = '-100%'){
-      shand[0].style.left = "0";
-    }   
-  }
-
-    }
-  }
+  
 
 }
