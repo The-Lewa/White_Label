@@ -20,6 +20,7 @@ import { WebsiteComponent } from './components/website/website.component';
 import { WcagComponent } from './components/wcag/wcag.component';
 import { InsightsComponent } from './components/insights/insights.component';
 import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.component';
+import { InsightReadComponent } from './components/insight-read/insight-read.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.com
     WebsiteComponent,
     WcagComponent,
     InsightsComponent,
-    MenuWrapperComponent
+    MenuWrapperComponent,
+    InsightReadComponent
   ],
   imports: [
     BrowserModule,

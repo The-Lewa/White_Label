@@ -15,6 +15,7 @@ import { PhotoVideoComponent } from './components/photo-video/photo-video.compon
 import { WebsiteComponent } from './components/website/website.component';
 import { WcagComponent } from './components/wcag/wcag.component';
 import { InsightsComponent } from './components/insights/insights.component';
+import { InsightReadComponent } from './components/insight-read/insight-read.component';
 
 
 const appRoutes: Routes = [ 
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
     { path: 'website', component: WebsiteComponent }, 
     { path: 'wcag', component: WcagComponent }, 
     { path: 'insights', component: InsightsComponent }, 
+    { path: 'insights-read', component: InsightReadComponent }, 
     { path: '**', component: HomeComponent }, 
 ]
 

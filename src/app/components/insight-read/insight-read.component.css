@@ -1,0 +1,177 @@
+/* Banner */
+
+.ban_abt {
+    margin-top: 0.5vw;
+}
+
+.ban_abt .abt_txt {
+    position: absolute;
+    margin-top: 9vw;
+    left: 15vw;
+}
+
+.ban_abt .abt_txt h3 {
+    text-align: left;
+    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.img_abt {
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img_abt img {
+    visibility: hidden;
+}
+
+
+/*Texto*/
+
+.cont-text {
+    width: 60%;
+    margin: auto;
+}
+
+.cont-text h5 {
+    text-align: left;
+    font: normal normal 600 20px/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #D60725;
+    opacity: 1;
+}
+
+.cont-text h6 {
+    text-align: left;
+    font: normal normal bold 25px/35px SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.cont-text p {
+    text-align: left;
+    font: normal normal normal 20px/30px SF UI Display;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+}
+
+.rw-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.rw-one p,
+.rw-one img {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.rw-two p,
+.rw-two img {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.rw-one img,
+.rw-two img {
+    width: 300px;
+    height: 330px;
+}
+
+.rw-two {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* cintillo #2*/
+
+.ban_glo button {
+    position: absolute;
+    margin-top: 4.4vw;
+    right: 21%;
+}
+
+.ban_glo .btn_bred {
+    background: #D60725;
+    color: #FFFFFF;
+}
+
+.ban_glo .btn_bred:hover {
+    color: #D60725;
+    background: #FFFFFF;
+}
+
+
+/* Class button */
+
+.btn_bred {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.15vw solid #D60725;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
+    letter-spacing: 0px;
+    color: #383838;
+    opacity: 1;
+    padding: 0.3vw 1.5vw;
+}
+
+.txt_fle {
+    margin-right: 1.12vw;
+}
+
+.btn_fle {
+    display: flex;
+    flex-direction: row;
+}
+
+.wht_sha {
+    display: none;
+}
+
+.wht_sha img {
+    width: 1.9vw;
+    height: 1.9vw;
+}
+
+.btn_bred:hover {
+    background: #D60725 0% 0% no-repeat padding-box;
+}
+
+.btn_bred:hover .wht_sha {
+    display: grid;
+}
+
+.btn_bred:hover .redsha {
+    display: none;
+}
+
+.redsha img {
+    width: 1.9vw;
+    height: 1.9vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cont-text {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .cont-text {
+        width: 90%;
+        margin: auto;
+    }
+    .rw-two,
+    .rw-one {
+        flex-direction: column;
+        align-items: center;
+    }
+}
