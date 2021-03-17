@@ -1,875 +1,631 @@
-/* Menu */
-
-.menu-color {
-    width: 100%;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: fixed;
-    z-index: 3;
-    top: 0;
-    margin-top: 113px;
-}
-
-.wrapper {
-    max-height: 120px;
-    border: 1px solid #ddd;
-    width: 90%;
-    margin: auto;
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    background: #D60725 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: none;
-}
-
-.wrapper::-webkit-scrollbar {
-    width: 0;
-}
-
-.wrapper .item {
-    vertical-align: text-bottom;
-    min-width: 110px;
-    height: 120px;
-    text-align: center;
-    margin: auto;
-    width: 10%;
-    align-items: center;
-    display: table;
-}
-
-.wrapper .win-notac a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.wrapper .win-ac a {
-    display: table-cell;
-    vertical-align: middle;
-    text-decoration: none;
-    text-align: center;
-    font: normal normal bold 1vw/24px SF UI Display;
-    letter-spacing: 0px;
-    opacity: 1;
-    color: #D60725;
-}
-
-.wrapper .item a:hover {
-    text-decoration: none;
-    background-color: #FFFFFF;
-    color: #D60725;
-}
-
-.wrapper .item a:hover img {
-    transform: scale(1.2);
-}
-
-.wrapper .item p:active {
-    text-decoration: none;
-}
-
-.wrapper .item a img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.win-ac .icon-rd {
-    display: inline-block;
-}
-
-.win-ac .icon-wh {
-    display: none;
-}
-
-.icon-rd {
-    display: none;
-}
-
-.win-ac {
-    background-color: #FFFFFF;
-}
-
-.win-ac a {
-    text-decoration: none;
-    color: #D60725;
-}
-
-.wrapper .item a:hover .icon-rd {
-    display: inline-block;
-}
-
-.wrapper .item a:hover .icon-wh {
-    display: none;
-}
-
-
 /* Ban Social*/
 
 .ban_abt {
-    top: 0;
-    margin-top: 40px;
+  top: 0;
+  margin-top: 130px;
 }
 
 .ban_abt .abt_txt {
-    position: absolute;
-    margin-top: 12vw;
-    left: 20vw;
+  position: absolute;
+  margin-top: 8.5vw;
+  left: 20vw;
 }
 
 .ban_abt .abt_txt h3 {
-    text-align: left;
-    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    text-transform: uppercase;
+  text-align: left;
+  font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  text-transform: uppercase;
 }
 
 .ban_abt .abt_txt p {
-    text-align: left;
-    font: normal normal 600 1.2vw/30px SF UI Display;
-    letter-spacing: 0px;
-    color: #D60725;
-    opacity: 1;
+  text-align: left;
+  font: normal normal 600 1.2vw/1.7vw SF UI Display;
+  letter-spacing: 0px;
+  color: #d60725;
+  opacity: 1;
 }
-
 
 /* Class button */
 
 .btn_bred {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 0.15vw solid #D60725;
-    opacity: 1;
-    text-align: left;
-    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    padding: 0.3vw 1.5vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.15vw solid #d60725;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  padding: 0.3vw 1.5vw;
 }
 
 .txt_fle {
-    margin-right: 1.12vw;
+  margin-right: 1.12vw;
 }
 
 .btn_fle {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .wht_sha {
-    display: none;
+  display: none;
 }
 
 .wht_sha img {
-    width: 1.9vw;
-    height: 1.9vw;
+  width: 1.9vw;
+  height: 1.9vw;
 }
 
+.btn_bred:hover {
+  background: #d60725 0% 0% no-repeat padding-box;
+}
 
+.btn_bred:hover .wht_sha {
+  display: grid;
+}
+
+.btn_bred:hover .redsha {
+  display: none;
+}
+
+.redsha img {
+  width: 1.9vw;
+  height: 1.9vw;
+}
 
 /* Heart cero*/
-.hands_pic{
-    background-color: #383838;
+.hands_pic {
+  background-color: #383838;
 }
-.pic-gosht img{
- visibility: hidden;
-    
+.pic-gosht img {
+  visibility: hidden;
 }
 .hands_pic .carousel-text {
-    position: absolute;
-    left: 15vw;
+  position: absolute;
+  left: 15vw;
 }
 
 .ul_hand_pic {
-    position: absolute;
-    left: 14vw;
-    margin-top: 4%;
+  position: absolute;
+  left: 14vw;
+  margin-top: 4%;
 }
 
 .ul_hand_pic .display-text {
-    text-align: left;
-    font: normal normal 600 1vw/2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    width: 100%;
-    padding: 2px;
+  text-align: left;
+  font: normal normal 600 1vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 100%;
+  padding: 2px;
 }
 
 .ul_hand_pic h3 {
-    text-align: left;
-    font: normal normal 900 1.9vw/2.4vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    text-transform: uppercase;
+  text-align: left;
+  font: normal normal 900 1.9vw/2.4vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .ul_hand_pic span,
 .txt_hand_pic .page-title span {
-    color: #D60725;
+  color: #d60725;
 }
 
 .ul_hand_pic ul {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 .ul_hand_pic ul li span {
-    text-align: left;
-    font: normal normal 600 1.2vw/2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+  text-align: left;
+  font: normal normal 600 1.2vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .ul_hand_pic ul li {
-    color: #D60725;
-    line-height: 1.2vw;
-    font-size: 1.2vw;
+  color: #d60725;
+  line-height: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .ul_hand_pic button {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    color: #383838;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  color: #383838;
 }
 
 .ul_hand_pic button:hover {
-    background-color: #D60725;
-    color: #FFFFFF;
+  background-color: #d60725;
+  color: #ffffff;
 }
-.hands_pic .fram_sefo div{
-    position: absolute;
-    left: 35vw;
-    margin-top: 5vw;
+.hands_pic .fram_sefo div {
+  position: absolute;
+  left: 35vw;
+  margin-top: 5vw;
 }
-
 
 .fram_sefo div {
-    width: 27.81vw;
-    height: 27.81vw;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-    display: block;
-    margin-right: auto;
-    text-align: center;
-    margin-left: 19vw;
-  }
-  
+  width: 27.81vw;
+  height: 27.81vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  display: block;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 19vw;
+}
+
+/* Cards*/
 
 /* Cards*/
 
 .o_exp {
-    background: #F0F0F0 0% 0% no-repeat padding-box;
-    opacity: 1;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .o_exp h2 {
-    margin-top: 5vw;
-    text-align: center;
-    font: normal normal 900 1.18vw/1.8vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #D60725;
-    text-transform: uppercase;
-    opacity: 1;
+  margin-top: 5vw;
+  text-align: center;
+  font: normal normal 900 1.18vw/1.8vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 .o_exp p {
-    text-align: center;
-    font: normal normal normal 1vw/1.5vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
+  text-align: center;
+  font: normal normal normal 1vw/1.5vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
 }
 
 .o_exp .gro_wh {
-    width: 10.52vw;
-    height: 11.27vw;
-    border-radius: 6.39vw;
-    margin-top: -5.6vw;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
+  width: 10.52vw;
+  height: 11.27vw;
+  border-radius: 6.39vw;
+  margin-top: -5.6vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
 }
 
 .o_exp .card .gro_wh img {
-    width: 55px;
-    height: 55px;
-    display: block;
-    margin: auto;
+  width: 55px;
+  height: 55px;
+  display: block;
+  margin: auto;
 }
 
 .card_fle {
-    margin-top: 10vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .card_fle div {
-    margin-left: 0.6%;
-    margin-right: 0.6%;
+  margin-left: 0.6%;
+  margin-right: 0.6%;
 }
 
 .card_fle .card .card-body h4 {
-    text-align: center;
-    font: normal normal normal 1vw/1.5vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
+  text-align: center;
+  font: normal normal normal 1vw/1.5vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
 }
 
 .card_fle .card .card-body h3 {
-    text-align: center;
-    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #D60725;
-    opacity: 1;
+  text-align: center;
+  font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  opacity: 1;
 }
 
 .card_fle .card .card-body h5 {
-    text-align: center;
-    font: normal normal normal 0.9vw/0.4vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
+  text-align: center;
+  font: normal normal normal 0.9vw/0.4vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
 }
 
 .card_fle .card .card-body p {
-    text-align: center;
-    font: normal normal normal 1vw/0.4vw SF UI Display;
-    letter-spacing: 0px;
-    color: #D60725;
-    opacity: 1;
+  text-align: center;
+  font: normal normal normal 1vw/0.4vw SF UI Display;
+  letter-spacing: 0px;
+  color: #d60725;
+  opacity: 1;
 }
 
 .card_fle .card .card-body hr {
-    width: 30%;
-    margin: 2vw auto 1vw auto;
-    border: 1px solid #D60725;
-    color: #D60725;
-    background-color: #D60725;
+  width: 30%;
+  margin: 2vw auto 1vw auto;
+  border: 1px solid #d60725;
+  color: #d60725;
+  background-color: #d60725;
 }
 
 .card_fle .card {
-    width: 14.28vw;
-    height: 12.78vw;
+  width: 14.28vw;
+  height: 12.78vw;
 }
 
 #carouselmob {
-    display: none;
+  display: none;
 }
 
 .icons_fle {
-    margin-top: 3vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .icons_fle div {
-    padding: 0 5vw;
-    justify-content: center;
-    display: inline-block;
+  padding: 0 5vw;
+  justify-content: center;
+  display: inline-block;
 }
 
 .icons_fle div h3,
 .icons_fle div img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .icons_fle div h3 {
-    text-align: center;
-    font: normal normal bold 1.2vw/24px SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    margin: 8px;
+  text-align: center;
+  font: normal normal bold 1.2vw/1.5 SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  margin: 8px;
 }
-
 
 /* Black Icon*/
 
 .icon_our {
-    background: #000000 0% 0% no-repeat padding-box;
-    opacity: 1;
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .icon_our h1 {
-    text-align: left;
-    font: normal normal 900 3.05vw/3.3vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #D60725;
-    text-transform: uppercase;
-    margin-left: 15.5vw;
+  text-align: left;
+  font: normal normal 900 3.05vw/3.3vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  text-transform: uppercase;
+  margin-left: 15.5vw;
 }
 
 .icon_our h1 span,
 h3 span {
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .div-imagen {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .txt_ima_ico {
-    display: inline-block;
-    position: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .txt_ima_ico h3 {
-    text-align: center;
-    font: normal normal bold 1.3vw/2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #D60725;
-    margin-top: 2vw;
+  text-align: center;
+  font: normal normal bold 1.3vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #d60725;
+  margin-top: 2vw;
 }
 
 .icon_hom {
-    margin-top: 5vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .icon_hom .txt_ima_ico {
-    padding: 0 2.5vw 5vw 2.5vw;
-    justify-content: center;
-    display: inline-block;
+  padding: 0 2.5vw 5vw 2.5vw;
+  justify-content: center;
+  display: inline-block;
 }
 
 .icon_hom div h3,
 .icon_hom div img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* Cintillo */
 
 .ban_lov button {
-    position: absolute;
-    margin-top: 4.4vw;
-    left: 61%;
+  position: absolute;
+  margin-top: 4.4vw;
+  left: 61%;
 }
 
 .ban_lov .btn_bred {
-    background: #D60725;
-    color: #FFFFFF;
+  background: #d60725;
+  color: #ffffff;
 }
 
 .ban_lov .btn_bred:hover {
-    color: #D60725;
-    background: #FFFFFF;
+  color: #d60725;
+  background: #ffffff;
 }
-
-
-/*Carousel Cards*/
-
-.col_ca {
-    background: #383838 0% 0% no-repeat padding-box;
-    opacity: 1;
-}
-
-.tx_ca {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5vw;
-}
-
-.tx_ca .gallery {
-    width: 245px;
-}
-
-.tx_wht {
-    margin-left: 20vw;
-    width: 93%;
-    justify-content: center;
-    display: inline-block;
-}
-
-.car_cl,
-#abt_car_cards {
-    width: 37%;
-    justify-content: center;
-    display: inline-block;
-    margin-right: 23%;
-}
-
-.tx_wht h2 {
-    text-align: left;
-    font: normal normal 900 3.1vw/3.3vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    text-transform: uppercase;
-    opacity: 1;
-}
-
-.tx_wht span {
-    color: #D60725;
-}
-
-.card img {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 5vw;
-    margin: auto;
-    margin-top: -5vw;
-}
-
-.gallery-cell {
-    background: none;
-    border: none;
-    height: 400px;
-}
-
-.card {
-    margin-top: 6vw;
-    width: 18vw;
-    height: 22vw;
-}
-
-.card .card-body h4 {
-    text-align: center;
-    font: normal normal bold 1.3vw/2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    margin-top: 1vw;
-}
-
-.card .card-body h3 {
-    text-align: center;
-    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #D60725;
-    opacity: 1;
-}
-
-.card .card-body h5 {
-    text-align: center;
-    font: normal normal normal 0.9vw/0.4vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-}
-
-.card .card-body p {
-    text-align: center;
-    font: normal normal normal 1vw/0.4vw SF UI Display;
-    letter-spacing: 0px;
-    color: #D60725;
-    opacity: 1;
-}
-
-.card .card-body hr {
-    width: 30%;
-    margin: 2vw auto 1vw auto;
-    color: #D60725;
-    background-color: #D60725;
-    opacity: 1;
-}
-
-.carousel-control-next-icon {
-    content: url(./../../../assets/iconosWeb/WLNIconos/left-arrow.svg);
-    float: left;
-    background: none;
-    width: 2.25vw;
-    height: 2.25vw;
-    transform: rotate(180deg);
-    margin-right: -10vw;
-}
-
-.carousel-control-prev-icon {
-    content: url(./../../../assets/iconosWeb/WLNIconos/left-arrow.svg);
-    float: left;
-    background: none;
-    width: 2.25vw;
-    height: 2.25vw;
-    margin-left: -10vw;
-}
-
-
-/* Class button */
-
-.btn_bred {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 0.15vw solid #D60725;
-    opacity: 1;
-    text-align: left;
-    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    padding: 0.3vw 1.5vw;
-}
-
-.txt_fle {
-    margin-right: 1.12vw;
-}
-
-.btn_fle {
-    display: flex;
-    flex-direction: row;
-}
-
-.wht_sha {
-    display: none;
-}
-
-.wht_sha img {
-    width: 1.9vw;
-    height: 1.9vw;
-}
-
-.btn_bred:hover {
-    background: #D60725 0% 0% no-repeat padding-box;
-}
-
-.btn_bred:hover .wht_sha {
-    display: grid;
-}
-
-.btn_bred:hover .redsha {
-    display: none;
-}
-
-.redsha img {
-    width: 1.9vw;
-    height: 1.9vw;
-}
-
 
 /* Team*/
 
 .team_txt .carousel-text {
-    position: absolute;
-    left: 15vw;
+  position: absolute;
+  left: 15vw;
 }
 
 .txt_team_lef {
-    position: absolute;
-    left: 15vw;
-    margin-top: 5%;
+  position: absolute;
+  left: 15vw;
+  margin-top: 5%;
 }
 
 .ul_team {
-    position: absolute;
-    left: 50vw;
-    margin-top: 4%;
+  position: absolute;
+  left: 50vw;
+  margin-top: 4%;
 }
 
 .ul_team .display-text {
-    text-align: left;
-    font: normal normal 600 1vw/1.7vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    width: 65%;
+  text-align: left;
+  font: normal normal 600 1vw/1.7vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  width: 65%;
 }
 
 .txt_team_lef .page-title {
-    text-align: left;
-    font: normal normal 900 2.8vw/3.5vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    text-transform: uppercase;
+  text-align: left;
+  font: normal normal 900 2.8vw/3.5vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #383838;
+  text-transform: uppercase;
 }
 
 .txt_team_lef h4 {
-    text-align: left;
-    font: normal normal 900 1.2vw/1.7vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #D60725;
-    text-transform: uppercase;
-    opacity: 1;
+  text-align: left;
+  font: normal normal 900 1.2vw/1.7vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 .ul_team span,
 .txt_team_lef .page-title span {
-    color: #D60725;
+  color: #d60725;
 }
 
 .ul_team ul {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 .ul_team ul li span {
-    text-align: left;
-    font: normal normal 600 1.2vw/2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
+  text-align: left;
+  font: normal normal 600 1.2vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
 }
 
 .ul_team ul li {
-    color: #D60725;
-    line-height: 1.2vw;
-    font-size: 1.2vw;
+  color: #d60725;
+  line-height: 1.2vw;
+  font-size: 1.2vw;
 }
 
 .ul_team button {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    color: #383838;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  color: #383838;
 }
 
 .ul_team button:hover {
-    background-color: #D60725;
-    color: #FFFFFF;
+  background-color: #d60725;
+  color: #ffffff;
 }
 
 .pic_gosht img {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .pic_gosht {
-    background: #F0F0F0 0% 0% no-repeat padding-box;
-    opacity: 1;
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 /* cintillo #2*/
 
 .ban_glo button {
-    position: absolute;
-    margin-top: 4.4vw;
-    right: 21%;
+  position: absolute;
+  margin-top: 4.4vw;
+  right: 21%;
 }
 
 .ban_glo .btn_bred {
-    background: #D60725;
-    color: #FFFFFF;
+  background: #d60725;
+  color: #ffffff;
 }
 
 .ban_glo .btn_bred:hover {
-    color: #D60725;
-    background: #FFFFFF;
+  color: #d60725;
+  background: #ffffff;
 }
 
 @media only screen and (max-width: 1000px) {
-    .o_exp .gro_wh {
-        width: 100px;
-        height: 110px;
-        border-radius: 70px;
-        margin-top: -6vw;
-    }
+  /*ul backoffice*/
 
-    .card_fle .card {
-        width: 160px;
-        height: 180px;
-    }
+  .ul_heart_pic {
+    margin-left: 15vw;
+    margin-top: 9%;
+  }
+  .ul_hand_pic ul {
+    padding-left: 2vw;
+    margin-bottom: -0.2vw;
+    margin-top: -16px;
+  }
 
-
-    .card_fle .card .card-body h4 {
-        font-size: 13px;
-    }
-
-    .ban_abt{
-        margin-top: 75px;
-    }
+  .o_exp .gro_wh {
+    width: 100px;
+    height: 110px;
+    border-radius: 70px;
+    margin-top: -6vw;
+  }
+  .card_fle .card {
+    width: 160px;
+    height: 150px;
+  }
+  .card_fle .card .card-body h4 {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
-    /*wrapper*/
-    .wrapper {
-        width: 100%;
-    }
-    #primer {
-        margin-left: 250px;
-    }
-
-    .wrapper .win-notac a,
-    .wrapper .win-ac a {
-        font-size: 12px;
-    }
-
-    #carouselmob{
-        display: grid;
-    }
-
-    #carouseldesk{
-        display: none;
-    }
-
-    #carouselmob .card_fle .card .card-body h4 {
-       line-height: 15px;
-    }
+  #carouselmob {
+    display: grid;
+  }
+  #carouseldesk {
+    display: none;
+  }
+  #carouselmob .card_fle .card .card-body h4 {
+    line-height: 15px;
+  }
 }
 
 @media only screen and (max-width: 520px) {
-    /*wrapper*/
-   
-    #primer {
-        margin-left: 450px;
-    }
+  /*wrapper*/
+
+  #primer {
+    margin-left: 450px;
+  }
 }
 @media only screen and (max-width: 500px) {
-    /*BAnner 1*/
-    .ban_abt .abt_txt p {
-        margin-top: -8px;
-        margin-bottom: -8px;
-    }
-    .ban_abt .abt_txt {
-        margin-top: 8vw;
-        left: 13vw;
-    }
-    /*Heart*/
-    .heart_pic>img,
-    .team_txt>img {
-        transform: scale(1.2);
-        padding: 4vw 0;
-    }
-    .heart_pic,
-    .team_txt {
-        overflow: hidden;
-    }
-    .heart_pic .ul_heart_pic {
-        z-index: 1;
-        transform: scale(1.2);
-        margin-top: 7%;
-        left: 55vw;
-    }
-    .ul_heart_pic ul {
-        padding-left: 2vw;
-        margin-bottom: -2vw;
-        margin-top: -16px;
-    }
-        
-    .ul_heart_pic .display-text {
+  /*BAnner 1*/
+  .ban_abt .abt_txt p {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  .ban_abt .abt_txt {
+    margin-top: 8vw;
+    left: 13vw;
+  }
+  /*Heart*/
+  .heart_pic > img,
+  .team_txt > img {
+    transform: scale(1.2);
+    padding: 4vw 0;
+  }
+  .heart_pic,
+  .team_txt {
+    overflow: hidden;
+  }
+  .heart_pic .ul_heart_pic {
+    z-index: 1;
+    transform: scale(1.2);
+    margin-top: 7%;
+    left: 55vw;
+  }
+  .ul_hand_pic .display-text {
+    font-size: 1.3vw;
+    line-height: 2.3vw;
+    margin-bottom: 4.8vw;
+  }
+  .ul_hand_pic ul li span {
+    font-size: 1.4vw;
+    line-height: 2.2vw;
+  }
+  .ul_hand_pic ul {
+    padding-left: 2vw;
+    margin-bottom: -1.8vw;
+    margin-top: -16px;
+  }
+  .ul_hand_pic {
+    margin-top: 3%;
+  }
+  .ul_hand_pic .display-text {
     margin-top: -1vw;
-        font: normal normal 600 1vw/1.7vw SF UI Display;
-        width: 58%;
-    }
-    /*Cards*/
+    font: normal normal 600 1vw/1.7vw SF UI Display;
+  }
+  /*Cards*/
 
-    .o_exp h2 {
-        font-size: 13px;
-        line-height: 20px;
-        }
-    /*team txt*/
+  .o_exp h2 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  /*team txt*/
 
-    .ul_team ul {
-        padding-left: 2vw;
-        margin-bottom: -1vw;
-        margin-top: -1vw;
-    }
+  .ul_team ul {
+    padding-left: 2vw;
+    margin-bottom: -1vw;
+    margin-top: -1vw;
+  }
 
+  /*Iconos Rojos */
+  .icon_hom {
+    flex-direction: column;
+  }
+  .icon_our h1 {
+    text-align: center;
+    margin-left: 0;
+  }
+  .icon_our h1 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .txt_ima_ico h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /*Team*/
+  .ul_team .display-text {
+    font-size: 1.5vw;
+    line-height: 2vw;
+  }
+  .ul_team ul li span {
+    font-size: 1.8vw;
+    line-height: 2vw;
+  }
+  .ul_team ul {
+    margin-top: -10px;
+  }
+  .ul_team button {
+    margin-top: -3vw;
+  }
+
+.icons_fle div h3 {
+    font: normal normal bold 2vw/2.2 SF UI Display;
+    
+  }
 }

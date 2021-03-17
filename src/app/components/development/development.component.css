@@ -482,20 +482,13 @@ h3 span {
     .card_fle .card .card-body h4 {
         font-size: 13px;
     }
+    .ul_team ul {
+        margin-bottom: -1vw;
+        padding-left: 2vw;
+      }
 }
 
 @media only screen and (max-width: 650px) {
-    /*wrapper*/
-    .wrapper {
-        width: 100%;
-    }
-    #primer {
-        margin-left: 250px;
-    }
-    .wrapper .win-notac a,
-    .wrapper .win-ac a {
-        font-size: 12px;
-    }
     #carouselmob {
         display: grid;
     }
@@ -507,12 +500,6 @@ h3 span {
     }
 }
 
-@media only screen and (max-width: 520px) {
-    /*wrapper*/
-    #primer {
-        margin-left: 450px;
-    }
-}
 
 @media only screen and (max-width: 500px) {
     /*BAnner 1*/

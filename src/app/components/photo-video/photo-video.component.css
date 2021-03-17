@@ -1,881 +1,517 @@
 /* Ban Social*/
 
 .ban_abt {
-    top: 0;
-    margin-top: 130px;
-  }
-  
-  .ban_abt .abt_txt {
-    position: absolute;
-    margin-top: 14vw;
-    left: 18vw;
-  }
-  
-  .ban_abt .abt_txt h3 {
-    text-align: left;
-    font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    text-transform: uppercase;
-  }
-  
-  .ban_abt .abt_txt p {
-    text-align: left;
-    font: normal normal 600 1.2vw/30px SF UI Display;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-  }
-  
-  /* Class button */
-  
-  .btn_bred {
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 0.15vw solid #d60725;
-    opacity: 1;
-    text-align: left;
-    font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    padding: 0.3vw 1.5vw;
-  }
-  
-  .txt_fle {
-    margin-right: 1.12vw;
-  }
-  
-  .btn_fle {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .wht_sha {
-    display: none;
-  }
-  
-  .wht_sha img {
-    width: 1.9vw;
-    height: 1.9vw;
-  }
-  
-  .btn_bred:hover {
-    background: #d60725 0% 0% no-repeat padding-box;
-  }
-  
-  .btn_bred:hover .wht_sha {
-    display: grid;
-  }
-  
-  .btn_bred:hover .redsha {
-    display: none;
-  }
-  
-  .redsha img {
-    width: 1.9vw;
-    height: 1.9vw;
-  }
-  
-  
-  /* Heart cero*/
-  .hands_pic{
-      background-color: #383838;
-  }
-  .pic-gosht img{
-   visibility: hidden;
-      
-  }
-  .hands_pic .carousel-text {
-      position: absolute;
-      left: 15vw;
-  }
-  
-  .ul_hand_pic {
-      position: absolute;
-      left: 14vw;
-      margin-top: 4%;
-  }
-  
-  .ul_hand_pic .display-text {
-      text-align: left;
-      font: normal normal 600 1vw/2vw SF UI Display;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
-      width: 100%;
-      padding: 2px;
-  }
-  
-  .ul_hand_pic h3 {
-      text-align: left;
-      font: normal normal 900 1.9vw/2.4vw Heading Pro Ultra Wide;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      text-transform: uppercase;
-  }
-  
-  .ul_hand_pic span,
-  .txt_hand_pic .page-title span {
-      color: #D60725;
-  }
-  
-  .ul_hand_pic ul {
-      list-style-type: square;
-  }
-  
-  .ul_hand_pic ul li span {
-      text-align: left;
-      font: normal normal 600 1.2vw/2vw SF UI Display;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
-  }
-  
-  .ul_hand_pic ul li {
-      color: #D60725;
-      line-height: 1.2vw;
-      font-size: 1.2vw;
-  }
-  
-  .ul_hand_pic button {
-      background: #FFFFFF 0% 0% no-repeat padding-box;
-      color: #383838;
-  }
-  
-  .ul_hand_pic button:hover {
-      background-color: #D60725;
-      color: #FFFFFF;
-  }
-  .hands_pic .fram_sefo div{
-      position: absolute;
-      left: 35vw;
-      margin-top: 5vw;
-  }
-  
-  /* Service 4 */
-  
-  /* Mapa */
-  
-  .ul_heart_pic {
-    margin-left: 20vw;
-    margin-top: 8%;
-  }
-  
-  .ul_heart_pic .display-text {
-    text-align: left;
-    font: normal normal 600 1vw/1.7vw SF UI Display;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-  }
-  
-  .ul_heart_pic .page-title {
-    text-align: left;
-    font: normal normal 900 1.8vw/2.2vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #ffffff;
-    text-transform: uppercase;
-  }
-  
-  .ul_heart_pic span,
-  .txt_heart_pic .page-title span {
-    color: #d60725;
-  }
-  
-  .ul_heart_pic ul {
-    list-style-type: square;
-  }
-  
-  .ul_heart_pic ul li span {
-    text-align: left;
-    font: normal normal 600 1vw/1.6vw SF UI Display;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-  }
-  
-  .ul_heart_pic ul li {
-    color: #d60725;
-    line-height: 1.2vw;
-    font-size: 1.2vw;
-  }
-  
-  .ul_heart_pic button {
-    background: #ffffff 0% 0% no-repeat padding-box;
-    color: #383838;
-  }
-  
-  .ul_heart_pic button:hover {
-    background-color: #d60725;
-    color: #ffffff;
-  }
-  
-  .co_sefo {
-    background: #383838 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-  
-  .sefo_sec {
-    margin-top: 5vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .fram_sefo,
-  .sefo_sec .txt_sefo {
-    width: 100%;
-    justify-content: center;
-    display: inline-block;
-  }
-  
-  .fram_sefo div {
-    width: 27.81vw;
-    height: 27.81vw;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-    display: block;
-    margin-right: auto;
-    text-align: center;
-    margin-left: 19vw;
-  }
-  
-  .sefo_sec .txt_sefo h2 {
-    text-align: left;
-    font: normal normal 900 2vw/3vw Heading Pro Ultra Wide;
-    margin-left: 4vw;
-    transform: scaleY(0.9);
-    letter-spacing: 0px;
-    color: #ffffff;
-    text-transform: uppercase;
-    opacity: 1;
-  }
-  
-  .sefo_sec .txt_sefo h2 span {
-    font-family: Fira Sans;
-  }
-  
-  .sefo_sec .txt_sefo h5 {
-    text-align: left;
-    font: normal normal bold 1.28vw/1.5vw SF UI Display;
-    width: 45%;
-    margin-left: 4vw;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-  }
-  
-  .sefo_sec .txt_sefo p {
-    text-align: left;
-    font: normal normal normal 1vw/1.53vw SF UI Display;
-    width: 48%;
-    margin-left: 4vw;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-  }
-  
-  .sefo_sec .txt_sefo h6 {
-    text-align: left;
-    font: normal normal 600 1.1vw/2.2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-    margin-left: 4vw;
-  }
-  
-  .sefo_sec .txt_sefo button {
-    margin-top: 1vw;
-    margin-left: 4vw;
-  }
-  
-  /* cards */
-  
-  .o_exp {
-    background: #f0f0f0 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-  
-  .o_exp h2 {
-    margin-top: 5vw;
-    text-align: center;
-    font: normal normal 900 3vw/4vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #383838;
-    text-transform: uppercase;
-    opacity: 1;
-  }
-  
-  .o_exp p {
-    text-align: center;
-    font: normal normal normal 1vw/1.5vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-  }
-  
-  .o_exp .card {
-    width: 18.04vw;
-    height: 15.78vw;
-  }
-  
-  .card_fle {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 3vw;
-  }
-  
-  .card_fle div {
-    margin-left: 0.3%;
-    margin-right: 0.3%;
-  }
-  
-  .card_fle .card .card-body h3 {
-    margin-top: 2vw;
-    text-align: center;
-    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-    text-transform: uppercase;
-  }
-  
-  .card_fle .card .card-body h5 {
-    text-align: center;
-    font: normal normal normal 0.9vw/1.2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    margin-top: 2vw;
-  }
-  
-  /* Lorem */
-  
-  .se_lor {
-    background: #ffffff 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-  
-  .lorem_sec {
-    margin-top: 5vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .lorem_sec .fram_sefo,
-  .lorem_sec .txt_sefo {
-    width: 100%;
-    justify-content: center;
-    display: inline-block;
-  }
-  
-  .lorem_sec .fram_sefo div {
-    width: 27.81vw;
-    height: 27.81vw;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
-    opacity: 1;
-    display: block;
-    margin-right: auto;
-    text-align: center;
-    margin-left: 19vw;
-  }
-  
-  .lorem_sec .txt_sefo h5 {
-    text-align: left;
-    font: normal normal bold 1.28vw/1.5vw SF UI Display;
-    width: 45%;
-    margin-left: 4vw;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-  }
-  
-  .lorem_sec .txt_sefo p {
-    text-align: left;
-    font: normal normal normal 1vw/1.53vw SF UI Display;
-    width: 48%;
-    margin-left: 4vw;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-  }
-  
-  /* Cintillo */
-  
-  .ban_lov button {
-    position: absolute;
-    margin-top: 4.4vw;
-    left: 61%;
-  }
-  
-  .ban_lov .btn_bred {
-    background: #d60725;
-    color: #ffffff;
-  }
-  
-  .ban_lov .btn_bred:hover {
-    color: #d60725;
-    background: #ffffff;
-  }
-  
-  /*Carousel Cards*/
-  
-  .col_ca {
-    background: #383838 0% 0% no-repeat padding-box;
-    opacity: 1;
-  }
-  
-  .tx_ca {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5vw;
-  }
-  
-  .tx_ca .gallery {
-    width: 245px;
-  }
-  
-  .tx_wht {
-    margin-left: 20vw;
-    width: 93%;
-    justify-content: center;
-    display: inline-block;
-  }
-  
-  .car_cl,
-  #abt_car_cards {
-    width: 37%;
-    justify-content: center;
-    display: inline-block;
-    margin-right: 23%;
-  }
-  
-  .tx_wht h2 {
-    text-align: left;
-    font: normal normal 900 3.1vw/3.3vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    text-transform: uppercase;
-    opacity: 1;
-  }
-  
-  .tx_wht span {
-    color: #d60725;
-  }
-  
-  #abt_car_cards .card img {
-    width: 10vw;
-    height: 10vw;
-    border-radius: 5vw;
-    margin: auto;
-    margin-top: -5vw;
-  }
-  
-  .gallery-cell {
-    background: none;
-    border: none;
-    height: 400px;
-  }
-  
-  #abt_car_cards .card {
-    margin-top: 6vw;
-    width: 18vw;
-    height: 22vw;
-  }
-  
-  #abt_car_cards .card .card-body h4 {
-    text-align: center;
-    font: normal normal bold 1.3vw/2vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-    margin-top: 1vw;
-  }
-  
-  #abt_car_cards .card .card-body h3 {
-    text-align: center;
-    font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-  }
-  
-  #abt_car_cards .card .card-body h5 {
-    text-align: center;
-    font: normal normal normal 0.9vw/0.4vw SF UI Display;
-    letter-spacing: 0px;
-    color: #383838;
-    opacity: 1;
-  }
-  
-  #abt_car_cards .card .card-body p {
-    text-align: center;
-    font: normal normal normal 1vw/0.4vw SF UI Display;
-    letter-spacing: 0px;
-    color: #d60725;
-    opacity: 1;
-    background-color: blueviolet;
-  }
-  
-  #abt_car_cards .card .card-body hr {
-    width: 30%;
-    margin: 2vw auto 1vw auto;
-    color: #d60725;
-    background-color: #d60725;
-    opacity: 1;
-  }
-  
-  #abt_car_cards .card {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .carousel-control-next-icon {
-    float: right;
-    margin-right: -10vw;
-  }
-  
-  .carousel-control-prev-icon {
-    float: left;
-    margin-left: -10vw;
-  }
-  
-  
-  /* Team*/
-  
-  .team_txt .carousel-text {
-      position: absolute;
-      left: 15vw;
-  }
-  
-  .txt_team_lef {
-      position: absolute;
-      left: 15vw;
-      margin-top: 5%;
-  }
-  
-  .ul_team {
-      position: absolute;
-      left: 50vw;
-      margin-top: 4%;
-  }
-  
-  .ul_team .display-text {
-      text-align: left;
-      font: normal normal 600 1vw/1.7vw SF UI Display;
-      letter-spacing: 0px;
-      color: #383838;
-      opacity: 1;
-      width: 65%;
-  }
-  
-  .txt_team_lef .page-title {
-      text-align: left;
-      font: normal normal 900 2.8vw/3.5vw Heading Pro Ultra Wide;
-      letter-spacing: 0px;
-      color: #383838;
-      text-transform: uppercase;
-  }
-  
-  .txt_team_lef h4 {
-      text-align: left;
-      font: normal normal 900 1.2vw/1.7vw Heading Pro Ultra Wide;
-      letter-spacing: 0px;
-      color: #D60725;
-      text-transform: uppercase;
-      opacity: 1;
-  }
-  
-  .ul_team span,
-  .txt_team_lef .page-title span {
-      color: #D60725;
-  }
-  
-  .ul_team ul {
-      list-style-type: square;
-  }
-  
-  .ul_team ul li span {
-      text-align: left;
-      font: normal normal 600 1.2vw/2vw SF UI Display;
-      letter-spacing: 0px;
-      color: #383838;
-      opacity: 1;
-  }
-  
-  .ul_team ul li {
-      color: #D60725;
-      line-height: 1.2vw;
-      font-size: 1.2vw;
-  }
-  
-  .ul_team button {
-      background: #FFFFFF 0% 0% no-repeat padding-box;
-      color: #383838;
-  }
-  
-  .ul_team button:hover {
-      background-color: #D60725;
-      color: #FFFFFF;
-  }
-  
-  .pic_gosht img {
-      visibility: hidden;
-  }
-  
-  .pic_gosht {
-      background: #F0F0F0 0% 0% no-repeat padding-box;
-      opacity: 1;
-  }
-  
+  top: 0;
+  margin-top: 130px;
+}
+
+.ban_abt .abt_txt {
+  position: absolute;
+  margin-top: 7vw;
+  left: 18vw;
+}
+
+.ban_abt .abt_txt h3 {
+  text-align: left;
+  font: normal normal 900 3vw/3vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.ban_abt .abt_txt p {
+  text-align: left;
+  font: normal normal 600 1.2vw/1.7vw SF UI Display;
+  letter-spacing: 0px;
+  color: #d60725;
+  opacity: 1;
+}
+
+/* Class button */
+
+.btn_bred {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0.15vw solid #d60725;
+  opacity: 1;
+  text-align: left;
+  font: normal normal 900 1vw/1.9vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  padding: 0.3vw 1.5vw;
+}
+
+.txt_fle {
+  margin-right: 1.12vw;
+}
+
+.btn_fle {
+  display: flex;
+  flex-direction: row;
+}
+
+.wht_sha {
+  display: none;
+}
+
+.wht_sha img {
+  width: 1.9vw;
+  height: 1.9vw;
+}
+
+.btn_bred:hover {
+  background: #d60725 0% 0% no-repeat padding-box;
+}
+
+.btn_bred:hover .wht_sha {
+  display: grid;
+}
+
+.btn_bred:hover .redsha {
+  display: none;
+}
+
+.redsha img {
+  width: 1.9vw;
+  height: 1.9vw;
+}
+
+/* Heart cero*/
+.hands_pic {
+  background-color: #383838;
+}
+.pic-gosht img {
+  visibility: hidden;
+}
+.hands_pic .carousel-text {
+  position: absolute;
+  left: 15vw;
+}
+
+.ul_hand_pic {
+  position: absolute;
+  left: 14vw;
+  margin-top: 4%;
+}
+
+.ul_hand_pic .display-text {
+  text-align: left;
+  font: normal normal 600 1vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 100%;
+  padding: 2px;
+}
+
+.ul_hand_pic h3 {
+  text-align: left;
+  font: normal normal 900 1.9vw/2.4vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.ul_hand_pic span,
+.txt_hand_pic .page-title span {
+  color: #d60725;
+}
+
+.ul_hand_pic ul {
+  list-style-type: square;
+}
+
+.ul_hand_pic ul li span {
+  text-align: left;
+  font: normal normal 600 1.2vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.ul_hand_pic ul li {
+  color: #d60725;
+  line-height: 1.2vw;
+  font-size: 1.2vw;
+}
+
+.ul_hand_pic button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  color: #383838;
+}
+
+.ul_hand_pic button:hover {
+  background-color: #d60725;
+  color: #ffffff;
+}
+.hands_pic .fram_sefo div {
+  position: absolute;
+  left: 35vw;
+  margin-top: 5vw;
+}
+
+/* Service 4 */
+
+/* Mapa */
+
+.fram_sefo,
+.sefo_sec .txt_sefo {
+  width: 100%;
+  justify-content: center;
+  display: inline-block;
+}
+
+.fram_sefo div {
+  width: 27.81vw;
+  height: 27.81vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  display: block;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 19vw;
+}
+
+/* cards */
+
+/* Cards*/
+
+.o_exp {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.o_exp h2 {
+  margin-top: 5vw;
+  text-align: center;
+  font: normal normal 900 1.18vw/1.8vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.o_exp p {
+  text-align: center;
+  font: normal normal normal 1vw/1.5vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+}
+
+.o_exp .gro_wh {
+  width: 10.52vw;
+  height: 11.27vw;
+  border-radius: 6.39vw;
+  margin-top: -5.6vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.o_exp .card .gro_wh img {
+  width: 55px;
+  height: 55px;
+  display: block;
+  margin: auto;
+}
+
+.card_fle {
+  margin-top: 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card_fle div {
+  margin-left: 0.6%;
+  margin-right: 0.6%;
+}
+
+.card_fle .card .card-body h4 {
+  text-align: center;
+  font: normal normal normal 1vw/1.5vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+}
+
+.card_fle .card .card-body h3 {
+  text-align: center;
+  font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  opacity: 1;
+}
+
+.card_fle .card .card-body h5 {
+  text-align: center;
+  font: normal normal normal 0.9vw/0.4vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+}
+
+.card_fle .card .card-body p {
+  text-align: center;
+  font: normal normal normal 1vw/0.4vw SF UI Display;
+  letter-spacing: 0px;
+  color: #d60725;
+  opacity: 1;
+}
+
+.card_fle .card .card-body hr {
+  width: 30%;
+  margin: 2vw auto 1vw auto;
+  border: 1px solid #d60725;
+  color: #d60725;
+  background-color: #d60725;
+}
+
+.card_fle .card {
+  width: 14.28vw;
+  height: 12.78vw;
+}
+
+#carouselmob {
+  display: none;
+}
+
+.icons_fle {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icons_fle div {
+  padding: 0 5vw;
+  justify-content: center;
+  display: inline-block;
+}
+
+.icons_fle div h3,
+.icons_fle div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.icons_fle div h3 {
+  text-align: center;
+  font: normal normal bold 1.2vw/24px SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  margin: 8px;
+}
+
+/* Cintillo */
+
+.ban_lov button {
+  position: absolute;
+  margin-top: 4.4vw;
+  left: 61%;
+}
+
+.ban_lov .btn_bred {
+  background: #d60725;
+  color: #ffffff;
+}
+
+.ban_lov .btn_bred:hover {
+  color: #d60725;
+  background: #ffffff;
+}
+
+/* Team*/
+
+.team_txt .carousel-text {
+  position: absolute;
+  left: 15vw;
+}
+
+.txt_team_lef {
+  position: absolute;
+  left: 15vw;
+  margin-top: 5%;
+}
+
+.ul_team {
+  position: absolute;
+  left: 50vw;
+  margin-top: 4%;
+}
+
+.ul_team .display-text {
+  text-align: left;
+  font: normal normal 600 1vw/1.7vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  width: 65%;
+}
+
+.txt_team_lef .page-title {
+  text-align: left;
+  font: normal normal 900 2.8vw/3.5vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #383838;
+  text-transform: uppercase;
+}
+
+.txt_team_lef h4 {
+  text-align: left;
+  font: normal normal 900 1.2vw/1.7vw Heading Pro Ultra Wide;
+  letter-spacing: 0px;
+  color: #d60725;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.ul_team span,
+.txt_team_lef .page-title span {
+  color: #d60725;
+}
+
+.ul_team ul {
+  list-style-type: square;
+}
+
+.ul_team ul li span {
+  text-align: left;
+  font: normal normal 600 1.2vw/2vw SF UI Display;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+}
+
+.ul_team ul li {
+  color: #d60725;
+  line-height: 1.2vw;
+  font-size: 1.2vw;
+}
+
+.ul_team button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  color: #383838;
+}
+
+.ul_team button:hover {
+  background-color: #d60725;
+  color: #ffffff;
+}
+
+.pic_gosht img {
+  visibility: hidden;
+}
+
+.pic_gosht {
+  background: #f0f0f0 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
 @media only screen and (max-width: 1000px) {
-    .o_exp .gro_wh {
-        width: 100px;
-        height: 110px;
-        border-radius: 70px;
-        margin-top: -6vw;
-        background-color: aqua;
-    }
-    .o_exp .card_fle .card {
-        width: 140px;
-        height: 90px;
-    }
-    .o_exp .card_fle .card .card-body h4 {
-        font-size: 13px;
-    }
+  /*ul backoffice*/
+
+  .ul_heart_pic {
+    margin-left: 15vw;
+    margin-top: 9%;
+  }
+  .ul_hand_pic ul {
+    padding-left: 2vw;
+    margin-bottom: -0.2vw;
+    margin-top: -16px;
+  }
+
+  .o_exp .gro_wh {
+    width: 100px;
+    height: 110px;
+    border-radius: 70px;
+    margin-top: -6vw;
+  }
+  .card_fle .card {
+    width: 160px;
+    height: 150px;
+  }
+  .card_fle .card .card-body h4 {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
-    /*wrapper*/
-    .wrapper {
-        width: 100%;
-    }
-    #primer {
-        margin-left: 250px;
-    }
-    .wrapper .win-notac a,
-    .wrapper .win-ac a {
-        font-size: 12px;
-    }
-    #carouselmob {
-        display: grid;
-    }
-    #carouseldesk {
-        display: none;
-    }
-    #carouselmob .card_fle .card .card-body h4 {
-        line-height: 15px;
-    }
-    /* Carousel*/
-    .col_ca .card .card-body h4 {
-        font-size: 1.1vw;
-    }
-    /*Service lorem*/
-    .sefo_sec {
-        flex-direction: column;
-    }
-    .sefo_sec .fram_sefo div {
-        margin: auto;
-    }
-    .sefo_sec .txt_sefo {
-        text-align: center;
-    }
-    .sefo_sec .txt_sefo h2 {
-        font-size: 2.5vw;
-        text-align: center;
-        margin-top: 1vw;
-        margin-left: 0;
-    }
-    .sefo_sec .txt_sefo h5 {
-        font-size: 1.8vw;
-        text-align: center;
-        margin-left: 0;
-        width: 45%;
-        margin: auto;
-        line-height: 1.9vw;
-    }
-    .sefo_sec .txt_sefo p {
-        text-align: center;
-        font-size: 1.5vw;
-        width: 48%;
-        margin-left: 0;
-        margin: auto;
-        line-height: 1.9vw;
-        padding: 2vw 0;
-    }
-    .sefo_sec .txt_sefo h6 {
-        text-align: center;
-        font-size: 1.5vw;
-        width: 48%;
-        margin-left: 0;
-        margin: auto;
-        line-height: 1.9vw;
-    }
-    .sefo_sec .txt_sefo button {
-        margin-left: 0;
-    }
-}
-
-@media only screen and (max-width: 520px) {
-    /*wrapper*/
-    #primer {
-        margin-left: 450px;
-    }
+  #carouselmob {
+    display: grid;
+  }
+  #carouseldesk {
+    display: none;
+  }
+  #carouselmob .card_fle .card .card-body h4 {
+    line-height: 15px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    /*BAnner 1*/
-    .ban_abt .abt_txt p {
-        margin-top: -8px;
-        margin-bottom: -8px;
-    }
-    .ban_abt .abt_txt {
-        margin-top: 8vw;
-        left: 13vw;
-    }
-    /*Heart*/
-    .heart_pic>img,
-    .team_txt>img {
-        transform: scale(1.2);
-        padding: 4vw 0;
-    }
-    .heart_pic,
-    .team_txt {
-        overflow: hidden;
-    }
-    .heart_pic .ul_heart_pic {
-        z-index: 1;
-        transform: scale(1.2);
-        margin-top: 7%;
-        left: 55vw;
-    }
-    .ul_heart_pic ul {
-        padding-left: 2vw;
-        margin-bottom: -2vw;
-        margin-top: -16px;
-    }
-    .ul_heart_pic .display-text {
-        margin-top: -1vw;
-        font: normal normal 600 1vw/1.7vw SF UI Display;
-        width: 58%;
-    }
-    /*Cards*/
-    .o_exp h2 {
-        font-size: 13px;
-        line-height: 20px;
-    }
-    .card_fle {
-        align-items: center;
-        flex-direction: column;
-    }
-    .o_exp .card_fle .card {
-        margin-bottom: 10px;
-        width: 220px;
-        height: 170px;
-    }
-    .card_fle .card .card-body h3 {
-        margin-top: 10px;
-        font-size: 12px;
-        line-height: 15px;
-    }
-    .card_fle .card .card-body h5 {
-        font-size: 10px;
-        line-height: 13px;
-        margin-top: 0;
-    }
-    /*Lorem ipsum*/
-    .lorem_sec {
-        flex-direction: column;
-        align-items: center;
-    }
-    .lorem_sec .fram_sefo div {
-        margin-left: 0;
-        margin: auto;
-        margin-bottom: 30px;
-        width: 150px;
-        height: 150px;
-    }
-    .lorem_sec .txt_sefo h5 {
-        text-align: center;
-        font-size: 15px;
-        margin: auto;
-        line-height: 25px;
-    }
-    .lorem_sec .txt_sefo p {
-        text-align: center;
-        font-size: 14px;
-        margin: auto;
-        line-height: 25px;
-        width: 65%;
-    }
-    /*team txt*/
-    .ul_team ul {
-        padding-left: 2vw;
-        margin-bottom: -1vw;
-        margin-top: -1vw;
-    }
-    /* Carousel*/
-    #abt_car_cards .card .card-body h4 {
-        font-size: 1vw;
-    }
-    #abt_car_cards .card .card-body h5 {
-        margin-top: -1vw;
-        margin-bottom: -1vw;
-    }
-    .tx_ca {
-        flex-direction: column;
-    }
-    .tx_wht h2 {
-        text-align: center;
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .tx_wht {
-        margin-left: 0vw;
-        width: 100%;
-    }
-    #abt_car_cards .card img {
-        width: 14vw;
-        height: 14vw;
-        border-radius: 7vw;
-        margin-top: -6vw;
-    }
-    .car_cl,
-    #abt_car_cards {
-        width: 150px;
-        justify-content: center;
-        display: inline-block;
-        margin: auto;
-    }
-    #abt_car_cards .card {
-        margin-top: 6vw;
-        width: 130px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #abt_car_cards .card .card-body h4 {
-        font-size: 10px;
-        width: 100%;
-        line-height: 13px;
-    }
-    #abt_car_cards .card .card-body {
-        width: 100%;
-    }
-    #abt_car_cards .card .card-body h3 {
-        font-size: 8px;
-        line-height: 11px;
-    }
-    #abt_car_cards .card .card-body h5 {
-        font-size: 8px;
-        line-height: 11px;
-    }
+  /*BAnner 1*/
+  .ban_abt .abt_txt p {
+    margin-top: -8px;
+    margin-bottom: -8px;
+  }
+  .ban_abt .abt_txt {
+    margin-top: 8vw;
+    left: 13vw;
+  }
+  /*Heart*/
+  .heart_pic > img,
+  .team_txt > img {
+    transform: scale(1.2);
+    padding: 4vw 0;
+  }
+  .heart_pic,
+  .team_txt {
+    overflow: hidden;
+  }
+  .heart_pic .ul_heart_pic {
+    z-index: 1;
+    transform: scale(1.2);
+    margin-top: 7%;
+    left: 55vw;
+  }
+  .ul_heart_pic ul {
+    padding-left: 2vw;
+    margin-bottom: -2vw;
+    margin-top: -16px;
+  }
+  .ul_heart_pic .display-text {
+    margin-top: -1vw;
+    font: normal normal 600 1vw/1.7vw SF UI Display;
+    width: 58%;
+  }
+  /*Cards*/
+  .o_exp h2 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .o_exp .gro_wh {
+    margin-top: -11vw;
+  }
+  #carouselmob {
+    margin-top: 15px;
+    height: 300px;
+  }
+  #carouselmob .card {
+    margin-top: 20px;
+  }
+  /*team txt*/
+  .ul_team ul {
+    padding-left: 2vw;
+    margin-bottom: -1vw;
+    margin-top: -1vw;
+  }
 }
