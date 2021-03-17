@@ -7,6 +7,47 @@
     <br>
     <h5>Fill the form and our sales team will contact you shortly</h5>
 </div>
+
+<h1>Google reCAPTHA Demo</h1>
+<form id="comment_form" action='/submit' method="post">
+  <input type="email" placeholder="Type your email" size="40"><br><br>
+  <textarea name="comment" rows="8" cols="39"></textarea><br><br>
+  <div class="g-recaptcha" data-sitekey="--paste your site key here--"></div><br>
+  <input type="submit" name="submit" value="Post comment"><br><br>
+</form>
+
+<form id="formulario" name="formulario" method="post" action="procesar.php" role="form" onsubmit="enviarFormulario();">
+
+    <div class="form-group">
+        <label for="nya" class="negrita2">Nombres y Apellidos:</label>
+        <input type="text" class="form-control" id="nya" name="nya" placeholder="Ingresa tus Nombres y Apellidos"
+            required>
+    </div>
+    <div class="form-group">
+        <label for="telefono" class="negrita2">Ingresa tu Número de Telefono o Celular:</label>
+        <input type="phone" class="form-control" id="telefono" name="telefono" placeholder="Ingresa tu Número" required>
+    </div>
+    <div class="form-group">
+        <label for="email" class="negrita2">Email:</label>
+        <input type="email" class="form-control" id="email" id="email" placeholder="Ingresa tu Correo" required>
+    </div>
+    <div class="form-group">
+        <label for="asunto" class="negrita2">Asunto:</label>
+        <input type="text" class="form-control" id="asunto" id="asunto" placeholder="Ingresa el Asunto de tu Mensaje"
+            required>
+    </div>
+    <div class="form-group">
+        <label for="mensaje" class="negrita2">Asunto:</label>
+        <textarea class="form-control" id="mensaje" id="mensaje" placeholder="Ingresa  tu Mensaje" required></textarea>
+    </div>
+
+    <!-- Campos oculto para el token y action -->
+    <input type="hidden" id="token" name="token">
+    <input type="hidden" id="action" name="action" value="procesar">
+
+    <input type="submit" class="btn btn-primary" value="Aceptar" id="btnenviar" name="btnenviar">
+</form>
+
 <div class="rwcaont">
 
     <div class="clm-left">
@@ -48,7 +89,7 @@
             <textarea class="form-control" aria-label="With textarea"></textarea>
         </div>
         <br>
-        <form >
+        <form>
             <ngx-recaptcha2 #captchaElem [siteKey]="siteKey">
             </ngx-recaptcha2>
         </form>

@@ -13,7 +13,7 @@ export class ContactComponent implements OnInit {
   constructor(
     private reCaptchaV3Service: ReCaptchaV3Service
   ) {
-    this.siteKey = '6Lea24EaAAAAADe2_NubINn8FdZsRGXFTkr7NhIL';
+    this.siteKey = "6Lea24EaAAAAADe2_NubINn8FdZsRGXFTkr7NhIL";
   }
 
 
