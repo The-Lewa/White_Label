@@ -7,24 +7,16 @@ import { ReCaptchaV3Service } from 'ngx-captcha';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-
-  siteKey: string;
-
-  constructor(
-    private reCaptchaV3Service: ReCaptchaV3Service
-  ) {
-    this.siteKey = "6Lea24EaAAAAADe2_NubINn8FdZsRGXFTkr7NhIL";
+  resolved(captchaResponse: string) {
+    console.log(`Resolved captcha with response: ${captchaResponse}`);
   }
 
-
+  constructor(
+  ) {
+  }
 
   ngOnInit(): void {
     this.topFunction();
-    this.reCaptchaV3Service.execute(this.siteKey, 'homepage', (token) => {
-      console.log('This is your token: ', token);
-    }, {
-      useGlobalDomain: false
-    });
   }
 
   topFunction() {

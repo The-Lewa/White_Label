@@ -23,6 +23,7 @@ import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.com
 import { InsightReadComponent } from './components/insight-read/insight-read.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgxCaptchaModule } from 'ngx-captcha';
+import { RecaptchaModule } from "ng-recaptcha";
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { NgxCaptchaModule } from 'ngx-captcha';
     BrowserModule,
     AppRoutingModule,
     routing,
+    RecaptchaModule,
     ReactiveFormsModule,
     NgxCaptchaModule
   ],
