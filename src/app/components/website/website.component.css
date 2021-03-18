@@ -1,35 +1,3 @@
-/* Mapa */
-
-.map_north {
-  background: #000000 0% 0% no-repeat padding-box;
-  opacity: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.pic_map {
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-.txt_map {
-  width: 90%;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  padding-left: 5vw;
-}
-
-.pic_map img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-left: 25%;
-}
-
 /* Ban Social*/
 
 .ban_abt {
@@ -118,19 +86,37 @@
   width: 1.9vw;
   height: 1.9vw;
 }
+/* Mapa */
 
+.map_north {
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pic_map {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt_map {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5vw;
+}
+
+.pic_map img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 25%;
+}
 /* Heart cero*/
-
-.heart_pic .carousel-text {
-  position: absolute;
-  left: 15vw;
-}
-
-.txt_heart_pic {
-  position: absolute;
-  left: 15vw;
-  margin-top: 5%;
-}
 
 .ul_heart_pic {
   left: 50vw;
@@ -235,6 +221,9 @@
   display: block;
   margin: auto;
 }
+.iconos-mov {
+  display: none;
+}
 
 .card_fle {
   margin-top: 10vw;
@@ -328,7 +317,6 @@
 }
 /*black icons*/
 
-
 /* Black Icon*/
 
 .icon_our {
@@ -340,14 +328,14 @@
   text-align: left;
   font: normal normal 900 3.05vw/3.3vw Heading Pro Ultra Wide;
   letter-spacing: 0px;
-  color: #D60725;
+  color: #d60725;
   text-transform: uppercase;
   margin-left: 15.5vw;
 }
 
 .icon_our h1 span,
 h3 span {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .div-imagen {
@@ -364,7 +352,7 @@ h3 span {
   text-align: center;
   font: normal normal bold 1.3vw/2vw SF UI Display;
   letter-spacing: 0px;
-  color: #D60725;
+  color: #d60725;
   margin-top: 2vw;
 }
 
@@ -473,6 +461,7 @@ h3 span {
 .pic_gosht {
   background: #f0f0f0 0% 0% no-repeat padding-box;
   opacity: 1;
+  width: 1500px;
 }
 
 /* cintillo*/
@@ -558,59 +547,119 @@ h3 span {
   .ul_team ul {
     margin-bottom: -2vw;
   }
-  
 }
 
 @media only screen and (max-width: 500px) {
   /*BAnner 1*/
-  .ban_abt .abt_txt p {
-    margin-top: -8px;
-    margin-bottom: -8px;
+  .ban_abt {
+    overflow: hidden;
   }
+  .ban_abt .img_abt img {
+    width: 140vw;
+    height: 50vw;
+    margin-left: -95px;
+  }
+
   .ban_abt .abt_txt {
-    margin-top: 8vw;
-    left: 13vw;
+    margin-top: 12vw;
+    left: 7vw;
   }
+
+  .ban_abt .abt_txt h3 {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+
   .ban_abt .abt_txt h5 {
-    font: normal normal 600 1.5vw/1.9vw SF UI Display;
+    font: normal normal 600 2.5vw/2.7vw SF UI Display;
+    width: 90%;
     margin-top: -1vw;
-    margin-bottom: -2vw;
+    margin-bottom: -4vw;
+  }
+
+  /* Class button banner */
+
+  .ban_abt button {
+    margin-top: 25px;
+  }
+  .ban_abt .btn_bred {
+    font-size: 8px;
+    padding: 5px 6px;
+    line-height: 9px;
+  }
+
+  .ban_abt .btn_bred img {
+    width: 10px;
+    height: 10px;
+  }
+  /*Maps*/
+
+  .map_north {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic_map img {
+    margin-left: auto;
+    width: 70%;
   }
   /*Heart*/
   .heart_pic > img,
   .team_txt > img {
-    transform: scale(1.2);
     padding: 4vw 0;
   }
-  .heart_pic,
-  .team_txt {
+  .ul_heart_pic {
     overflow: hidden;
   }
   .heart_pic .ul_heart_pic {
     z-index: 1;
-    transform: scale(1.2);
-    margin-top: 7%;
-    left: 55vw;
   }
   .ul_heart_pic ul {
     padding-left: 2vw;
-    margin-bottom: -2vw;
-    margin-top: -16px;
-  }
-  .ul_heart_pic .display-text {
-    margin-top: -1vw;
-    font: normal normal 600 1vw/1.7vw SF UI Display;
+    margin-bottom: 1vw;
+    margin-top: -7px;
   }
 
   .ul_heart_pic button {
     margin-left: 0;
   }
   .ul_heart_pic {
-    transform: scale(1.2);
-    margin-top: 30%;
-    z-index: 1;
+  }
+
+  .ul_heart_pic .page-title {
+    font-size: 23px;
+    line-height: 25px;
+    margin-top: 25px;
+    padding-top: 10px;
+  }
+  .ul_heart_pic .display-text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .ul_heart_pic ul li span {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .txt_map {
+    width: auto;
+  }
+  .ul_heart_pic {
+    text-align: left;
+    margin-top: -1vw;
   }
   /*Cards*/
+
+  .iconos-mov {
+    display: grid;
+  }
+
+  .iconos-desk {
+    display: none;
+  }
+
   .o_exp h2 {
     font-size: 13px;
     line-height: 20px;
@@ -625,37 +674,51 @@ h3 span {
   #carouselmob .card {
     margin-top: 20px;
   }
-  
-    /*Iconos Rojos */
-    .icon_hom {
-      flex-direction: column;
+  .icons_fle div h3 {
+    font-size: 11px;
+  }
+  /*Iconos Rojos */
+  .icon_hom {
+    flex-direction: column;
   }
   .icon_our h1 {
-      text-align: center;
-      margin-left: 0;
+    text-align: center;
+    margin-left: 0;
   }
   .icon_our h1 {
-      font-size: 20px;
-      line-height: 25px;
+    font-size: 20px;
+    line-height: 25px;
   }
   .txt_ima_ico h3 {
-      font-size: 15px;
-      line-height: 20px;
+    font-size: 15px;
+    line-height: 20px;
   }
   /*Team*/
   .ul_team .display-text {
-      font-size: 1.5vw;
-      line-height: 2vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
   }
   .ul_team ul li span {
-      font-size: 1.8vw;
-      line-height: 2vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
   }
   .ul_team ul {
-      margin-top: -10px;
+    margin-top: -10px;
   }
   .ul_team button {
-      margin-top: 2vw;
+    margin-top: 2vw;
+  }
 
+  /* Class button */
+
+  .map_north .btn_bred {
+    font-size: 15px;
+    padding: 9px 10px;
+    line-height: 20px;
+  }
+
+  .map_north .btn_bred img {
+    width: 20px;
+    height: 20px;
   }
 }

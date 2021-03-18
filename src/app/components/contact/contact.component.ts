@@ -8,7 +8,7 @@ import { ReCaptchaV3Service } from 'ngx-captcha';
 })
 export class ContactComponent implements OnInit {
   resolved(captchaResponse: string) {
-    console.log(`Resolved captcha with response: ${captchaResponse}`);
+
   }
 
   constructor(
