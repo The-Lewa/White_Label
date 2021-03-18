@@ -26,3 +26,5 @@ $(document).ready(function() {
     return false;
   });
 });
+
+$("#home-card").carousel('pause');

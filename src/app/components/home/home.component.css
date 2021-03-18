@@ -1,4 +1,4 @@
-/**/
+/*Ban*/
 
 .ban1 .carousel-text {
   position: absolute;
@@ -598,7 +598,7 @@
   opacity: 1;
 }
 
-.card img {
+.o_exp .card img {
   width: 9vw;
   height: 9vw;
   border-radius: 5vw;
@@ -618,16 +618,16 @@
   margin-right: 0.3%;
 }
 
-.card_fle .card .card-body h4 {
+.o_exp .card .card-body h4 {
   text-align: center;
-  font: normal normal bold 1.3vw/2vw SF UI Display;
+  font: normal normal bold 17px SF UI Display;
   letter-spacing: 0px;
   color: #383838;
   opacity: 1;
   margin-top: 1vw;
 }
 
-.card_fle .card .card-body h3 {
+.o_exp .card .card-body h3 {
   text-align: center;
   font: normal normal 900 1vw/1.5vw Heading Pro Ultra Wide;
   letter-spacing: 0px;
@@ -635,7 +635,7 @@
   opacity: 1;
 }
 
-.card_fle .card .card-body h5 {
+.o_exp .card .card-body h5 {
   text-align: center;
   font: normal normal normal 0.9vw/0.8vw SF UI Display;
   letter-spacing: 0px;
@@ -643,7 +643,7 @@
   opacity: 1;
 }
 
-.card_fle .card .card-body p {
+.o_exp .card .card-body p {
   text-align: center;
   font: normal normal normal 0.9vw/0.8vw SF UI Display;
   letter-spacing: 0px;
@@ -652,7 +652,7 @@
   font-weight: 400;
 }
 
-.card_fle .card .card-body hr {
+.o_exp .card .card-body hr {
   width: 30%;
   margin: 2vw auto 1vw auto;
   border: 0.07vw solid #d60725;
@@ -661,9 +661,9 @@
   opacity: 1;
 }
 
-.card_fle .card {
-  width: 16.23vw;
-  height: 20.55vw;
+.o_exp .card {
+  width: 420px;
+  height: 480px;
 }
 
 .ban_pho button {
@@ -756,7 +756,34 @@
   color: #d60725;
   background: #ffffff;
 }
+@media only screen and (max-width: 1650px) {
+  .card_fle .card {
+    width: 320px;
+    height: 400px;
+  }
+}
 
+@media only screen and (max-width: 1300px) {
+  .card_fle .card {
+    width: 250px;
+    height: 330px;
+  }
+
+  .card_fle .card .card-body h4 {
+    font: normal normal bold 13px SF UI Display;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card_fle .card {
+    width: 220px;
+    height: 260px;
+  }
+
+  .card_fle .card .card-body h4 {
+    font: normal normal bold 10px SF UI Display;
+  }
+}
 @media only screen and (max-width: 991px) {
   .card_fle .card .card-body h4 {
     font: normal normal bold 1.2vw/1.8vw SF UI Display;
@@ -774,6 +801,28 @@
   }
   .card_fle .card .card-body hr {
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card_fle {
+    display: none;
+  }
+  .o_exp .card {
+    margin: auto;
+    width: 320px;
+    height: 387px;
+  }
+  .o_exp .carousel-item {
+    padding: 76px 0;
+  }
+
+  .o_exp .card img {
+    width: 175px;
+    height: 175px;
+    border-radius: 87px;
+    margin: auto;
+    margin-top: -70px;
   }
 }
 
@@ -950,7 +999,6 @@
     text-align: center;
     margin-left: 0;
     margin-top: 10px;
-
   }
 
   .lor_sec .txt_lor h5 {
@@ -969,7 +1017,7 @@
     margin-right: 0;
   }
 
-.lor_sec .txt_lor button {
+  .lor_sec .txt_lor button {
     margin-top: -1vw;
     margin-left: 15vw;
   }
