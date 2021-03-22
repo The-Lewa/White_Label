@@ -2,7 +2,7 @@
 
 .ban_abt {
     top: 0;
-    margin-top: 130px;
+    margin-top: 120px;
 }
 
 .ban_abt .abt_txt {
@@ -485,7 +485,7 @@ h3 span {
     .ul_team ul {
         margin-bottom: -1vw;
         padding-left: 2vw;
-      }
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -500,19 +500,82 @@ h3 span {
     }
 }
 
-
 @media only screen and (max-width: 500px) {
     /*BAnner 1*/
-    .ban_abt .abt_txt p {
-        margin-top: -8px;
-        margin-bottom: -8px;
+    .ban_abt {
+        overflow: hidden;
     }
     .ban_abt .abt_txt {
-        margin-top: 8vw;
-        left: 13vw;
+        left: 4vw;
+    }
+    .ban_abt .img_abt>img {
+        width: 150vw;
+        height: 50vw;
+        margin-left: -30%;
+    }
+    .ban_abt .abt_txt h3 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .ban_abt .abt_txt p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 4px;
+    }
+    /*Boton banner #1*/
+    .ban_abt button,
+    .ul_hand_pic button {
+        margin-top: 10px;
+    }
+    .ban_abt .btn_bred,
+    .ul_hand_pic .btn_bred {
+        font-size: 8px;
+        padding: 7px 10px;
+        line-height: 13px;
+    }
+    .ban_abt .btn_bred img,
+    .ul_hand_pic .btn_bred img {
+        width: 12px;
+        height: 12px;
     }
     /*Heart*/
-    .heart_pic>img,
+    /* hands */
+    .hands_pic {
+        overflow: hidden;
+    }
+    .hands_pic>img {
+        height: 120%;
+        width: 195%;
+        margin-left: -33%;
+        min-width: 713px;
+    }
+    .txt_hand_pic {
+        position: absolute;
+        left: 3vw;
+        bottom: 0;
+    }
+    .ul_hand_pic .page-title {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .ul_hand_pic {
+        left: 55vw;
+        margin-top: 8vw;
+    }
+    .ul_hand_pic .display-text {
+        font-size: 8px;
+        line-height: 12px;
+        width: 98%;
+    }
+    .ul_hand_pic ul li span {
+        font-size: 7px;
+        line-height: 9px;
+    }
+    .ul_hand_pic ul {
+        padding-left: 2vw;
+        margin-bottom: -1vw;
+    }
+    /*.heart_pic>img,
     .team_txt>img {
         transform: scale(1.2);
         padding: 4vw 0;
@@ -545,7 +608,7 @@ h3 span {
         margin-top: -1vw;
         font: normal normal 600 1vw/1.7vw SF UI Display;
         width: 58%;
-    }
+    }*/
     /*Cards*/
     .o_exp h2 {
         font-size: 13px;
@@ -560,18 +623,6 @@ h3 span {
     }
     #carouselmob .card {
         margin-top: 20px;
-    }
-    /*team txt*/
-    .ul_team ul {
-        padding-left: 2vw;
-        margin-bottom: -1vw;
-        margin-top: -1vw;
-    }
-    .o_exp p {
-        font-size: 1.5vw;
-    }
-    .o_exp h2 {
-        font-size: 12px;
     }
     /*Iconos Rojos */
     .icon_hom {
@@ -589,8 +640,33 @@ h3 span {
         font-size: 15px;
         line-height: 20px;
     }
+    /*Banner Love*/
+    .ban_lov {
+        overflow: hidden;
+    }
+    .ban_lov>img {
+        padding: 5% 0;
+        transform: scale(1.8);
+        margin-left: 13%;
+    }
+    .ban_lov button {
+        z-index: 1;
+        margin-top: 16vw;
+        left: 63vw;
+    }
+    .ban_lov .btn_bred,
+    .team_txt .btn_bred {
+        font-size: 9px;
+        padding: 5px 6px !important;
+        line-height: 12px;
+    }
+    .ban_lov .btn_bred img,
+    .team_txt .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
     /*Team*/
-    .ul_team .display-text {
+    /* .ul_team .display-text {
         font-size: 1.5vw;
         line-height: 2vw;
     }
@@ -602,6 +678,80 @@ h3 span {
         margin-top: -10px;
     }
     .ul_team button {
-        margin-top: -3vw;
+        margin-top: 2vw;
+    }*/
+    .pic_gosht {
+        display: none;
+    }
+    .team_txt {
+        background: #F0F0F0 0% 0% no-repeat padding-box;
+        height: 500px;
+    }
+    .ul_team {
+        left: 0;
+        position: relative;
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+    .txt_team_lef {
+        margin-top: 30px;
+        width: 60%;
+        margin: auto;
+        position: relative;
+        left: 0;
+        padding: 10% 0 0 0;
+    }
+    .txt_team_lef h4 {
+        font-size: 13px;
+        line-height: 13px;
+        text-align: left;
+    }
+    .txt_team_lef .page-title {
+        font-size: 23px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .ul_team .display-text {
+        text-align: left;
+        font-size: 14px;
+        line-height: 15px;
+        margin: auto;
+        width: 100%;
+    }
+    .ul_team ul {
+        text-align: left;
+        padding: 10px 0;
+    }
+    .ul_team ul li span {
+        text-align: center;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .ul_team button {
+        margin-top: 3px;
+    }
+    /* Class button */
+    .ban_glo .btn_bred {
+        font-size: 9px;
+        padding: 5px 6px !important;
+        line-height: 12px;
+    }
+    .ban_glo .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
+    .ban_glo {
+        overflow: hidden;
+    }
+    .ban_glo>img {
+        padding: 5% 0;
+        transform: scale(1.8);
+        margin-left: 13%;
+    }
+    .ban_glo button {
+        z-index: 1;
+        margin-top: 7.5vw;
+        right: 7vw;
     }
 }
