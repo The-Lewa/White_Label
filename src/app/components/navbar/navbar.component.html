@@ -1,7 +1,7 @@
 <header class="head fixed-top">
     <div class="container-fluid ">
         <div class="logo-nav-container">
-            <a routerLink="/inicio" class="logo"><img src="assets/iconosWeb/WLNIconos/logo negro - wln.svg" alt="..." width="150px" height="95px"></a>
+            <a routerLink="/home" class="logo"><img src="assets/iconosWeb/WLNIconos/logo negro - wln.svg" alt="..." width="150px" height="95px"></a>
         </div>
         <nav class="header">
             <input type="checkbox" id="check">
@@ -9,8 +9,8 @@
                  <i><img  id="menu-bars" src="assets/menus.svg" width="40px" height="40px" alt="..."></i>
             </label>
             <ul class="rojos cerrar" [ngClass]="{ 'open': isCollapse }"> 
-                <li><a class="not-act" (click)="toggleState()" routerLink="/inicio" routerLinkActive="win-ac">Home</a></li>
-                <li><a class="not-act" (click)="toggleState()" routerLink="/about" routerLinkActive="win-ac">About</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/home" routerLinkActive="win-ac">Home</a></li>
+                <li><a class="not-act" (click)="toggleState()" routerLink="/about-whitelabel-nearshore" routerLinkActive="win-ac">About</a></li>
                 <li><a class="not-act" (click)="toggleState()" routerLink="/services" routerLinkActive="win-ac">Solutions</a></li>
                 <li><a class="not-act" (click)="toggleState()" routerLink="/insights" routerLinkActive="win-ac">Insights</a></li>
                 <li><a class="not-act" (click)="toggleState()" routerLink="/contact" routerLinkActive="win-ac">contact</a></li>

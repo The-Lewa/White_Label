@@ -368,23 +368,28 @@
     /*Banner*/
     .di_ov,
     .hide_abt {
-        margin-top: 5px;
         overflow: hidden;
     }
-    .di_ov .ban_abt img,
-    .hide_abt .abt img {
-        transform: scale(1.2);
-    }
-    .ban_abt .abt_txt h4 {
-        margin-bottom: -2vw;
-    }
-    .ban_abt .abt_txt p {
-        font-size: 10x;
-        width: 50%;
+    .di_ov .ban_abt .img_abt>img {
+        width: 160vw;
+        height: 50vw;
+        margin-left: -39%;
     }
     .ban_abt .abt_txt {
-        margin-top: 4vw;
-        z-index: 1;
+        left: 4vw;
+    }
+    .ban_abt .abt_txt h4 {
+        font-size: 13px;
+    }
+    .ban_abt .abt_txt h3 {
+        font-size: 20px;
+        line-height: 23px;
+        width: 100%;
+    }
+    .ban_abt .abt_txt p {
+        font-size: 8.5px;
+        line-height: 11px;
+        width: 65%;
     }
     /*Maps*/
     .map_north {
@@ -392,43 +397,93 @@
         align-items: center;
         margin-left: 0;
         justify-content: center;
-        overflow: hidden;
     }
     .txt_map {
         width: 100%;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
         text-align: center;
     }
-    .map_north .txt_map h5,
-    .map_north .txt_map h2,
+    .map_north .txt_map h5 {
+        font-size: 14px;
+        text-align: center;
+        padding: 4px 0;
+    }
+    .map_north .txt_map h2 {
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
     .map_north .txt_map p {
         text-align: center;
-        width: 60%;
+        font-size: 10px;
+        line-height: 13px;
         margin: auto;
-        padding: 2vw 0;
-        transform: scale(1.4);
     }
-    .map_north .txt_map p {
-        margin-bottom: -1vw;
+    /*boton mapa*/
+    /*Boton banner #1*/
+    .map_north button {
+        margin-top: 10px;
     }
-    .txt_map {
-        margin-top: 5vw;
+    .map_north .btn_bred {
+        font-size: 6px;
+        padding: 5px 6px;
+        line-height: 9px;
+    }
+    .map_north .btn_bred img {
+        width: 10px;
+        height: 10px;
+    }
+    /*banner sello*/
+    .hide_abt {
+        overflow: hidden;
+    }
+    .hide_abt .abt .img_abt>img {
+        width: 166vw;
+        height: 55vw;
+        margin-left: -23%;
+    }
+    .abt .abt_txt {
+        position: absolute;
+        margin-top: 4.5vw;
+        left: 54vw;
+    }
+    .abt_txt h4 {
+        font-size: 17px;
+        line-height: 18px;
+    }
+    .abt_txt h3 {
+        margin: 0;
+        font-size: 8px;
+        line-height: 11px;
+        width: 90%;
+    }
+    .abt_txt h3 span {
+        font-size: 8px;
+        line-height: 11px;
     }
     /* Carousel*/
     .card .card-body h4 {
-        font-size: 1vw;
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .card .card-body h3 {
+        font-size: 10px;
+        padding: 8px 0;
     }
     .card .card-body h5 {
-        margin-top: -1vw;
-        margin-bottom: -1vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 10px;
     }
     .tx_ca {
         flex-direction: column;
     }
     .tx_wht h2 {
         text-align: center;
+        line-height: 23px;
+        font-size: 20px;
+        padding: 8px 0;
     }
     .tx_wht {
         margin-left: 0vw;
@@ -436,23 +491,67 @@
     }
     .car_cl,
     #abt_car_cards {
-        width: 24%;
+        width: 90%;
         justify-content: center;
         display: inline-block;
         margin: auto;
     }
+    .carousel-item {
+        padding: 35px 0;
+    }
     .card {
         margin-top: 6vw;
-        width: 23vw;
-        height: 26vw;
+        width: 240px;
+        height: 300px;
         margin-left: auto;
         margin-right: auto;
     }
-    /*IMG SEAL*/
-    .abt {
-        padding: 4% 0;
+    .card img {
+        width: 110px;
+        height: 110px;
+        border-radius: 55px;
+        margin: auto;
+        margin-top: -55px;
     }
-    .abt_txt {
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        width: 30px;
+        height: 30px;
+    }
+    /*Banner Love*/
+    .ban_lov {
+        overflow: hidden;
+    }
+    .ban_lov>img {
+        padding: 5% 0;
+        transform: scale(1.8);
+        margin-left: 13%;
+    }
+    .ban_lov button {
         z-index: 1;
+        margin-top: 13vw;
+        left: 63vw;
+    }
+    .ban_lov .btn_bred {
+        font-size: 9px;
+        padding: 5px 6px !important;
+        line-height: 12px;
+    }
+    .ban_lov .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .abt_txt h3 {
+        margin: 0;
+        font-size: 7px;
+        line-height: 10px;
+        width: 98%;
+    }
+    .abt_txt h3 span {
+        font-size: 7px;
+        line-height: 10px;
     }
 }

@@ -922,8 +922,41 @@
 
 @media only screen and (max-width: 450px) {
     /*banner 1*/
+    .ban1 {
+        overflow: hidden;
+    }
+    .ban1 .carousel .carousel-inner .carousel-item>img {
+        width: 140vw;
+        height: 50vw;
+    }
+    .ban1 .carousel .carousel-inner .one-pic>img {
+        margin-left: -105px;
+    }
     .ban1 .display-text {
+        font-size: 9px;
+        line-height: 13px;
         margin-bottom: -1.3vw;
+    }
+    .ban1 .page-title {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .ban1 .carousel-text {
+        top: 32%;
+        left: 9vw;
+    }
+    /*Boton banner #1*/
+    .ban1 button {
+        margin-top: 10px;
+    }
+    .ban1 .btn_bred {
+        font-size: 6px;
+        padding: 5px 6px;
+        line-height: 9px;
+    }
+    .ban1 .btn_bred img {
+        width: 10px;
+        height: 10px;
     }
     /* Text home */
     .text1 h6 {
@@ -933,7 +966,7 @@
         font-size: 17px;
     }
     .text1 h5 {
-        font-size: 6px;
+        font-size: 8px;
     }
     .text1 h3 {
         font-size: 8.5px;
@@ -948,24 +981,83 @@
         font-size: 8px;
     }
     /* hands */
-    .hands_pic img {
-        transform: scale(1.2);
-        z-index: 4;
-        vertical-align: inherit;
-    }
-    .txt_hand_pic,
-    .ul_hand_pic,
-    .abt_txt {
-        z-index: 1;
-    }
     .hands_pic {
         overflow: hidden;
     }
+    .hands_pic>img {
+        height: 120%;
+        width: 195%;
+        margin-left: -33%;
+    }
+    .txt_hand_pic {
+        position: absolute;
+        left: 3vw;
+        margin-top: 9%;
+    }
+    .txt_hand_pic .page-title {
+        font-size: 17.5px;
+        line-height: 21px;
+    }
     .ul_hand_pic {
         left: 55vw;
+        margin-top: 8vw;
     }
     .ul_hand_pic .display-text {
-        width: 85%;
+        font-size: 8px;
+        line-height: 12px;
+        width: 98%;
+    }
+    .ul_hand_pic ul li span {
+        font-size: 7px;
+        line-height: 9px;
+    }
+    /*Boton hand*/
+    .hands_pic button {
+        margin-top: 10px;
+    }
+    .hands_pic .btn_bred {
+        font-size: 6px;
+        padding: 5px 6px;
+        line-height: 9px;
+    }
+    .hands_pic .btn_bred img {
+        width: 10px;
+        height: 10px;
+    }
+    /*Maps*/
+    .map_north {
+        flex-direction: column;
+        text-align: center;
+    }
+    .map_north .txt_map h5 {
+        text-align: center;
+        font-size: 11px;
+        line-height: 13px;
+        margin-top: 2vw;
+    }
+    .map_north .txt_map h2 {
+        text-align: center;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .map_north .txt_map p {
+        text-align: center;
+        font-size: 10px;
+        line-height: 15px;
+        margin: auto;
+    }
+    /*boton mapht*/
+    .map_north button {
+        margin-top: 10px;
+    }
+    .map_north .btn_bred {
+        font-size: 6px;
+        padding: 5px 6px;
+        line-height: 9px;
+    }
+    .map_north .btn_bred img {
+        width: 10px;
+        height: 10px;
     }
     /*iconos*/
     .gray_icon .txt_fin {
@@ -976,20 +1068,76 @@
         font-size: 10px;
     }
     /*about us*/
-    .abt .abt_txt {
-        margin-top: 6vw;
-        left: 17vw;
-    }
-    .abt img {
-        transform: scale(1.2);
-        z-index: 4;
-    }
     .abt {
         overflow: hidden;
         margin-bottom: 2%;
     }
+    .abt_txt {
+        z-index: 1;
+    }
+    .abt .img_abt {
+        height: 120%;
+        width: 195%;
+        margin-left: -39%;
+    }
+    .abt .abt_txt {
+        margin-top: 10vw;
+        left: 10vw;
+    }
+    .abt_txt h3 {
+        font-size: 20px;
+        line-height: 23px;
+    }
     .abt_txt h4 {
-        width: 45%;
+        font-size: 12px;
+        line-height: 16px;
+        width: 55%;
+    }
+    .abt_txt p {
+        font-size: 10px;
+        line-height: 13px;
+        width: 50%;
+    }
+    .abt_txt h5 {
+        font-size: 10px;
+        line-height: 13px;
+        width: 50%;
+    }
+    /*botn about*/
+    .abt_txt button {
+        margin-top: 10px;
+    }
+    .abt_txt .btn_bred {
+        font-size: 6px;
+        padding: 5px 6px;
+        line-height: 9px;
+    }
+    .abt_txt .btn_bred img {
+        width: 10px;
+        height: 10px;
+    }
+    /*banners plane*/
+    .banspace .btn_bred {
+        font-size: 9px;
+        padding: 5px 6px !important;
+        line-height: 12px;
+    }
+    .banspace .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
+    .banspace {
+        overflow: hidden;
+    }
+    .banspace>img {
+        padding: 5% 0;
+        transform: scale(1.8);
+        margin-left: 14%;
+    }
+    .banspace button {
+        z-index: 1;
+        margin-top: 8vw;
+        left: 67%;
     }
     /*cards*/
     .card_fle .card .card-body h3 {
@@ -1008,20 +1156,31 @@
         width: auto;
         align-items: center;
         margin: auto;
+        text-align: center;
     }
     .lor_sec .txt_lor h2 {
         text-align: center;
         margin-left: 0;
         margin-top: 10px;
+        font-size: 20px;
+        line-height: 23px;
     }
     .lor_sec .txt_lor h5 {
         text-align: center;
         margin-left: 0;
         margin: auto;
+        font-size: 15px;
+        line-height: 18px;
+        width: 70%;
     }
     .lor_sec .txt_lor p {
         text-align: center;
         margin-left: 0;
+        font-size: 11px;
+        line-height: 13px;
+        width: 60%;
+        margin: auto;
+        padding: 15px 0;
     }
     .lor_sec .fram_lor div {
         margin: auto;
@@ -1029,17 +1188,84 @@
     }
     .lor_sec .txt_lor button {
         margin-top: -1vw;
-        margin-left: 15vw;
+        margin-left: 0;
     }
-    .carousel-item .card {
-      width: 290px;
-      height: 400px;
-  }
-  .carousel-item .card h4{
-    font-size: 13px;
-}
+    /*boton mothion*/
+    .lor_sec button,
+    .indus button {
+        margin-top: 10px;
+    }
+    .lor_sec .btn_bred,
+    .indus .btn_bred {
+        font-size: 7px;
+        padding: 6px 7px;
+        line-height: 12px;
+    }
+    .lor_sec .btn_bred img,
+    .indus .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
+    /*Banners*/
+    .ban_pho {
+        overflow: hidden;
+    }
+    .ban_pho>img {
+        padding: 5% 0;
+        transform: scale(1.8);
+        margin-left: 18%;
+    }
+    .ban_pho button {
+        z-index: 1;
+        margin-top: 7.5vw;
+        left: 68vw;
+    }
+    .ban_pho .btn_bred {
+        font-size: 9px;
+        padding: 5px 6px !important;
+        line-height: 12px;
+    }
+    .ban_pho .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
+    /*Industries*/
+    .indus {
+        overflow: hidden;
+    }
+    .indus h2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .indus .indus_icon {
+        margin-left: -7px;
+    }
+    .indus .indus_icon div img {
+        width: 70px;
+        height: 70px;
+    }
+    /*Banner Love*/
+    .ban_lov {
+        overflow: hidden;
+    }
+    .ban_lov>img {
+        padding: 5% 0;
+        transform: scale(1.8);
+        margin-left: 13%;
+    }
+    .ban_lov button {
+        z-index: 1;
+        margin-top: 13vw;
+        left: 63vw;
+    }
+    .ban_lov .btn_bred {
+        font-size: 9px;
+        padding: 5px 6px !important;
+        line-height: 12px;
+    }
+    .ban_lov .btn_bred img {
+        width: 12px;
+        height: 12px;
+    }
 
-.carousel-item .card h3{
-  font-size: 12px;
-}
 }

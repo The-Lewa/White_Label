@@ -19,9 +19,9 @@ import { InsightReadComponent } from './components/insight-read/insight-read.com
 
 
 const appRoutes: Routes = [ 
-    { path: '', redirectTo: 'inicio', pathMatch: 'full' },
-    { path: 'inicio', component: HomeComponent }, 
-    { path: 'about', component: AboutComponent }, 
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent }, 
+    { path: 'about-whitelabel-nearshore', component: AboutComponent }, 
     { path: 'services', component: ServicesComponent }, 
     { path: 'works', component: WorksComponent }, 
     { path: 'contact', component: ContactComponent }, 
