@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+
 import { CargarScriptsService } from "./cargar-scripts.service";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,7 +23,6 @@ import { WcagComponent } from './components/wcag/wcag.component';
 import { InsightsComponent } from './components/insights/insights.component';
 import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.component';
 import { InsightReadComponent } from './components/insight-read/insight-read.component';
-import { ReactiveFormsModule } from '@angular/forms';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { RecaptchaModule } from "ng-recaptcha";
 
@@ -52,7 +53,7 @@ import { RecaptchaModule } from "ng-recaptcha";
     routing,
     RecaptchaModule,
     ReactiveFormsModule,
-    NgxCaptchaModule
+    NgxCaptchaModule,
   ],
   providers: [
     CargarScriptsService

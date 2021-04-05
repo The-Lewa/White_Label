@@ -22,7 +22,7 @@ const appRoutes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent }, 
     { path: 'about-whitelabel-nearshore', component: AboutComponent }, 
-    { path: 'services', component: ServicesComponent }, 
+    { path: 'solutions', component: ServicesComponent }, 
     { path: 'works', component: WorksComponent }, 
     { path: 'contact', component: ContactComponent }, 
     { path: 'socialMedia', component: SocialComponent }, 
