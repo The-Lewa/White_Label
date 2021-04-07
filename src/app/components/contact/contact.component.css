@@ -181,6 +181,11 @@
   background: #ffffff;
 }
 
+#send-copy{
+  border: 1px solid #000000;
+  margin-top: 17px;
+}
+
 /*Boton*/
 
 .btn_bred {

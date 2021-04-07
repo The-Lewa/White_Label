@@ -7,153 +7,72 @@
     <br>
     <h5>Fill the form and our sales team will contact you shortly</h5>
 </div>
-<!--
-<form action="mailto:lewandowski7852@gmail.com" method="GET">
-
-    <form [formGroup]="form" (ngSubmit)="save($event)">
-        <p>
-            Name: <br/>
-            <input type="text" formControlName="name">
-        </p>
-        <p>
-            Fecha: <br/>
-            <input type="date" formControlName="date">
-        </p>
-        <p>
-            Email: <br/>
-            <input type="email" formControlName="email">
-        </p>
-        <p>
-            Texto largo: <br/>
-            <textarea cols="30" rows="10" formControlName="text"></textarea>
-        </p>
-        <p>
-            Category: <br/>
-            <select formControlName="category">
-            <option value="1">Category 1</option>
-            <option value="2">Category 2</option>
-            <option value="3">Category 3</option>
-          </select>
-        </p>
-        <p>
-            Genero: <br/>
-            <input type="radio" name="gender" formControlName="gender" value="male"> Male<br>
-            <input type="radio" name="gender" formControlName="gender" value="female"> Female<br>
-            <input type="radio" name="gender" formControlName="gender" value="other"> Other
-        </p>
-
-    </form>
-    <button [disabled]="form.invalid" type="submit">Guardar</button>
-</form>
--->
-<form action="mailto:lewandowski7852@gmail.com" method="POST">
+<form #contactForm="ngForm" (ngSubmit)="sendContact()">
 
     <div class="rwcaont">
         <div class="clm-left">
             <div class="in-left">
-                <label for="inputName" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control" id="inputName">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" name="name" class="form-control" id="Name" [(ngModel)]="contact.name" #name="ngModel" required autocomplete="name" >
             </div>
             <div class="in-left">
-                <label for="inputLastName" class="form-label">Last name</label>
-                <input type="text" name="Lastname" class="form-control" id="inputLastName">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" name="lastName" class="form-control" id="lastName" [(ngModel)]="contact.lastName" #lastName="ngModel" required autocomplete="lastName" >
             </div>
             <div class="in-left">
-                <label for="inputTel" class="form-label">Phone number</label>
-                <input type="tel" name="Phone-number" class="form-control" id="inputTel">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" name="email" id="email" class="form-control" [(ngModel)]="contact.email" #email="ngModel" required
+                autocomplete="email">
             </div>
             <div class="in-left">
-                <label for="inputCompany" class="form-label">Company</label>
-                <input type="text" name="Company" class="form-control" id="inputCompany">
+                <label for="phoneNumber" class="form-label">Phone number</label>
+                <input type="text" name="phoneNumber" class="form-control" id="phoneNumber" [(ngModel)]="contact.phoneNumber" #phoneNumber="ngModel" required autocomplete="phoneNumber" >
             </div>
             <div class="in-left">
-                <label for="inputState" class="form-label">State</label>
-                <input type="text" name="State" class="form-control" id="inputState">
+                <label for="company" class="form-label">Company</label>
+                <input type="text" name="company" class="form-control" id="company" [(ngModel)]="contact.company" #company="ngModel" required autocomplete="company" >
+            </div>
+            <div class="in-left">
+                <label for="country" class="form-label">Country</label>
+                <input type="text" name="country" class="form-control" id="country" [(ngModel)]="contact.country" #country="ngModel" required autocomplete="country">
+            </div>
+            <div class="in-left">
+                <label for="state" class="form-label">State</label>
+                <input type="text" name="state" class="form-control" id="state" [(ngModel)]="contact.state" #state="ngModel" required autocomplete="state">
             </div>
             <div class=" small-data">
                 <div class="in-left">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" name="City" id="inputCity" class="form-control">
+                    <label for="city" class="form-label">City</label>
+                    <input type="text" name="city" id="city" class="form-control" [(ngModel)]="contact.city" #city="ngModel" required autocomplete="city">
                 </div>
                 <div class="in-left">
-                    <label for="inputZip" class="form-label">Zip</label>
-                    <input type="text" name="Zip" class="form-control" id="inputZip">
+                    <label for="zipCode" class="form-label">Zip</label>
+                    <input type="text" name="zipCode" class="form-control" id="zipCode" [(ngModel)]="contact.zipCode" #zipCode="ngModel" required autocomplete="zipCode">
                 </div>
             </div>
         </div>
         <div class="clm-right">
             <div class=" mesage">
-                <label for="inputName" class="form-label">Message</label>
-                <textarea class="form-control" name="Message" aria-label="With textarea"></textarea>
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" aria-label="With textarea" [(ngModel)]="contact.message" #message="ngModel"></textarea>
+            </div>
+            <div class="form-check">
+                <div class="col-lg-6">
+                    <label for="send-copy" class="form-check-label content-text">
+                        ¿Enviarme una copia?
+                    </label>
+                    <input type="checkbox" name="send-copy" class="form-check-input"
+                        id="send-copy" [(ngModel)]="contact.resend" #resend="ngModel">
+                </div>
             </div>
             <br>
-            <re-captcha (resolved)="resolved($event)" siteKey="6LfW548aAAAAAJwvAgaJNcYp0VZcJ-um4_Ij6stm"></re-captcha>
+            <re-captcha (resolved)="resolved($event)" siteKey="6Lf9oYQaAAAAAIUbniKmsAOJySzIo-Uc19ma07VK"></re-captcha>
             <br>
-            <button type="submit" class="btnsend">Send</button>
+            <button type="submit" class="btnsend" [disabled]="isSending || !validated">Send</button>
         </div>
     </div>
 </form>
 
-
-
-<form class="d-none" action="mailto:lewandowski7852@gmail.com" method="POST">
-    <div>
-        <label for="name">Name:
-          <input type="text" name="name" id="name" />
-        </label>
-    </div>
-    <div>
-        <label for="email">Email:
-          <input type="text" name="email" id="email" />
-        </label>
-    </div>
-    <button type="submit">ENVIAR</button>
-</form>
-<div class="rwcaont d-none">
-    <div class="clm-left">
-        <div class="in-left">
-            <label for="inputName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="inputName">
-        </div>
-        <div class="in-left">
-            <label for="inputLastName" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="inputLastName">
-        </div>
-        <div class="in-left">
-            <label for="inputTel" class="form-label">Phone number</label>
-            <input type="tel" class="form-control" id="inputTel">
-        </div>
-        <div class="in-left">
-            <label for="inputCompany" class="form-label">Company</label>
-            <input type="text" class="form-control" id="inputCompany">
-        </div>
-        <div class="in-left">
-            <label for="inputState" class="form-label">State</label>
-            <input type="text" class="form-control" id="inputState">
-        </div>
-        <div class=" small-data">
-            <div class="in-left">
-                <label for="inputCity" class="form-label">City</label>
-                <input type="text" id="inputCity" class="form-control">
-            </div>
-            <div class="in-left">
-                <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
-            </div>
-        </div>
-    </div>
-    <div class="clm-right">
-        <div class=" mesage">
-            <label for="inputName" class="form-label">Message</label>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-        </div>
-        <br>
-        <re-captcha (resolved)="resolved($event)" siteKey="6LfW548aAAAAAJwvAgaJNcYp0VZcJ-um4_Ij6stm"></re-captcha>
-        <br>
-        <button type="submit" class="btnsend">Send</button>
-
-    </div>
-</div>
 <br><br>
 <div class="real-map">
     <div class="rw-map">

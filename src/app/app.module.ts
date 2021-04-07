@@ -25,6 +25,8 @@ import { MenuWrapperComponent } from './components/menu-wrapper/menu-wrapper.com
 import { InsightReadComponent } from './components/insight-read/insight-read.component';
 import { NgxCaptchaModule } from 'ngx-captcha';
 import { RecaptchaModule } from "ng-recaptcha";
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,8 @@ import { RecaptchaModule } from "ng-recaptcha";
     RecaptchaModule,
     ReactiveFormsModule,
     NgxCaptchaModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     CargarScriptsService

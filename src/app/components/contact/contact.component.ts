@@ -1,30 +1,37 @@
 import { Component, OnInit } from '@angular/core';
-import { ReCaptchaV3Service } from 'ngx-captcha';
-import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms'
+import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms';
+
+import { Contact } from 'src/app/models/contact.model';
+import { ContactService } from 'src/app/services/contact.service';
 
 import { Meta, Title } from '@angular/platform-browser';
 
+
+declare var $: any;
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.css'],
+  providers: [ContactService]
 })
 export class ContactComponent implements OnInit {
-
-
-  resolved(captchaResponse: string) {
-
-  }
-
+  contact: Contact;
+  status: string;
+  isSending = false;
+  recaptcha!: any[];
+  validated = false;
   form!: FormGroup;
 
   constructor(
     private formBuilder: FormBuilder,
     private title: Title,
-    private meta: Meta
-    
+    private meta: Meta,
+    private contactService: ContactService
+
   ) {
     this.buildForm();
+    this.contact = new Contact('', '', '', '', '', '', '', '', '', '', '', false);
+    this.status = '';
   }
 
   ngOnInit(): void {
@@ -37,14 +44,14 @@ export class ContactComponent implements OnInit {
 
   private buildForm() {
     this.form = this.formBuilder.group({
-      name: ['',  [Validators.required]],
-     
+      name: ['', [Validators.required]],
+
     });
 
-   /* this.form.valueChanges
-      .subscribe(value => {
-        console.log(value);
-      });*/
+    /* this.form.valueChanges
+       .subscribe(value => {
+         console.log(value);
+       });*/
   }
   save(event: Event) {
     event.preventDefault();
@@ -55,10 +62,53 @@ export class ContactComponent implements OnInit {
   }
 
 
-  
+
   topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
+
+  sendContact(): void {
+    console.log(this.contact);
+    if (this.validated) {
+      this.isSending = true;
+      this.contactService.sendEmail(this.contact).subscribe(
+        res => {
+          this.isSending = false;
+          alert('Mensaje de contacto enviado correctamente');
+          this.cleanContac();
+        },
+        err => {
+          this.isSending = false;
+          this.onError(err);
+        },
+      );
+    }
+  }
+
+  onError(error: any): void {
+    var errorMessage = error;
+    if (errorMessage != null) {
+      this.status = 'error';
+      console.error(errorMessage);
+    }
+  }
+
+  resolved(captchaResponse: any[]) {
+    this.recaptcha = captchaResponse;
+    if (this.recaptcha) {
+      this.validated = true;
+    }
+    console.log('Resolved captcha with response: ', this.recaptcha);
+  }
+  cleanContac() {
+    this.contact = new Contact('', '', '', '', '', '', '', '', '', '', '', false);
+    this.validated = false;
+  }
+
+  resolvedd(captchaResponse: string) {
+
   }
 
 }
