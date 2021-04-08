@@ -24,7 +24,7 @@ const appRoutes: Routes = [
     { path: 'about-whitelabel-nearshore', component: AboutComponent },
     { path: 'solutions', component: ServicesComponent },
     { path: 'works', component: WorksComponent },
-    { path: 'contacto', component: ContactComponent },
+    { path: 'contact', component: ContactComponent },
     { path: 'socialMedia', component: SocialComponent },
     { path: 'development', component: DevelopmentComponent },
     { path: 'backOffice', component: BackOfficeComponent },

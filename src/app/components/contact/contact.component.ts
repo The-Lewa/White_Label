@@ -18,7 +18,7 @@ export class ContactComponent implements OnInit {
   contact: Contact;
   status: string;
   isSending = false;
-  recaptcha!: any[];
+  recaptcha: string;
   validated = false;
   form!: FormGroup;
 
@@ -32,6 +32,7 @@ export class ContactComponent implements OnInit {
     this.buildForm();
     this.contact = new Contact('', '', '', '', '', '', '', '', '', '', '', false);
     this.status = '';
+    this.recaptcha =  '';
   }
 
   ngOnInit(): void {
@@ -95,7 +96,7 @@ export class ContactComponent implements OnInit {
     }
   }
 
-  resolved(captchaResponse: any[]) {
+  resolved(captchaResponse: string) {
     this.recaptcha = captchaResponse;
     if (this.recaptcha) {
       this.validated = true;
