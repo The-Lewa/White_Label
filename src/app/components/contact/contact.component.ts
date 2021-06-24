@@ -1,11 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators, FormBuilder } from '@angular/forms';
-
 import { Contact } from 'src/app/models/contact.model';
 import { ContactService } from 'src/app/services/contact.service';
-
 import { Meta, Title } from '@angular/platform-browser';
-
 
 declare var $: any;
 @Component({
